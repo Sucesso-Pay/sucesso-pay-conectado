@@ -70,7 +70,7 @@ export const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} Sucesso Pay. Todos os direitos reservados.</p>
-          <p className="mt-2">Instituição de Pagamento Autorizada pelo Banco Central</p>
+          <p className="mt-2">Conta Digital Autorizada pelo Banco Central</p>
         </div>
       </div>
     </footer>
