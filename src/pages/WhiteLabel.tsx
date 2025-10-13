@@ -85,7 +85,7 @@ const WhiteLabel = () => {
                 <h3 className="text-xl font-semibold mb-3">Gestão de Recebíveis</h3>
                 <p className="text-muted-foreground">
                   Tecnologia exclusiva que permite gestão completa dos recebíveis 
-                  antes mesmo de cair na conta.
+                  pelo Estabelecimento.
                 </p>
               </CardContent>
             </Card>
