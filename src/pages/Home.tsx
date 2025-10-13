@@ -149,7 +149,7 @@ const Home = () => {
                 <CheckCircle className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">PIX e QR Code</h3>
                 <p className="text-sm text-muted-foreground">
-                  Receba instantaneamente com PIX integrado
+                  Receba via PIX e disponível em D+1 nos recebíveis
                 </p>
               </CardContent>
             </Card>

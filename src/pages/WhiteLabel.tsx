@@ -192,7 +192,7 @@ const WhiteLabel = () => {
                 <CheckCircle className="h-8 w-8 mb-3" />
                 <h3 className="font-semibold mb-2">PIX e Transferências</h3>
                 <p className="text-sm opacity-90">
-                  Integração completa com sistema de pagamentos instantâneos
+                  Receba via PIX e gerencie seus recebíveis em D+1
                 </p>
               </CardContent>
             </Card>
