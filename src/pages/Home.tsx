@@ -122,25 +122,16 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Várias Formas de Receber</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ofereça flexibilidade aos seus clientes com múltiplas opções de pagamento
+              Ofereça múltiplas opções de pagamento aos seus clientes
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6 text-center">
                 <CreditCard className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Maquininha</h3>
                 <p className="text-sm text-muted-foreground">
-                  Parcelamento em até 21x com pagamento por aproximação
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6 text-center">
-                <Zap className="h-12 w-12 mx-auto mb-4 text-primary" />
-                <h3 className="font-semibold mb-2">Link de Pagamento</h3>
-                <p className="text-sm text-muted-foreground">
-                  Envie cobranças por WhatsApp, email ou redes sociais
+                  Débito, Crédito e Parcelamento em até 21x
                 </p>
               </CardContent>
             </Card>
@@ -155,10 +146,28 @@ const Home = () => {
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6 text-center">
+                <Wallet className="h-12 w-12 mx-auto mb-4 text-primary" />
+                <h3 className="font-semibold mb-2">Boleto</h3>
+                <p className="text-sm text-muted-foreground">
+                  Emita boletos pela Conta Digital
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
+                <Zap className="h-12 w-12 mx-auto mb-4 text-primary" />
+                <h3 className="font-semibold mb-2">Link de Pagamento</h3>
+                <p className="text-sm text-muted-foreground">
+                  Envie cobranças de até 21x por WhatsApp, email ou redes sociais
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
                 <BarChart3 className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Assinaturas</h3>
                 <p className="text-sm text-muted-foreground">
-                  Cobranças recorrentes automáticas para seu negócio
+                  Cobranças recorrentes automáticas
                 </p>
               </CardContent>
             </Card>
