@@ -67,9 +67,6 @@ export const Navbar = () => {
             <Link to="/whitelabel" className="text-foreground hover:text-primary transition-colors font-medium">
               Quero ter Minha Marca
             </Link>
-            <Button variant="default" size="lg" className="font-semibold">
-              Abrir Minha Conta
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -129,9 +126,6 @@ export const Navbar = () => {
               >
                 Quero ter Minha Marca
               </Link>
-              <Button variant="default" size="lg" className="font-semibold w-full">
-                Abrir Minha Conta
-              </Button>
             </div>
           </div>
         )}
