@@ -152,7 +152,7 @@ const WhiteLabel = () => {
                 <CheckCircle className="h-8 w-8 mb-3" />
                 <h3 className="font-semibold mb-2">Conta Digital White Label</h3>
                 <p className="text-sm opacity-90">
-                  Aplicativo mobile e web totalmente customizado com suas cores e logo
+                  Aplicativo mobile e funções web totalmente customizadas com suas cores e logo
                 </p>
               </CardContent>
             </Card>
