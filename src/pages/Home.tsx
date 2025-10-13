@@ -221,22 +221,22 @@ const Home = () => {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Transferências e PIX</h3>
-                    <p className="text-muted-foreground">Envie e receba dinheiro sem custos</p>
+                    <h3 className="font-semibold">Área Pix</h3>
+                    <p className="text-muted-foreground">Crie, altere ou portabilize chaves. Envie Pix sem custos por operação</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Pagamento de Boletos</h3>
-                    <p className="text-muted-foreground">Pague fornecedores direto da conta ou com recebíveis</p>
+                    <h3 className="font-semibold">Pagamentos</h3>
+                    <p className="text-muted-foreground">Emita cobranças em Bolepix e Link de Pagamento. Agende, aprove e pague fornecedores com saldo em reais ou usando recebíveis</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Gestão Financeira Integrada</h3>
-                    <p className="text-muted-foreground">Controle total das suas finanças em um só lugar</p>
+                    <h3 className="font-semibold">Menu Gestão Financeira</h3>
+                    <p className="text-muted-foreground">Transações, Gestão de Agenda, Splits, Antecipação e Acúmulo de Recebíveis</p>
                   </div>
                 </li>
               </ul>
