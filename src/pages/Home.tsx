@@ -188,15 +188,15 @@ const Home = () => {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Parcelamento em até 21x</h3>
-                    <p className="text-muted-foreground">Aumente o poder de compra do seu cliente</p>
+                    <h3 className="font-semibold">Tela Touch Screen</h3>
+                    <p className="text-muted-foreground">Super rápida e robusta, sem botões físicos</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold">Pagamento por Aproximação</h3>
-                    <p className="text-muted-foreground">Aceite todas as formas de pagamento modernas</p>
+                    <p className="text-muted-foreground">Aceite pagamento com cartões, celulares e relógios</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
