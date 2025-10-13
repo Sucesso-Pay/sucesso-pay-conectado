@@ -8,10 +8,16 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
 import logo from "@/assets/logo.png";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isSolucoesOpen, setIsSolucoesOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -80,32 +86,35 @@ export const Navbar = () => {
         {isOpen && (
           <div className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
-              <div className="flex flex-col gap-2">
-                <p className="text-foreground font-medium py-2 text-sm text-muted-foreground uppercase tracking-wider">
+              <Collapsible open={isSolucoesOpen} onOpenChange={setIsSolucoesOpen}>
+                <CollapsibleTrigger className="text-foreground hover:text-primary transition-colors font-medium py-2 flex items-center justify-between w-full">
                   Soluções
-                </p>
-                <Link
-                  to="/"
-                  className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Gestão Financeira
-                </Link>
-                <Link
-                  to="/conta-digital"
-                  className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Conta Digital
-                </Link>
-                <Link
-                  to="/"
-                  className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Maquininha
-                </Link>
-              </div>
+                  <ChevronDown className={`h-4 w-4 transition-transform ${isSolucoesOpen ? 'rotate-180' : ''}`} />
+                </CollapsibleTrigger>
+                <CollapsibleContent className="flex flex-col gap-2 mt-2">
+                  <Link
+                    to="/"
+                    className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Gestão Financeira
+                  </Link>
+                  <Link
+                    to="/conta-digital"
+                    className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Conta Digital
+                  </Link>
+                  <Link
+                    to="/"
+                    className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Maquininha
+                  </Link>
+                </CollapsibleContent>
+              </Collapsible>
               <Link
                 to="/distribuidor"
                 className="text-foreground hover:text-primary transition-colors font-medium py-2"
