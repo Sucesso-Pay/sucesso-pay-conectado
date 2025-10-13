@@ -106,8 +106,8 @@ const WhiteLabel = () => {
                 <Zap className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Implementação Rápida</h3>
                 <p className="text-muted-foreground">
-                  Plataforma completa pronta para uso. Comece a operar em semanas, 
-                  não em anos.
+                  Plataforma pronta para uso em 10 dias. Apoio para publicação dos APPs 
+                  nas plataformas da Apple e da Google.
                 </p>
               </CardContent>
             </Card>
