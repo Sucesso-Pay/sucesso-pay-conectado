@@ -3,13 +3,11 @@ import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import logo from "@/assets/logo.png";
 
 export const Navbar = () => {
@@ -25,58 +23,38 @@ export const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
-            <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-foreground hover:text-primary font-medium">
-                    Soluções
-                  </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4">
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            to="/"
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                          >
-                            <div className="text-sm font-medium leading-none">Gestão Financeira</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                              Controle completo das finanças do seu negócio
-                            </p>
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            to="/conta-digital"
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                          >
-                            <div className="text-sm font-medium leading-none">Conta Digital</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                              Gerencie transações, recebíveis e pagamentos
-                            </p>
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            to="/"
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                          >
-                            <div className="text-sm font-medium leading-none">Maquininha</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                              Aceite pagamentos em qualquer lugar
-                            </p>
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                    </ul>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="text-foreground hover:text-primary font-medium inline-flex items-center gap-1 transition-colors">
+                Soluções
+                <ChevronDown className="h-4 w-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="w-[400px] p-2 bg-background">
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link to="/" className="block space-y-1 p-3">
+                    <div className="text-sm font-medium leading-none">Gestão Financeira</div>
+                    <p className="text-sm leading-snug text-muted-foreground">
+                      Controle completo das finanças do seu negócio
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link to="/conta-digital" className="block space-y-1 p-3">
+                    <div className="text-sm font-medium leading-none">Conta Digital</div>
+                    <p className="text-sm leading-snug text-muted-foreground">
+                      Gerencie transações, recebíveis e pagamentos
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link to="/" className="block space-y-1 p-3">
+                    <div className="text-sm font-medium leading-none">Maquininha</div>
+                    <p className="text-sm leading-snug text-muted-foreground">
+                      Aceite pagamentos em qualquer lugar
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
             <Link to="/distribuidor" className="text-foreground hover:text-primary transition-colors font-medium">
               Quero ser Distribuidor
             </Link>
