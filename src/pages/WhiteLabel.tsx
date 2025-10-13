@@ -95,7 +95,7 @@ const WhiteLabel = () => {
                 <Shield className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Regulamentação BC</h3>
                 <p className="text-muted-foreground">
-                  Opere com segurança através de parceria com Instituição de Pagamento 
+                  Opere com segurança, através de uma Instituição de Pagamento 
                   autorizada pelo Banco Central.
                 </p>
               </CardContent>
