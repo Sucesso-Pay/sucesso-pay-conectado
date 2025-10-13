@@ -35,7 +35,7 @@ const Home = () => {
               </h1>
               <p className="text-xl text-muted-foreground">
                 Gestão financeira completa com maquininha, conta digital e portal de gestão. 
-                A única plataforma com tecnologia de Gestão de Agenda para seu negócio crescer.
+                A única plataforma com tecnologia de Gestão de Recebíveis para seu negócio crescer ainda mais.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg font-semibold px-8 h-14">
@@ -77,7 +77,7 @@ const Home = () => {
           <div className="text-center text-white mb-12">
             <h2 className="text-4xl font-bold mb-4">Gestão Financeira Inteligente</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              A única plataforma com Gestão de Agenda de Recebíveis. 
+              A única plataforma com Gestão de Recebíveis. 
               Controle total sobre suas vendas antes mesmo do dinheiro cair na conta.
             </p>
           </div>
@@ -95,7 +95,7 @@ const Home = () => {
             <Card className="bg-white/10 backdrop-blur-sm border-white/20">
               <CardContent className="pt-6 text-white">
                 <Calendar className="h-12 w-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Gestão de Agenda</h3>
+                <h3 className="text-xl font-semibold mb-2">Gestão de Recebíveis</h3>
                 <p className="opacity-90">
                   Visualize e gerencie todos os valores a receber. Antecipe, acumule ou 
                   use seus recebíveis para pagar fornecedores.

@@ -52,7 +52,7 @@ const WhiteLabel = () => {
             <h2 className="text-4xl font-bold mb-4">Tecnologia Exclusiva com Sua Marca</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Torne-se provedor da única plataforma de embedded finance do mundo físico 
-              com tecnologia de Gestão de Agenda
+              com tecnologia de Gestão de Recebíveis
             </p>
           </div>
 
@@ -82,7 +82,7 @@ const WhiteLabel = () => {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <Wallet className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Gestão de Agenda</h3>
+                <h3 className="text-xl font-semibold mb-3">Gestão de Recebíveis</h3>
                 <p className="text-muted-foreground">
                   Tecnologia exclusiva que permite gestão completa dos recebíveis 
                   antes mesmo de cair na conta.

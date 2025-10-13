@@ -58,7 +58,7 @@ const Distribuidor = () => {
                 <TrendingUp className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Tecnologia Exclusiva</h3>
                 <p className="text-muted-foreground">
-                  Portal financeiro completo com Gestão de Agenda de Recebíveis. 
+                  Portal financeiro completo com Gestão de Recebíveis. 
                   Uma solução diferenciada que seus concorrentes não têm.
                 </p>
               </CardContent>
@@ -177,7 +177,7 @@ const Distribuidor = () => {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Diferenciais Competitivos</h3>
                     <p className="text-muted-foreground">
-                      Tecnologia exclusiva que seus concorrentes não têm. Gestão de Agenda, 
+                      Tecnologia exclusiva que seus concorrentes não têm. Gestão de Recebíveis, 
                       Split de Recebíveis e economia tributária de até 40%.
                     </p>
                   </div>
