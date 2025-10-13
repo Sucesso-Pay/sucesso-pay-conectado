@@ -10,7 +10,8 @@ import {
   CheckCircle,
   BarChart3,
   Split,
-  Calendar
+  Calendar,
+  Barcode
 } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -146,7 +147,7 @@ const Home = () => {
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6 text-center">
-                <Wallet className="h-12 w-12 mx-auto mb-4 text-primary" />
+                <Barcode className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Boleto</h3>
                 <p className="text-sm text-muted-foreground">
                   Emita boletos pela Conta Digital
