@@ -28,7 +28,7 @@ export const Navbar = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-8">
             <DropdownMenu>
               <DropdownMenuTrigger className="text-foreground hover:text-primary font-medium inline-flex items-center gap-1 transition-colors">
                 Soluções
@@ -74,7 +74,7 @@ export const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2"
+            className="lg:hidden p-2"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -84,7 +84,7 @@ export const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden py-4 border-t border-border">
+          <div className="lg:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
               <Collapsible open={isSolucoesOpen} onOpenChange={setIsSolucoesOpen}>
                 <CollapsibleTrigger className="text-foreground hover:text-primary transition-colors font-medium py-2 flex items-center justify-between w-full">
