@@ -188,8 +188,8 @@ const Home = () => {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Tela Touch Screen</h3>
-                    <p className="text-muted-foreground">Super rápida e robusta, sem botões físicos</p>
+                    <h3 className="font-semibold">Rápida e Robusta</h3>
+                    <p className="text-muted-foreground">Wi-Fi, Chip e Touch Screen, sem botões físicos</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
