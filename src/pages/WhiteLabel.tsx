@@ -162,7 +162,7 @@ const WhiteLabel = () => {
                 <CheckCircle className="h-8 w-8 mb-3" />
                 <h3 className="font-semibold mb-2">Portal de Gestão</h3>
                 <p className="text-sm opacity-90">
-                  Dashboard completo para gestão de recebíveis, transações e clientes
+                  Dashboard completo para gestão da carteira de clientes, controle das maquininhas, transações, recebíveis e mensalidades
                 </p>
               </CardContent>
             </Card>
