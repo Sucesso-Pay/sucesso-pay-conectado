@@ -23,7 +23,7 @@ const WhiteLabel = () => {
               Conecte sua carteira de clientes a uma plataforma Embedded Finance com diferenciais exclusivos e adicione produtos financeiros ao seu posicionamento
             </p>
             <Button size="lg" className="text-lg font-semibold px-8 h-14">
-              Solicitar Proposta White Label
+              Falar com especialista
             </Button>
           </div>
         </div>
@@ -321,7 +321,7 @@ const WhiteLabel = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="text-lg font-semibold px-8 h-14">
-              Solicitar Proposta White Label
+              Falar com especialista
             </Button>
             <Button size="lg" variant="outline" className="text-lg font-semibold px-8 h-14">
               Agendar Reunião
