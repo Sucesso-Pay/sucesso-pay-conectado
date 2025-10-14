@@ -57,8 +57,7 @@ const WhiteLabel = () => {
                 <Building2 className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Seu Próprio Negócio</h3>
                 <p className="text-muted-foreground">
-                  Opere como uma instituição financeira própria, com total controle 
-                  sobre sua operação e relacionamento com clientes.
+                  Integre rapidamente as funções financeiras, de pagamentos e de cobranças nos seus sistemas.
                 </p>
               </CardContent>
             </Card>
