@@ -29,21 +29,6 @@ const WhiteLabel = () => {
         </div>
       </section>
 
-      {/* Visão Geral */}
-      <section className="py-20 bg-secondary/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h2 className="text-4xl font-bold">Seu Próprio Ecossistema Financeiro</h2>
-            <p className="text-xl text-muted-foreground">
-              Amplie o sucesso do seu negócio conectando-se ao ecossistema financeiro 
-              da sua rede de distribuidores, clientes, fornecedores ou franquias. 
-              Tudo isso através de uma Plataforma White Label desenvolvida por quem 
-              entende muito bem desse mercado.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Diferenciais White Label */}
       <section className="py-20">
         <div className="container mx-auto px-4">
