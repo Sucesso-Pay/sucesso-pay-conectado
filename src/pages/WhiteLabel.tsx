@@ -20,8 +20,7 @@ const WhiteLabel = () => {
               para o Sucesso do Seu Novo Negócio
             </h1>
             <p className="text-xl text-muted-foreground">
-              Conecte sua carteira de clientes ao melhor do mundo de meios de pagamento 
-              e obtenha uma nova fonte de receita com sua própria marca!
+              Conecte sua carteira de clientes a uma plataforma Embedded Finance com diferenciais exclusivos e adicione produtos financeiros ao seu posicionamento
             </p>
             <Button size="lg" className="text-lg font-semibold px-8 h-14">
               Solicitar Proposta White Label
