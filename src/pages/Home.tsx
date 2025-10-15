@@ -90,8 +90,7 @@ const Home = () => {
                 <TrendingUp className="h-12 w-12 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Planejamento Tributário</h3>
                 <p className="opacity-90">
-                  Reduza até 40% em custos tributários com nossa solução exclusiva. 
-                  Mais dinheiro no seu bolso, menos burocracia.
+                  Reordene a sua emissão de notas e economize em torno de 40% em desperdícios de bitributação.
                 </p>
               </CardContent>
             </Card>
