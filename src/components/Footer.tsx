@@ -6,13 +6,13 @@ export const Footer = () => {
   return (
     <footer className="bg-primary">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Logo Sucesso Pay */}
           <div className="col-span-1 md:col-span-2 flex items-center">
             <img src={logoFooter} alt="Sucesso Pay" className="h-40 opacity-60" />
           </div>
 
-          {/* Links Rápidos */}
+          {/* Soluções */}
           <div>
             <h3 className="font-semibold mb-4 text-white">Soluções</h3>
             <ul className="space-y-2">
@@ -27,8 +27,25 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-white/80 hover:text-white transition-colors text-sm">
-                  Maquininha
+                <Link to="/maquininhas" className="text-white/80 hover:text-white transition-colors text-sm">
+                  Maquininhas
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Segmentos */}
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Segmentos</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link to="/estabelecimento-comercial" className="text-white/80 hover:text-white transition-colors text-sm">
+                  Estabelecimento Comercial
+                </Link>
+              </li>
+              <li>
+                <Link to="/prestador-servicos" className="text-white/80 hover:text-white transition-colors text-sm">
+                  Prestador de Serviços
                 </Link>
               </li>
               <li>
