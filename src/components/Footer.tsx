@@ -67,7 +67,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-white/80 text-sm">
                 <Mail className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>contato@sucessopay.com.br</span>
+                <span className="break-all">contato@sucessopay.com.br</span>
               </li>
               <li className="flex items-start gap-2 text-white/80 text-sm">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
