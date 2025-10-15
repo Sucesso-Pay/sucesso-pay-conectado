@@ -48,7 +48,7 @@ export const Navbar = () => {
                       <div className="text-sm font-semibold leading-relaxed text-left">
                         Gestão<br/>Financeira
                       </div>
-                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground transition-colors text-right">
+                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
                         Controle completo das finanças do seu negócio
                       </p>
                     </Link>
@@ -58,7 +58,7 @@ export const Navbar = () => {
                       <div className="text-sm font-semibold leading-relaxed text-left">
                         Conta<br/>Digital
                       </div>
-                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground transition-colors text-right">
+                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
                         Gerencie transações, recebíveis e pagamentos
                       </p>
                     </Link>
@@ -66,7 +66,7 @@ export const Navbar = () => {
                   <DropdownMenuItem asChild className="cursor-pointer">
                     <Link to="/maquininhas" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors group">
                       <div className="text-sm font-semibold leading-relaxed text-left">Maquininhas</div>
-                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground transition-colors text-right">
+                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
                         Rápidas, resistentes e fáceis de operar
                       </p>
                     </Link>
@@ -91,7 +91,7 @@ export const Navbar = () => {
                       <div className="text-sm font-semibold leading-relaxed text-left">
                         Sou um estabelecimento<br/>comercial
                       </div>
-                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground transition-colors text-right">
+                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
                         Soluções completas para seu estabelecimento
                       </p>
                     </Link>
@@ -101,7 +101,7 @@ export const Navbar = () => {
                       <div className="text-sm font-semibold leading-relaxed text-left">
                         Sou um prestador<br/>de serviços
                       </div>
-                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground transition-colors text-right">
+                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
                         Ferramentas ideais para profissionais autônomos
                       </p>
                     </Link>
@@ -111,7 +111,7 @@ export const Navbar = () => {
                       <div className="text-sm font-semibold leading-relaxed text-left">
                         Quero ser<br/>distribuidor
                       </div>
-                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground transition-colors text-right">
+                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
                         Seja parceiro e expanda seu negócio
                       </p>
                     </Link>
@@ -121,7 +121,7 @@ export const Navbar = () => {
                       <div className="text-sm font-semibold leading-relaxed text-left">
                         Quero ter<br/>minha marca
                       </div>
-                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground transition-colors text-right">
+                      <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
                         Crie sua própria marca de pagamentos
                       </p>
                     </Link>
