@@ -18,6 +18,7 @@ import logo from "@/assets/logo.png";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSolucoesOpen, setIsSolucoesOpen] = useState(false);
+  const [isSegmentosOpen, setIsSegmentosOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -65,12 +66,55 @@ export const Navbar = () => {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-            <Link to="/distribuidor" className="text-foreground hover:text-primary transition-colors font-medium">
-              Quero ser Distribuidor
-            </Link>
-            <Link to="/whitelabel" className="text-foreground hover:text-primary transition-colors font-medium">
-              Quero ter Minha Marca
-            </Link>
+            
+            <DropdownMenu>
+              <DropdownMenuTrigger className="text-foreground hover:text-primary font-medium inline-flex items-center gap-1 transition-colors">
+                Segmentos
+                <ChevronDown className="h-4 w-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="w-[500px] p-4 bg-background">
+                <DropdownMenuItem asChild className="cursor-pointer mb-2">
+                  <Link to="/estabelecimento-comercial" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                    <div className="text-sm font-semibold leading-relaxed text-left">
+                      Sou um estabelecimento<br/>comercial
+                    </div>
+                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                      Soluções completas para seu estabelecimento
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer mb-2">
+                  <Link to="/prestador-servicos" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                    <div className="text-sm font-semibold leading-relaxed text-left">
+                      Sou um prestador<br/>de serviços
+                    </div>
+                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                      Ferramentas ideais para profissionais autônomos
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer mb-2">
+                  <Link to="/distribuidor" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                    <div className="text-sm font-semibold leading-relaxed text-left">
+                      Quero ser<br/>distribuidor
+                    </div>
+                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                      Seja parceiro e expanda seu negócio
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link to="/whitelabel" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                    <div className="text-sm font-semibold leading-relaxed text-left">
+                      Quero ter<br/>minha marca
+                    </div>
+                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                      Crie sua própria marca de pagamentos
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
 
           {/* Mobile Menu Button */}
@@ -108,28 +152,51 @@ export const Navbar = () => {
                     Conta Digital
                   </Link>
                   <Link
-                    to="/"
+                    to="/maquininhas"
                     className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
                     onClick={() => setIsOpen(false)}
                   >
-                    Maquininha
+                    Maquininhas
                   </Link>
                 </CollapsibleContent>
               </Collapsible>
-              <Link
-                to="/distribuidor"
-                className="text-foreground hover:text-primary transition-colors font-medium py-2"
-                onClick={() => setIsOpen(false)}
-              >
-                Quero ser Distribuidor
-              </Link>
-              <Link
-                to="/whitelabel"
-                className="text-foreground hover:text-primary transition-colors font-medium py-2"
-                onClick={() => setIsOpen(false)}
-              >
-                Quero ter Minha Marca
-              </Link>
+              
+              <Collapsible open={isSegmentosOpen} onOpenChange={setIsSegmentosOpen}>
+                <CollapsibleTrigger className="text-foreground hover:text-primary transition-colors font-medium py-2 flex items-center justify-between w-full">
+                  Segmentos
+                  <ChevronDown className={`h-4 w-4 transition-transform ${isSegmentosOpen ? 'rotate-180' : ''}`} />
+                </CollapsibleTrigger>
+                <CollapsibleContent className="flex flex-col gap-2 mt-2">
+                  <Link
+                    to="/estabelecimento-comercial"
+                    className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Sou um estabelecimento comercial
+                  </Link>
+                  <Link
+                    to="/prestador-servicos"
+                    className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Sou um prestador de serviços
+                  </Link>
+                  <Link
+                    to="/distribuidor"
+                    className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Quero ser distribuidor
+                  </Link>
+                  <Link
+                    to="/whitelabel"
+                    className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Quero ter minha marca
+                  </Link>
+                </CollapsibleContent>
+              </Collapsible>
             </div>
           </div>
         )}
