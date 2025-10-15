@@ -18,6 +18,7 @@ import { Footer } from "@/components/Footer";
 import heroImage from "@/assets/hero-business.png";
 import posImage from "@/assets/pos-machine.png";
 import mobileImage from "@/assets/mobile-app.png";
+import financialPatternBg from "@/assets/financial-pattern-bg.png";
 
 const Home = () => {
   return (
@@ -56,39 +57,60 @@ const Home = () => {
       </section>
 
       {/* Gestão Financeira Destaque */}
-      <section className="py-20 bg-gradient-to-br from-primary to-primary/80">
-        <div className="container mx-auto px-4">
-          <div className="text-center text-white mb-12">
-            <h2 className="text-4xl font-bold mb-4">Gestão Financeira Inteligente</h2>
+      <section className="relative py-24 overflow-hidden">
+        {/* Background with pattern */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary/90" />
+        <div 
+          className="absolute inset-0 opacity-20"
+          style={{
+            backgroundImage: `url(${financialPatternBg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            mixBlendMode: 'overlay'
+          }}
+        />
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center text-white mb-16 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Gestão Financeira Inteligente</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
               Ferramentas para o seu financeiro e contábil aumentarem seus ganhos instantaneamente.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="bg-white/10 backdrop-blur-sm border-white/20">
-              <CardContent className="pt-6 text-white">
-                <Calendar className="h-12 w-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Gestão de Agenda</h3>
-                <p className="opacity-90">
+          
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <Card className="group bg-white/15 backdrop-blur-md border-white/30 hover:bg-white/25 hover:border-white/50 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-white/20 animate-fade-in [animation-delay:100ms]">
+              <CardContent className="pt-8 pb-8 text-white">
+                <div className="bg-white/20 rounded-full w-16 h-16 flex items-center justify-center mb-6 group-hover:bg-white/30 group-hover:scale-110 transition-all duration-300">
+                  <Calendar className="h-8 w-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Gestão de Agenda</h3>
+                <p className="opacity-90 text-base leading-relaxed">
                   Visualize e gerencie todos os valores a receber. Antecipe, acumule ou 
                   use seus recebíveis para pagar fornecedores.
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-white/10 backdrop-blur-sm border-white/20">
-              <CardContent className="pt-6 text-white">
-                <Split className="h-12 w-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Split de Recebíveis</h3>
-                <p className="opacity-90">
+            
+            <Card className="group bg-white/15 backdrop-blur-md border-white/30 hover:bg-white/25 hover:border-white/50 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-white/20 animate-fade-in [animation-delay:200ms]">
+              <CardContent className="pt-8 pb-8 text-white">
+                <div className="bg-white/20 rounded-full w-16 h-16 flex items-center justify-center mb-6 group-hover:bg-white/30 group-hover:scale-110 transition-all duration-300">
+                  <Split className="h-8 w-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Split de Recebíveis</h3>
+                <p className="opacity-90 text-base leading-relaxed">
                   Divida os recebíveis ou use-os para pagar profissionais e empresas antes mesmo do pagamento. Automatize, pague Boletos ou faça Pix.
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-white/10 backdrop-blur-sm border-white/20">
-              <CardContent className="pt-6 text-white">
-                <TrendingUp className="h-12 w-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Planejamento Tributário</h3>
-                <p className="opacity-90">
+            
+            <Card className="group bg-white/15 backdrop-blur-md border-white/30 hover:bg-white/25 hover:border-white/50 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-white/20 animate-fade-in [animation-delay:300ms]">
+              <CardContent className="pt-8 pb-8 text-white">
+                <div className="bg-white/20 rounded-full w-16 h-16 flex items-center justify-center mb-6 group-hover:bg-white/30 group-hover:scale-110 transition-all duration-300">
+                  <TrendingUp className="h-8 w-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Planejamento Tributário</h3>
+                <p className="opacity-90 text-base leading-relaxed">
                   Reordene a sua emissão de notas e economize em torno de 40% em desperdícios de bitributação.
                 </p>
               </CardContent>
