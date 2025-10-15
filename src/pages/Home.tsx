@@ -69,7 +69,7 @@ const Home = () => {
             <Card className="bg-white/10 backdrop-blur-sm border-white/20">
               <CardContent className="pt-6 text-white">
                 <Calendar className="h-12 w-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Gestão de Recebíveis</h3>
+                <h3 className="text-xl font-semibold mb-2">Gestão de Agenda</h3>
                 <p className="opacity-90">
                   Visualize e gerencie todos os valores a receber. Antecipe, acumule ou 
                   use seus recebíveis para pagar fornecedores.
