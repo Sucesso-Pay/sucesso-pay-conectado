@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Distribuidor from "./pages/Distribuidor";
 import WhiteLabel from "./pages/WhiteLabel";
 import ContaDigital from "./pages/ContaDigital";
+import Maquininhas from "./pages/Maquininhas";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/distribuidor" element={<Distribuidor />} />
           <Route path="/whitelabel" element={<WhiteLabel />} />
           <Route path="/conta-digital" element={<ContaDigital />} />
+          <Route path="/maquininhas" element={<Maquininhas />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

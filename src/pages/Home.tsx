@@ -164,7 +164,7 @@ const Home = () => {
               <img src={posImage} alt="Maquininha Sucesso Pay" className="w-full max-w-md mx-auto" />
             </div>
             <div className="order-1 md:order-2 space-y-6">
-              <h2 className="text-4xl font-bold">Maquininha de Última Geração</h2>
+              <h2 className="text-4xl font-bold">Maquininhas de Última Geração</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
@@ -188,8 +188,8 @@ const Home = () => {
                   </div>
                 </li>
               </ul>
-              <Button size="lg" className="mt-6">
-                Falar com Especialista
+              <Button size="lg" className="mt-6" asChild>
+                <a href="/maquininhas">Saber Mais</a>
               </Button>
             </div>
           </div>
