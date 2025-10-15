@@ -89,7 +89,7 @@ const VirtualAssistantPopup = () => {
             </button>
 
             {/* Conteúdo */}
-            <div className="p-6">
+            <div className="pt-2 px-6 pb-6">
               {/* Imagem do atendente */}
               <div className="flex justify-center -mb-16">
                 <img
