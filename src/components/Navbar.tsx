@@ -34,27 +34,27 @@ export const Navbar = () => {
                 Soluções
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-[400px] p-2 bg-background">
-                <DropdownMenuItem asChild className="cursor-pointer">
-                  <Link to="/" className="block space-y-1 p-3">
-                    <div className="text-sm font-medium leading-none">Gestão Financeira</div>
-                    <p className="text-sm leading-snug text-muted-foreground">
+              <DropdownMenuContent className="w-[420px] p-3 bg-background">
+                <DropdownMenuItem asChild className="cursor-pointer mb-1">
+                  <Link to="/" className="block space-y-2 p-4 rounded-md hover:bg-accent transition-colors">
+                    <div className="text-sm font-semibold leading-relaxed">Gestão Financeira</div>
+                    <p className="text-sm leading-relaxed text-muted-foreground">
                       Controle completo das finanças do seu negócio
                     </p>
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer">
-                  <Link to="/conta-digital" className="block space-y-1 p-3">
-                    <div className="text-sm font-medium leading-none">Conta Digital</div>
-                    <p className="text-sm leading-snug text-muted-foreground">
+                <DropdownMenuItem asChild className="cursor-pointer mb-1">
+                  <Link to="/conta-digital" className="block space-y-2 p-4 rounded-md hover:bg-accent transition-colors">
+                    <div className="text-sm font-semibold leading-relaxed">Conta Digital</div>
+                    <p className="text-sm leading-relaxed text-muted-foreground">
                       Gerencie transações, recebíveis e pagamentos
                     </p>
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer">
-                  <Link to="/" className="block space-y-1 p-3">
-                    <div className="text-sm font-medium leading-none">Maquininha</div>
-                    <p className="text-sm leading-snug text-muted-foreground">
+                  <Link to="/maquininhas" className="block space-y-2 p-4 rounded-md hover:bg-accent transition-colors">
+                    <div className="text-sm font-semibold leading-relaxed">Maquininha</div>
+                    <p className="text-sm leading-relaxed text-muted-foreground">
                       Aceite pagamentos em qualquer lugar
                     </p>
                   </Link>
