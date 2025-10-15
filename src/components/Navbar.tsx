@@ -57,7 +57,7 @@ export const Navbar = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer">
                   <Link to="/maquininhas" className="grid grid-cols-[140px_1fr] gap-4 p-4 rounded-md hover:bg-accent transition-colors">
-                    <div className="text-sm font-semibold leading-relaxed text-left">Maquininha</div>
+                    <div className="text-sm font-semibold leading-relaxed text-left">Maquininhas</div>
                     <p className="text-sm leading-relaxed text-muted-foreground text-right">
                       Equipamentos rápidos, resistentes e fáceis de operar
                     </p>
