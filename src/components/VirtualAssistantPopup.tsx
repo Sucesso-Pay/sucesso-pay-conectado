@@ -91,11 +91,11 @@ const VirtualAssistantPopup = () => {
             {/* Conteúdo */}
             <div className="p-6">
               {/* Imagem do atendente */}
-              <div className="flex justify-center -mb-8">
+              <div className="flex justify-center -mb-10">
                 <img
                   src={virtualAssistant}
                   alt="Atendente Virtual Sucesso Pay"
-                  className="w-72 h-72 object-contain"
+                  className="w-80 h-80 object-contain"
                 />
               </div>
 
