@@ -250,8 +250,8 @@ const Home = () => {
                   </div>
                 </li>
               </ul>
-              <Button size="lg" className="mt-6">
-                Falar com Especialista
+              <Button size="lg" className="mt-6" asChild>
+                <a href="/conta-digital">Ver mais funções</a>
               </Button>
             </div>
             <div>
