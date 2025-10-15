@@ -11,6 +11,7 @@ import Maquininhas from "./pages/Maquininhas";
 import EstabelecimentoComercial from "./pages/EstabelecimentoComercial";
 import PrestadorServicos from "./pages/PrestadorServicos";
 import NotFound from "./pages/NotFound";
+import VirtualAssistantPopup from "./components/VirtualAssistantPopup";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <VirtualAssistantPopup />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
