@@ -36,7 +36,7 @@ export const Navbar = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-[550px] p-4 bg-background">
                 <DropdownMenuItem asChild className="cursor-pointer mb-2">
-                  <Link to="/" className="grid grid-cols-[140px_1fr] gap-4 p-4 rounded-md hover:bg-accent transition-colors">
+                  <Link to="/" className="grid grid-cols-[140px_1fr] gap-2 p-4 rounded-md hover:bg-accent transition-colors">
                     <div className="text-sm font-semibold leading-relaxed text-left">
                       Gestão<br/>Financeira
                     </div>
@@ -46,7 +46,7 @@ export const Navbar = () => {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer mb-2">
-                  <Link to="/conta-digital" className="grid grid-cols-[140px_1fr] gap-4 p-4 rounded-md hover:bg-accent transition-colors">
+                  <Link to="/conta-digital" className="grid grid-cols-[140px_1fr] gap-2 p-4 rounded-md hover:bg-accent transition-colors">
                     <div className="text-sm font-semibold leading-relaxed text-left">
                       Conta<br/>Digital
                     </div>
@@ -56,7 +56,7 @@ export const Navbar = () => {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer">
-                  <Link to="/maquininhas" className="grid grid-cols-[140px_1fr] gap-4 p-4 rounded-md hover:bg-accent transition-colors">
+                  <Link to="/maquininhas" className="grid grid-cols-[140px_1fr] gap-2 p-4 rounded-md hover:bg-accent transition-colors">
                     <div className="text-sm font-semibold leading-relaxed text-left">Maquininhas</div>
                     <p className="text-sm leading-relaxed text-muted-foreground text-right">
                       Rápidas, resistentes e fáceis de operar
