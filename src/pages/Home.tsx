@@ -189,7 +189,7 @@ const Home = () => {
                 </li>
               </ul>
               <Button size="lg" className="mt-6" asChild>
-                <a href="/maquininhas">Saber Mais</a>
+                <a href="/maquininhas">Saber mais</a>
               </Button>
             </div>
           </div>
