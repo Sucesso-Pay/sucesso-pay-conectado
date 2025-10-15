@@ -35,8 +35,8 @@ const Home = () => {
                 <span className="text-primary">Maior Sucesso</span> do Seu Negócio
               </h1>
               <p className="text-xl text-muted-foreground">
-                Gestão financeira completa com maquininha, conta digital e portal de gestão. 
-                A única plataforma com tecnologia de Gestão de Recebíveis para seu negócio crescer ainda mais.
+                Plataforma completa com maquininha, conta digital e portal online. 
+                Tecnologia exclusiva de Gestão de Recebíveis para seu negócio crescer ainda mais.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg font-semibold px-8 h-14">
