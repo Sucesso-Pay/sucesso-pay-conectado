@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import logoFooter from "@/assets/logo-footer.svg";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Headphones } from "lucide-react";
+import { useVirtualAssistant } from "@/contexts/VirtualAssistantContext";
 
 export const Footer = () => {
+  const { openAssistant } = useVirtualAssistant();
+
   return (
     <footer className="bg-primary">
       <div className="container mx-auto px-4 py-12">
@@ -72,6 +75,15 @@ export const Footer = () => {
               <li className="flex items-start gap-2 text-white/80 text-sm">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span>0800 123 4567</span>
+              </li>
+              <li>
+                <button
+                  onClick={openAssistant}
+                  className="flex items-start gap-2 text-white/80 hover:text-white transition-colors text-sm group"
+                >
+                  <Headphones className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                  <span className="underline">Suporte Técnico</span>
+                </button>
               </li>
               <li className="flex items-start gap-2 text-white/80 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />

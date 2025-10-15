@@ -4,9 +4,10 @@ import { Button } from "@/components/ui/button";
 import { X, MessageCircle, Headphones } from "lucide-react";
 import virtualAssistant from "@/assets/virtual-assistant.png";
 import ContactFormModal from "./ContactFormModal";
+import { useVirtualAssistant } from "@/contexts/VirtualAssistantContext";
 
 const VirtualAssistantPopup = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const { isOpen, closeAssistant, openAssistant } = useVirtualAssistant();
   const [hasShown, setHasShown] = useState(false);
   const [isContactFormOpen, setIsContactFormOpen] = useState(false);
 
@@ -27,7 +28,7 @@ const VirtualAssistantPopup = () => {
       clearTimeout(inactivityTimer);
       if (!hasShown) {
         inactivityTimer = setTimeout(() => {
-          setIsOpen(true);
+          openAssistant();
           setHasShown(true);
         }, 30000); // 30 segundos
       }
@@ -36,7 +37,7 @@ const VirtualAssistantPopup = () => {
     // Detectar tentativa de sair da página
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0 && !hasShown) {
-        setIsOpen(true);
+        openAssistant();
         setHasShown(true);
       }
     };
@@ -55,24 +56,24 @@ const VirtualAssistantPopup = () => {
   }, [hasShown]);
 
   const handleCommercialClick = () => {
-    setIsOpen(false);
+    closeAssistant();
     setIsContactFormOpen(true);
   };
 
   const handleSupportClick = () => {
     const message = encodeURIComponent("Olá! Sou cliente e preciso de suporte.");
     window.open(`https://wa.me/${supportWhatsappNumber}?text=${message}`, "_blank");
-    setIsOpen(false);
+    closeAssistant();
   };
 
   const handleClose = (e: React.MouseEvent) => {
     e.stopPropagation();
-    setIsOpen(false);
+    closeAssistant();
   };
 
   return (
     <>
-      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+      <Dialog open={isOpen} onOpenChange={closeAssistant}>
         <DialogContent 
           className="max-w-lg p-0 gap-0 border-none bg-transparent shadow-none"
           hideCloseButton

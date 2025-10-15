@@ -12,16 +12,18 @@ import EstabelecimentoComercial from "./pages/EstabelecimentoComercial";
 import PrestadorServicos from "./pages/PrestadorServicos";
 import NotFound from "./pages/NotFound";
 import VirtualAssistantPopup from "./components/VirtualAssistantPopup";
+import { VirtualAssistantProvider } from "./contexts/VirtualAssistantContext";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <VirtualAssistantPopup />
-      <BrowserRouter>
+    <VirtualAssistantProvider>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <VirtualAssistantPopup />
+        <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/distribuidor" element={<Distribuidor />} />
@@ -35,6 +37,7 @@ const App = () => (
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
+    </VirtualAssistantProvider>
   </QueryClientProvider>
 );
 
