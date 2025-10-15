@@ -81,8 +81,8 @@ const Home = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center text-white mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Gestão Financeira Inteligente</h2>
-            <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Ferramentas para o seu financeiro e contábil aumentarem seus ganhos instantaneamente.
+            <p className="text-xl opacity-90 max-w-3xl mx-auto font-bold">
+              Ferramentas para o seu financeiro e contábil aumentarem seus ganhos instantaneamente
             </p>
           </div>
           
