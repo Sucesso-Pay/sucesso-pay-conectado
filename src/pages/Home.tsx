@@ -344,9 +344,9 @@ const Home = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10">
                 <Users className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold">Resultados Comprovados</h3>
+              <h3 className="text-xl font-semibold">Sempre Perto</h3>
               <p className="text-muted-foreground">
-                Centenas de clientes com economias tributárias de 40% ou mais
+                Conte sempre com um distribuidor local que conhece o seu negócio como ninguém
               </p>
             </div>
             <div className="text-center space-y-4">
