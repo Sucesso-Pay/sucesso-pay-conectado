@@ -43,20 +43,6 @@ const Home = () => {
                   Falar com Especialista
                 </Button>
               </div>
-              <div className="flex items-center gap-8 pt-4">
-                <div>
-                  <p className="text-3xl font-bold text-primary">40%+</p>
-                  <p className="text-sm text-muted-foreground">Economia Tributária</p>
-                </div>
-                <div>
-                  <p className="text-3xl font-bold text-primary">Taxa Zero</p>
-                  <p className="text-sm text-muted-foreground">Opção de Recebimento</p>
-                </div>
-                <div>
-                  <p className="text-3xl font-bold text-primary">1 Dia</p>
-                  <p className="text-sm text-muted-foreground">Dinheiro na Conta</p>
-                </div>
-              </div>
             </div>
             <div className="relative">
               <img 
