@@ -22,7 +22,7 @@ const Distribuidor = () => {
               Conecte seus clientes ao mundo de meios de pagamento e obtenha uma nova fonte de receita!
             </p>
             <Button size="lg" className="text-lg font-semibold px-8 h-14">
-              Quero ser Distribuidor
+              Falar com Especialista
             </Button>
           </div>
         </div>
@@ -232,11 +232,8 @@ const Distribuidor = () => {
             Seja um distribuidor Sucesso Pay e tenha acesso a uma nova fonte de receita 
             com tecnologia exclusiva e suporte completo
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" className="text-lg font-semibold px-8 h-14">
-              Quero ser Distribuidor
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg font-semibold px-8 h-14">
               Falar com Especialista
             </Button>
           </div>

@@ -38,11 +38,8 @@ const Home = () => {
                 Plataforma completa com maquininha, conta digital e portal online. 
                 Tecnologia exclusiva de Gestão de Recebíveis para seu negócio crescer ainda mais.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex justify-center">
                 <Button size="lg" className="text-lg font-semibold px-8 h-14">
-                  Abrir Minha Conta Grátis
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg font-semibold px-8 h-14">
                   Falar com Especialista
                 </Button>
               </div>
@@ -209,7 +206,7 @@ const Home = () => {
                 </li>
               </ul>
               <Button size="lg" className="mt-6">
-                Solicitar Maquininha
+                Falar com Especialista
               </Button>
             </div>
           </div>
@@ -241,7 +238,7 @@ const Home = () => {
                 </li>
               </ul>
               <Button size="lg" className="mt-6">
-                Abrir Conta Digital
+                Falar com Especialista
               </Button>
             </div>
             <div>
@@ -348,11 +345,8 @@ const Home = () => {
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Abra sua conta grátis e comece a aproveitar todos os benefícios da Sucesso Pay hoje mesmo
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="text-lg font-semibold px-8 h-14">
-              Abrir Minha Conta Grátis
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg font-semibold px-8 h-14 bg-transparent border-white text-white hover:bg-white hover:text-primary">
+          <div className="flex justify-center">
+            <Button size="lg" className="text-lg font-semibold px-8 h-14">
               Falar com Especialista
             </Button>
           </div>

@@ -23,7 +23,7 @@ const WhiteLabel = () => {
               Conecte sua carteira de clientes a uma plataforma Embedded Finance com diferenciais exclusivos e adicione produtos financeiros ao seu posicionamento
             </p>
             <Button size="lg" className="text-lg font-semibold px-8 h-14">
-              Falar com especialista
+              Falar com Especialista
             </Button>
           </div>
         </div>
@@ -302,12 +302,9 @@ const WhiteLabel = () => {
             Solicite uma proposta personalizada e descubra como a solução White Label 
             da Sucesso Pay pode transformar seu negócio
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" className="text-lg font-semibold px-8 h-14">
-              Falar com especialista
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg font-semibold px-8 h-14">
-              Agendar Reunião
+              Falar com Especialista
             </Button>
           </div>
         </div>

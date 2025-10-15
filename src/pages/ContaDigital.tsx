@@ -78,7 +78,7 @@ const ContaDigital = () => {
               Tenha controle total sobre transações, recebíveis, pagamentos e muito mais.
             </p>
             <Button size="lg" className="font-semibold">
-              Abrir Minha Conta
+              Falar com Especialista
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
@@ -151,8 +151,8 @@ const ContaDigital = () => {
               Abra sua conta digital Sucesso Pay agora mesmo e comece a gerenciar 
               suas finanças com mais eficiência e praticidade.
             </p>
-            <Button size="lg" variant="secondary" className="font-semibold">
-              Abrir Minha Conta Grátis
+            <Button size="lg" className="font-semibold">
+              Falar com Especialista
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
