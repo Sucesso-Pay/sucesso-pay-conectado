@@ -269,7 +269,7 @@ const Home = () => {
           className="absolute inset-0 opacity-25"
           style={{
             backgroundImage: `url(${segmentsPatternBg})`,
-            backgroundSize: '400px 400px',
+            backgroundSize: '800px 800px',
             backgroundRepeat: 'repeat',
             backgroundPosition: 'center'
           }}
