@@ -80,7 +80,7 @@ const Home = () => {
                 <Split className="h-12 w-12 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Split de Recebíveis</h3>
                 <p className="opacity-90">
-                  Divida os recebíveis ou use-os para pagar profissionais e empresas antes da liquidação. Automatize, pague Boletos ou faça Pix.
+                  Divida os recebíveis ou use-os para pagar profissionais e empresas antes mesmo do pagamento. Automatize, pague Boletos ou faça Pix.
                 </p>
               </CardContent>
             </Card>
