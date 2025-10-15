@@ -64,7 +64,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/20 mt-8 pt-8 text-center text-sm text-white/80">
+        <div className="border-t mt-8 pt-8 text-center text-sm text-white/80" style={{ borderColor: '#0a1929' }}>
           <p>© {new Date().getFullYear()} Sucesso Pay. Todos os direitos reservados.</p>
           <p className="mt-2">Conta Digital Autorizada pelo Banco Central</p>
         </div>
