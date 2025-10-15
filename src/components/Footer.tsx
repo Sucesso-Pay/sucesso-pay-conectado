@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Logo Sucesso Pay */}
           <div className="col-span-1 md:col-span-2 flex items-center">
-            <img src={logoFooter} alt="Sucesso Pay" className="h-20" />
+            <img src={logoFooter} alt="Sucesso Pay" className="h-32" />
           </div>
 
           {/* Soluções */}
