@@ -355,7 +355,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-semibold">Estratégias Personalizadas</h3>
               <p className="text-muted-foreground">
-                Abordagens customizadas para maximizar a eficiência do seu negócio
+                Abordagens customizadas para maximizar a eficiência operacional e financeira
               </p>
             </div>
             <div className="text-center space-y-4">
