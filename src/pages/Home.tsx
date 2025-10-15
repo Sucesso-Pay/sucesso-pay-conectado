@@ -19,6 +19,7 @@ import heroImage from "@/assets/hero-business.png";
 import posImage from "@/assets/pos-machine.png";
 import mobileImage from "@/assets/mobile-app.png";
 import financialPatternBg from "@/assets/financial-pattern-bg.png";
+import paymentPatternBg from "@/assets/payment-pattern-bg.png";
 
 const Home = () => {
   return (
@@ -126,8 +127,26 @@ const Home = () => {
       </section>
 
       {/* Formas de Cobrança */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <section className="py-20 relative overflow-hidden">
+        {/* Background layers */}
+        <div className="absolute inset-0 bg-gradient-to-br from-muted/50 via-muted/30 to-background" />
+        <div 
+          className="absolute inset-0 opacity-25"
+          style={{
+            backgroundImage: `url(${paymentPatternBg})`,
+            backgroundSize: '400px 400px',
+            backgroundRepeat: 'repeat',
+            backgroundPosition: 'center'
+          }}
+        />
+        <div 
+          className="absolute inset-0"
+          style={{
+            backgroundImage: 'radial-gradient(circle at 20% 50%, rgba(0,0,0,0.05) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(0,0,0,0.03) 0%, transparent 50%)',
+          }}
+        />
+        
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Várias Formas de Receber</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -135,7 +154,7 @@ const Home = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in">
               <CardContent className="pt-6 text-center">
                 <CreditCard className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Maquininha</h3>
@@ -144,7 +163,7 @@ const Home = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.1s' }}>
               <CardContent className="pt-6 text-center">
                 <CheckCircle className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">PIX e QR Code</h3>
@@ -153,7 +172,7 @@ const Home = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <CardContent className="pt-6 text-center">
                 <Barcode className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Boleto</h3>
@@ -162,7 +181,7 @@ const Home = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <CardContent className="pt-6 text-center">
                 <Zap className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Link de Pagamento</h3>
@@ -171,7 +190,7 @@ const Home = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <CardContent className="pt-6 text-center">
                 <BarChart3 className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Assinaturas</h3>
