@@ -61,8 +61,7 @@ const Home = () => {
           <div className="text-center text-white mb-12">
             <h2 className="text-4xl font-bold mb-4">Gestão Financeira Inteligente</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              A única plataforma com Gestão de Recebíveis. 
-              Controle total sobre suas vendas antes mesmo do dinheiro cair na conta.
+              Ferramentas para o seu financeiro e contábil aumentarem seus ganhos instantaneamente.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
