@@ -283,10 +283,14 @@ const Home = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Perfeito para Seu Segmento</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Soluções pensadas especialmente para as necessidades do seu negócio
-            </p>
+            <Card className="max-w-4xl mx-auto">
+              <CardContent className="pt-6 pb-6">
+                <h2 className="text-4xl font-bold mb-4">Perfeito para Seu Segmento</h2>
+                <p className="text-xl text-muted-foreground">
+                  Soluções pensadas especialmente para as necessidades do seu negócio
+                </p>
+              </CardContent>
+            </Card>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in">
