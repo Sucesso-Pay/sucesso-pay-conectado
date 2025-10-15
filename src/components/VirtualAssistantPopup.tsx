@@ -75,7 +75,7 @@ const VirtualAssistantPopup = () => {
     <>
       <Dialog open={isOpen} onOpenChange={closeAssistant}>
         <DialogContent 
-          className="max-w-lg p-0 gap-0 border-none bg-transparent shadow-none"
+          className="max-w-md p-0 gap-0 border-none bg-transparent shadow-none"
           hideCloseButton
         >
           <div className="relative bg-card rounded-lg shadow-2xl overflow-hidden animate-scale-in">
@@ -89,27 +89,27 @@ const VirtualAssistantPopup = () => {
             </button>
 
             {/* Conteúdo */}
-            <div className="p-8">
-              {/* Imagem do atendente - MAIOR */}
-              <div className="flex justify-center -mt-4 mb-4">
+            <div className="p-6">
+              {/* Imagem do atendente */}
+              <div className="flex justify-center -mb-8">
                 <img
                   src={virtualAssistant}
                   alt="Atendente Virtual Sucesso Pay"
-                  className="w-96 h-96 object-contain"
+                  className="w-72 h-72 object-contain"
                 />
               </div>
 
               {/* Texto de apresentação */}
-              <div className="text-center space-y-6">
-                <h3 className="text-2xl font-semibold text-foreground">
+              <div className="text-center space-y-4">
+                <h3 className="text-xl font-semibold text-foreground">
                   Atendimento Sucesso Pay
                 </h3>
-                <p className="text-muted-foreground leading-relaxed text-lg">
+                <p className="text-muted-foreground leading-relaxed">
                   {welcomeMessage}
                 </p>
 
                 {/* Botões de ação */}
-                <div className="space-y-3 pt-4">
+                <div className="space-y-3 pt-2">
                   <Button
                     onClick={handleCommercialClick}
                     size="lg"
