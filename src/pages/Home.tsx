@@ -20,6 +20,7 @@ import posImage from "@/assets/pos-machine.png";
 import mobileImage from "@/assets/mobile-app.png";
 import financialPatternBg from "@/assets/financial-pattern-bg.png";
 import paymentPatternBg from "@/assets/payment-pattern-bg.png";
+import segmentsPatternBg from "@/assets/segments-pattern-bg.png";
 
 const Home = () => {
   return (
@@ -267,7 +268,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 opacity-25"
           style={{
-            backgroundImage: `url(${paymentPatternBg})`,
+            backgroundImage: `url(${segmentsPatternBg})`,
             backgroundSize: '400px 400px',
             backgroundRepeat: 'repeat',
             backgroundPosition: 'center'
