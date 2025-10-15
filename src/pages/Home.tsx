@@ -378,7 +378,7 @@ const Home = () => {
             Pronto para Transformar Seu Negócio?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-muted-foreground">
-            Abra sua conta grátis e comece a aproveitar todos os benefícios da Sucesso Pay hoje mesmo
+            Receba um contato de um especialista e transforme seu financeiro com a Sucesso Pay
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="text-lg font-semibold px-8 h-14">
