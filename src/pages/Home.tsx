@@ -346,7 +346,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-semibold">Sempre Perto</h3>
               <p className="text-muted-foreground">
-                Conte sempre com um distribuidor local que conhece o seu negócio como ninguém
+                Conte sempre com um distribuidor local que será conhecedor do seu negócio
               </p>
             </div>
             <div className="text-center space-y-4">
