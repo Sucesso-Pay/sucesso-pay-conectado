@@ -68,21 +68,21 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="bg-white/10 backdrop-blur-sm border-white/20">
               <CardContent className="pt-6 text-white">
-                <Split className="h-12 w-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Split de Recebíveis</h3>
-                <p className="opacity-90">
-                  Divida automaticamente os pagamentos entre diferentes profissionais 
-                  antes da liquidação. Ideal para clínicas e estabelecimentos com múltiplos prestadores.
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="bg-white/10 backdrop-blur-sm border-white/20">
-              <CardContent className="pt-6 text-white">
                 <Calendar className="h-12 w-12 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Gestão de Recebíveis</h3>
                 <p className="opacity-90">
                   Visualize e gerencie todos os valores a receber. Antecipe, acumule ou 
                   use seus recebíveis para pagar fornecedores.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="bg-white/10 backdrop-blur-sm border-white/20">
+              <CardContent className="pt-6 text-white">
+                <Split className="h-12 w-12 mb-4" />
+                <h3 className="text-xl font-semibold mb-2">Split de Recebíveis</h3>
+                <p className="opacity-90">
+                  Divida automaticamente os pagamentos entre diferentes profissionais 
+                  antes da liquidação. Ideal para clínicas e estabelecimentos com múltiplos prestadores.
                 </p>
               </CardContent>
             </Card>
