@@ -223,7 +223,7 @@ const Distribuidor = () => {
       </section>
 
       {/* CTA Final */}
-      <section className="py-20 bg-secondary/30">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">
             Pronto para Crescer Conosco?

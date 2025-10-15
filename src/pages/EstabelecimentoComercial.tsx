@@ -24,7 +24,7 @@ const EstabelecimentoComercial = () => {
         </section>
 
         {/* Content placeholder */}
-        <section className="py-20 px-4 bg-muted/30">
+        <section className="py-20 px-4 bg-background">
           <div className="container mx-auto">
             <p className="text-center text-muted-foreground">
               Conteúdo em desenvolvimento...

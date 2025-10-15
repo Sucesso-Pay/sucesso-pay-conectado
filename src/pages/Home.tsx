@@ -372,12 +372,12 @@ const Home = () => {
       </section>
 
       {/* CTA Final */}
-      <section className="py-20 bg-gradient-to-br from-primary to-primary/80">
-        <div className="container mx-auto px-4 text-center text-white">
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">
             Pronto para Transformar Seu Negócio?
           </h2>
-          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-muted-foreground">
             Abra sua conta grátis e comece a aproveitar todos os benefícios da Sucesso Pay hoje mesmo
           </p>
           <div className="flex justify-center">

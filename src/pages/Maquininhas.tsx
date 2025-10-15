@@ -234,12 +234,12 @@ const Maquininhas = () => {
       </section>
 
       {/* CTA Final */}
-      <section className="py-20 bg-gradient-to-br from-primary to-primary/80">
-        <div className="container mx-auto px-4 text-center text-white">
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">
             Pronto para Modernizar Seu Negócio?
           </h2>
-          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-muted-foreground">
             Adquira sua maquininha Sucesso Pay e comece a vender mais hoje mesmo
           </p>
           <Button size="lg" className="text-lg font-semibold px-8 h-14">
