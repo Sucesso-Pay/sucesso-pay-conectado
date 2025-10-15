@@ -61,7 +61,7 @@ const Home = () => {
         {/* Background with pattern */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary/90" />
         <div 
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-25"
           style={{
             backgroundImage: `url(${financialPatternBg})`,
             backgroundSize: '400px 400px',
