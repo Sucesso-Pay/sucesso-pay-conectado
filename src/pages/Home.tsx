@@ -266,7 +266,7 @@ const Home = () => {
         {/* Background layers */}
         <div className="absolute inset-0 bg-gradient-to-br from-muted/50 via-muted/30 to-background" />
         <div 
-          className="absolute inset-0 opacity-25"
+          className="absolute inset-0 opacity-15"
           style={{
             backgroundImage: `url(${segmentsPatternBg})`,
             backgroundSize: '800px 800px',
