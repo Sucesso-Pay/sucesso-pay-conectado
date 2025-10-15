@@ -21,7 +21,6 @@ import mobileImage from "@/assets/mobile-app.png";
 import financialPatternBg from "@/assets/financial-pattern-bg.png";
 import paymentPatternBg from "@/assets/payment-pattern-bg.png";
 import segmentsPatternBg from "@/assets/segments-pattern-bg.png";
-import simboloBg from "@/assets/simbolo-bg.png";
 
 const Home = () => {
   return (
@@ -372,29 +371,24 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Final integrado com Footer */}
-      <section 
-        className="bg-card border-t border-border bg-cover bg-right bg-no-repeat"
-        style={{ backgroundImage: `url(${simboloBg})` }}
-      >
-        <div className="py-20">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-4xl font-bold mb-4">
-              Pronto para Transformar Seu Negócio?
-            </h2>
-            <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
-              Abra sua conta grátis e comece a aproveitar todos os benefícios da Sucesso Pay hoje mesmo
-            </p>
-            <div className="flex justify-center">
-              <Button size="lg" className="text-lg font-semibold px-8 h-14">
-                Falar com Especialista
-              </Button>
-            </div>
+      {/* CTA Final */}
+      <section className="py-20 bg-gradient-to-br from-primary to-primary/80">
+        <div className="container mx-auto px-4 text-center text-white">
+          <h2 className="text-4xl font-bold mb-4">
+            Pronto para Transformar Seu Negócio?
+          </h2>
+          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+            Abra sua conta grátis e comece a aproveitar todos os benefícios da Sucesso Pay hoje mesmo
+          </p>
+          <div className="flex justify-center">
+            <Button size="lg" className="text-lg font-semibold px-8 h-14">
+              Falar com Especialista
+            </Button>
           </div>
         </div>
-
-        <Footer />
       </section>
+
+      <Footer />
     </div>
   );
 };
