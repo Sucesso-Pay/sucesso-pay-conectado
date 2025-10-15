@@ -34,8 +34,8 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
-                Soluções Financeiras para o{" "}
-                <span className="text-primary">Maior Sucesso</span> do Seu Negócio
+                Soluções financeiras para o{" "}
+                <span className="text-primary">maior sucesso</span> do seu negócio
               </h1>
               <p className="text-xl text-muted-foreground">
                 Plataforma completa com maquininha, conta digital e portal online. 
