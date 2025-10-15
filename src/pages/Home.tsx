@@ -88,7 +88,7 @@ const Home = () => {
             <Card className="bg-white/10 backdrop-blur-sm border-white/20">
               <CardContent className="pt-6 text-white">
                 <TrendingUp className="h-12 w-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Economia Tributária</h3>
+                <h3 className="text-xl font-semibold mb-2">Planejamento Tributário</h3>
                 <p className="opacity-90">
                   Reduza até 40% em custos tributários com nossa solução exclusiva. 
                   Mais dinheiro no seu bolso, menos burocracia.
