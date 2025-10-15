@@ -61,12 +61,18 @@ const Home = () => {
         {/* Background with pattern */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary/90" />
         <div 
-          className="absolute inset-0 opacity-20"
+          className="absolute inset-0 opacity-10"
           style={{
             backgroundImage: `url(${financialPatternBg})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            mixBlendMode: 'overlay'
+            backgroundSize: '400px 400px',
+            backgroundRepeat: 'repeat',
+            backgroundPosition: 'center'
+          }}
+        />
+        <div 
+          className="absolute inset-0"
+          style={{
+            backgroundImage: 'radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(255,255,255,0.08) 0%, transparent 50%)',
           }}
         />
         
