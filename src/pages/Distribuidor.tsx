@@ -28,18 +28,6 @@ const Distribuidor = () => {
         </div>
       </section>
 
-      {/* Nossa Missão */}
-      <section className="py-20 bg-secondary/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h2 className="text-4xl font-bold">Queremos Impactar Toda a Indústria</h2>
-            <p className="text-xl text-muted-foreground">
-              de meios de pagamento com as inovações que disponibilizamos, e assim ser o 
-              caminho do sucesso para clientes, distribuidores e parceiros.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Diferenciais */}
       <section className="py-20">
