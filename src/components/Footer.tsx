@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import simboloEscuro from "@/assets/simbolo-escuro.svg";
+import logoFooter from "@/assets/logo-footer.svg";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export const Footer = () => {
@@ -7,9 +7,9 @@ export const Footer = () => {
     <footer className="bg-primary">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Símbolo da Marca */}
+          {/* Logo Sucesso Pay */}
           <div className="col-span-1 md:col-span-2 flex items-center">
-            <img src={simboloEscuro} alt="Sucesso Pay Symbol" className="h-48 opacity-70" />
+            <img src={logoFooter} alt="Sucesso Pay" className="h-24 opacity-60" />
           </div>
 
           {/* Links Rápidos */}
