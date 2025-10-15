@@ -14,7 +14,7 @@ const WhiteLabel = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
         <div className="container mx-auto px-4 relative">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
               Soluções{" "}
               <span className="text-primary">White Label</span>{" "}
               para o Sucesso do Seu Novo Negócio

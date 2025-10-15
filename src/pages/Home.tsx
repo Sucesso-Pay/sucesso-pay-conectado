@@ -30,7 +30,7 @@ const Home = () => {
         <div className="container mx-auto px-4 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
                 Soluções Financeiras para o{" "}
                 <span className="text-primary">Maior Sucesso</span> do Seu Negócio
               </h1>
