@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Símbolo da Marca */}
           <div className="col-span-1 md:col-span-2 flex items-center">
-            <img src={simboloAzul} alt="Sucesso Pay Symbol" className="h-48 opacity-40" />
+            <img src={simboloAzul} alt="Sucesso Pay Symbol" className="h-48 opacity-20" />
           </div>
 
           {/* Links Rápidos */}
