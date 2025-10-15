@@ -375,7 +375,7 @@ const Home = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">
-            Pronto para Transformar Seu Negócio?
+            Pronto para um novo salto de sucesso?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-muted-foreground">
             Receba um contato de um especialista e transforme seu financeiro com a Sucesso Pay
