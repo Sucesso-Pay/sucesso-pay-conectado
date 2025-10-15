@@ -19,6 +19,8 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSolucoesOpen, setIsSolucoesOpen] = useState(false);
   const [isSegmentosOpen, setIsSegmentosOpen] = useState(false);
+  const [isSolucoesDropdownOpen, setIsSolucoesDropdownOpen] = useState(false);
+  const [isSegmentosDropdownOpen, setIsSegmentosDropdownOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -30,91 +32,103 @@ export const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center gap-8">
-            <DropdownMenu>
-              <DropdownMenuTrigger className="text-foreground hover:text-primary font-medium inline-flex items-center gap-1 transition-colors">
-                Soluções
-                <ChevronDown className="h-4 w-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-[500px] p-4 bg-background">
-                <DropdownMenuItem asChild className="cursor-pointer mb-2">
-                  <Link to="/" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
-                    <div className="text-sm font-semibold leading-relaxed text-left">
-                      Gestão<br/>Financeira
-                    </div>
-                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
-                      Controle completo das finanças do seu negócio
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer mb-2">
-                  <Link to="/conta-digital" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
-                    <div className="text-sm font-semibold leading-relaxed text-left">
-                      Conta<br/>Digital
-                    </div>
-                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
-                      Gerencie transações, recebíveis e pagamentos
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer">
-                  <Link to="/maquininhas" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
-                    <div className="text-sm font-semibold leading-relaxed text-left">Maquininhas</div>
-                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
-                      Rápidas, resistentes e fáceis de operar
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsSolucoesDropdownOpen(true)}
+              onMouseLeave={() => setIsSolucoesDropdownOpen(false)}
+            >
+              <DropdownMenu open={isSolucoesDropdownOpen} onOpenChange={setIsSolucoesDropdownOpen}>
+                <DropdownMenuTrigger className="text-foreground hover:text-primary text-lg font-semibold inline-flex items-center gap-1 transition-colors px-4 py-2 rounded-md hover:bg-accent/50">
+                  Soluções
+                  <ChevronDown className="h-5 w-5" />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-[500px] p-4 bg-background z-50">
+                  <DropdownMenuItem asChild className="cursor-pointer mb-2">
+                    <Link to="/" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                      <div className="text-sm font-semibold leading-relaxed text-left">
+                        Gestão<br/>Financeira
+                      </div>
+                      <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                        Controle completo das finanças do seu negócio
+                      </p>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild className="cursor-pointer mb-2">
+                    <Link to="/conta-digital" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                      <div className="text-sm font-semibold leading-relaxed text-left">
+                        Conta<br/>Digital
+                      </div>
+                      <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                        Gerencie transações, recebíveis e pagamentos
+                      </p>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild className="cursor-pointer">
+                    <Link to="/maquininhas" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                      <div className="text-sm font-semibold leading-relaxed text-left">Maquininhas</div>
+                      <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                        Rápidas, resistentes e fáceis de operar
+                      </p>
+                    </Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
             
-            <DropdownMenu>
-              <DropdownMenuTrigger className="text-foreground hover:text-primary font-medium inline-flex items-center gap-1 transition-colors">
-                Segmentos
-                <ChevronDown className="h-4 w-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-[500px] p-4 bg-background">
-                <DropdownMenuItem asChild className="cursor-pointer mb-2">
-                  <Link to="/estabelecimento-comercial" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
-                    <div className="text-sm font-semibold leading-relaxed text-left">
-                      Sou um estabelecimento<br/>comercial
-                    </div>
-                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
-                      Soluções completas para seu estabelecimento
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer mb-2">
-                  <Link to="/prestador-servicos" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
-                    <div className="text-sm font-semibold leading-relaxed text-left">
-                      Sou um prestador<br/>de serviços
-                    </div>
-                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
-                      Ferramentas ideais para profissionais autônomos
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer mb-2">
-                  <Link to="/distribuidor" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
-                    <div className="text-sm font-semibold leading-relaxed text-left">
-                      Quero ser<br/>distribuidor
-                    </div>
-                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
-                      Seja parceiro e expanda seu negócio
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer">
-                  <Link to="/whitelabel" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
-                    <div className="text-sm font-semibold leading-relaxed text-left">
-                      Quero ter<br/>minha marca
-                    </div>
-                    <p className="text-sm leading-relaxed text-muted-foreground text-right">
-                      Crie sua própria marca de pagamentos
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsSegmentosDropdownOpen(true)}
+              onMouseLeave={() => setIsSegmentosDropdownOpen(false)}
+            >
+              <DropdownMenu open={isSegmentosDropdownOpen} onOpenChange={setIsSegmentosDropdownOpen}>
+                <DropdownMenuTrigger className="text-foreground hover:text-primary text-lg font-semibold inline-flex items-center gap-1 transition-colors px-4 py-2 rounded-md hover:bg-accent/50">
+                  Segmentos
+                  <ChevronDown className="h-5 w-5" />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-[500px] p-4 bg-background z-50">
+                  <DropdownMenuItem asChild className="cursor-pointer mb-2">
+                    <Link to="/estabelecimento-comercial" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                      <div className="text-sm font-semibold leading-relaxed text-left">
+                        Sou um estabelecimento<br/>comercial
+                      </div>
+                      <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                        Soluções completas para seu estabelecimento
+                      </p>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild className="cursor-pointer mb-2">
+                    <Link to="/prestador-servicos" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                      <div className="text-sm font-semibold leading-relaxed text-left">
+                        Sou um prestador<br/>de serviços
+                      </div>
+                      <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                        Ferramentas ideais para profissionais autônomos
+                      </p>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild className="cursor-pointer mb-2">
+                    <Link to="/distribuidor" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                      <div className="text-sm font-semibold leading-relaxed text-left">
+                        Quero ser<br/>distribuidor
+                      </div>
+                      <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                        Seja parceiro e expanda seu negócio
+                      </p>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild className="cursor-pointer">
+                    <Link to="/whitelabel" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors">
+                      <div className="text-sm font-semibold leading-relaxed text-left">
+                        Quero ter<br/>minha marca
+                      </div>
+                      <p className="text-sm leading-relaxed text-muted-foreground text-right">
+                        Crie sua própria marca de pagamentos
+                      </p>
+                    </Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
