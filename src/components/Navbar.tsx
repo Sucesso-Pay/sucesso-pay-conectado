@@ -38,7 +38,7 @@ export const Navbar = () => {
               onMouseLeave={() => setIsSolucoesDropdownOpen(false)}
             >
               <DropdownMenu open={isSolucoesDropdownOpen} onOpenChange={setIsSolucoesDropdownOpen}>
-                <DropdownMenuTrigger className="text-foreground hover:text-primary text-xl font-bold inline-flex items-center gap-1 transition-colors px-4 py-2 rounded-md hover:bg-accent/50">
+                <DropdownMenuTrigger className="text-foreground hover:text-primary text-xl font-bold inline-flex items-center gap-1 transition-colors px-4 py-2 rounded-md hover:bg-accent/50 border border-border">
                   Soluções
                   <ChevronDown className="h-5 w-5" />
                 </DropdownMenuTrigger>
@@ -81,7 +81,7 @@ export const Navbar = () => {
               onMouseLeave={() => setIsSegmentosDropdownOpen(false)}
             >
               <DropdownMenu open={isSegmentosDropdownOpen} onOpenChange={setIsSegmentosDropdownOpen}>
-                <DropdownMenuTrigger className="text-foreground hover:text-primary text-xl font-bold inline-flex items-center gap-1 transition-colors px-4 py-2 rounded-md hover:bg-accent/50">
+                <DropdownMenuTrigger className="text-foreground hover:text-primary text-xl font-bold inline-flex items-center gap-1 transition-colors px-4 py-2 rounded-md hover:bg-accent/50 border border-border">
                   Segmentos
                   <ChevronDown className="h-5 w-5" />
                 </DropdownMenuTrigger>
