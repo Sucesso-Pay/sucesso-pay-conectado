@@ -190,14 +190,14 @@ const ContaDigital = () => {
                 <img 
                   src={contaDigitalTransacoes} 
                   alt="Tela de Transações da Conta Digital"
-                  className="w-full max-w-xl mx-auto drop-shadow-2xl"
+                  className="w-full max-w-xl mx-auto drop-shadow-2xl -mb-12 md:-mb-16"
                 />
               </div>
             </div>
           </div>
 
           {/* Agenda de Recebíveis */}
-          <div className="mb-6 bg-card/50 rounded-3xl pt-6 pb-8 px-6 lg:pt-8 lg:pb-10 lg:px-10">
+          <div className="-mt-8 mb-6 bg-card/50 rounded-3xl pt-6 pb-8 px-6 lg:pt-8 lg:pb-10 lg:px-10">
             <div className="grid lg:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
               <div>
                 <img 
