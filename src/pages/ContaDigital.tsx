@@ -151,7 +151,7 @@ const ContaDigital = () => {
       </section>
 
       {/* Features Showcase Section */}
-      <section className="py-8 bg-background flex items-center">
+      <section className="pt-16 pb-8 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
