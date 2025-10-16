@@ -203,7 +203,7 @@ const ContaDigital = () => {
                 <img 
                   src={contaDigitalAgenda} 
                   alt="Tela de Agenda de Recebíveis"
-                  className="w-full max-w-xl mx-auto drop-shadow-2xl"
+                  className="w-full max-w-xl mx-auto drop-shadow-2xl -mb-12 md:-mb-16"
                 />
               </div>
               <div>
@@ -230,7 +230,7 @@ const ContaDigital = () => {
           </div>
 
           {/* Pagamentos */}
-          <div className="mb-6">
+          <div className="-mt-8 mb-6">
             <div className="grid lg:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
               <div className="order-2 lg:order-1">
                 <div className="flex items-center gap-3 mb-6">
@@ -256,7 +256,7 @@ const ContaDigital = () => {
                 <img 
                   src={contaDigitalPagamentos} 
                   alt="Tela de Pagamentos"
-                  className="w-full max-w-xl mx-auto drop-shadow-2xl"
+                  className="w-full max-w-xl mx-auto drop-shadow-2xl -mb-12 md:-mb-16"
                 />
               </div>
             </div>
@@ -266,7 +266,7 @@ const ContaDigital = () => {
       </section>
 
       {/* Additional Features Grid */}
-      <section className="py-8 bg-card/30">
+      <section className="-mt-8 py-8 bg-card/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
