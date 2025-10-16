@@ -49,7 +49,7 @@ export const Navbar = () => {
                         Gestão<br/>Financeira
                       </div>
                       <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
-                        Controle completo das finanças do seu negócio
+                        Soluções para eficiência financeira
                       </p>
                     </Link>
                   </DropdownMenuItem>
