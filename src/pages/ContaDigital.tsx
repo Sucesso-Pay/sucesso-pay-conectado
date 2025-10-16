@@ -261,38 +261,6 @@ const ContaDigital = () => {
             </div>
           </div>
 
-          {/* Antecipação */}
-          <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-8 lg:p-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-              <div>
-                <img 
-                  src={contaDigitalAntecipacao} 
-                  alt="Tela de Antecipação de Recebíveis"
-                  className="w-full max-w-xl mx-auto drop-shadow-2xl"
-                />
-              </div>
-              <div>
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                    <TrendingUp className="h-6 w-6 text-primary" />
-                  </div>
-                  <h3 className="text-2xl md:text-3xl font-bold">Antecipação de Recebíveis</h3>
-                </div>
-                <p className="text-lg text-muted-foreground mb-6">
-                  Precisa de capital de giro agora? Antecipe seus recebimentos futuros 
-                  de forma simples e rápida, com recebimento no próximo dia útil.
-                </p>
-                <div className="space-y-3">
-                  {features[3].benefits.map((benefit, idx) => (
-                    <div key={idx} className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-muted-foreground">{benefit}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -328,6 +296,43 @@ const ContaDigital = () => {
                 </CardHeader>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Antecipação */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-8 lg:p-12">
+            <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+              <div>
+                <img 
+                  src={contaDigitalAntecipacao} 
+                  alt="Tela de Antecipação de Recebíveis"
+                  className="w-full max-w-xl mx-auto drop-shadow-2xl"
+                />
+              </div>
+              <div>
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                    <TrendingUp className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold">Antecipação de Recebíveis</h3>
+                </div>
+                <p className="text-lg text-muted-foreground mb-6">
+                  Precisa de capital de giro agora? Antecipe seus recebimentos futuros 
+                  de forma simples e rápida, com recebimento no próximo dia útil.
+                </p>
+                <div className="space-y-3">
+                  {features[3].benefits.map((benefit, idx) => (
+                    <div key={idx} className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-muted-foreground">{benefit}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
