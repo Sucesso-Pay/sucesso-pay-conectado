@@ -9,10 +9,10 @@ export const Footer = () => {
   return (
     <footer className="bg-primary">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Logo Sucesso Pay */}
           <div className="col-span-1 md:col-span-2 flex items-start">
-            <img src={logoFooter} alt="Sucesso Pay" className="h-20 md:h-24" />
+            <img src={logoFooter} alt="Sucesso Pay" className="h-20 md:h-16 lg:h-24" />
           </div>
 
           {/* Soluções */}
@@ -65,7 +65,7 @@ export const Footer = () => {
           </div>
 
           {/* Contato */}
-          <div>
+          <div className="md:col-span-2 lg:col-span-1">
             <h3 className="font-semibold mb-4 text-white">Contato</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-white/80 text-sm">
