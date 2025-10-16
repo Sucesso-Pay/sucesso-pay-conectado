@@ -189,7 +189,7 @@ const Home = () => {
       {/* Produtos */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-16 items-center mb-16">
+          <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
             <div className="order-2 md:order-1">
               <img src={posImage} alt="Maquininha Sucesso Pay" className="w-full max-w-md mx-auto" />
             </div>
@@ -224,7 +224,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl font-bold">Conta Digital Completa</h2>
               <ul className="space-y-4">
