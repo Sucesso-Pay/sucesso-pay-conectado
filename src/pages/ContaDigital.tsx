@@ -164,7 +164,7 @@ const ContaDigital = () => {
           </div>
 
           {/* Transações */}
-          <div className="mb-8">
+          <div className="mb-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
               <div className="order-2 lg:order-1">
                 <div className="flex items-center gap-3 mb-6">
@@ -197,8 +197,8 @@ const ContaDigital = () => {
           </div>
 
           {/* Agenda de Recebíveis */}
-          <div className="mb-8 bg-card/50 rounded-3xl p-8 lg:p-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <div className="mb-6 bg-card/50 rounded-3xl pt-6 pb-8 px-6 lg:pt-8 lg:pb-10 lg:px-10">
+            <div className="grid lg:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
               <div>
                 <img 
                   src={contaDigitalAgenda} 
@@ -230,8 +230,8 @@ const ContaDigital = () => {
           </div>
 
           {/* Pagamentos */}
-          <div className="mb-0">
-            <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <div className="mb-6">
+            <div className="grid lg:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
               <div className="order-2 lg:order-1">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
