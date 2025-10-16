@@ -14,17 +14,28 @@ import {
   PiggyBank,
   Smartphone,
   ArrowRight,
-  Check
+  Check,
+  Users
 } from "lucide-react";
 import contaDigitalHero from "@/assets/conta-digital-hero.png";
 import contaDigitalMenu from "@/assets/conta-digital-menu.png";
+import contaDigitalGestaoMenu from "@/assets/conta-digital-gestao-menu.png";
 import contaDigitalAntecipacao from "@/assets/conta-digital-antecipacao.png";
 import contaDigitalPagamentos from "@/assets/conta-digital-pagamentos.png";
 import contaDigitalAgenda from "@/assets/conta-digital-agenda.png";
 import contaDigitalTransacoes from "@/assets/conta-digital-transacoes.png";
+import FeatureDetailModal from "@/components/FeatureDetailModal";
 
 const ContaDigital = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+  const [selectedFeature, setSelectedFeature] = useState<any>(null);
+  const [isFeatureModalOpen, setIsFeatureModalOpen] = useState(false);
+
+  const handleFeatureClick = (feature: any) => {
+    setSelectedFeature(feature);
+    setIsFeatureModalOpen(true);
+  };
+
   const features = [
     {
       icon: Receipt,
@@ -105,6 +116,19 @@ const ContaDigital = () => {
         "Melhor planejamento financeiro",
         "Controle de liquidações programadas",
         "Flexibilidade na gestão de caixa"
+      ]
+    },
+    {
+      icon: Users,
+      title: "Controle de Beneficiários",
+      description: "Gerencie beneficiários cadastrados para pagamento de Splits com total controle e segurança. Cadastre, edite e acompanhe o status de cada beneficiário.",
+      image: contaDigitalGestaoMenu,
+      benefits: [
+        "Cadastro e gestão completa de beneficiários",
+        "Edição e exclusão de cadastros com nova análise de risco",
+        "Criação direta na Conta Digital sem aprovação manual",
+        "Análise automática de dados bancários e risco",
+        "Acompanhamento de status em tempo real (Ativo, Processando, Recusado)"
       ]
     },
   ];
@@ -265,27 +289,46 @@ const ContaDigital = () => {
       </section>
 
       {/* Additional Features Grid */}
-      <section className="-mt-8 py-8 bg-card/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+      <section className="-mt-8 py-16 bg-gradient-to-br from-primary/5 via-background to-primary/10 relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-10 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4">
+              <Smartphone className="h-4 w-4" />
+              <span className="text-sm font-semibold">Gestão Avançada</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Funcionalidades Exclusivas
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Ferramentas para eficiência financeira do seu negócio
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              Ferramentas poderosas para maximizar a eficiência financeira do seu negócio
             </p>
+            
+            {/* Hero Image */}
+            <div className="max-w-md mx-auto mb-12">
+              <img 
+                src={contaDigitalGestaoMenu} 
+                alt="Menu de Gestão de Recebíveis da Conta Digital"
+                className="w-full drop-shadow-2xl"
+              />
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {features.slice(4).map((feature, index) => (
-              <Card key={index} className="border-2 hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
+              <Card key={index} className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl hover:scale-105 group bg-card/80 backdrop-blur-sm">
                 <CardHeader>
-                  <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
+                  <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                     <feature.icon className="h-7 w-7 text-primary" />
                   </div>
                   <CardTitle className="text-xl mb-3">{feature.title}</CardTitle>
-                  <p className="text-muted-foreground mb-4">{feature.description}</p>
-                  <div className="space-y-2">
+                  <p className="text-muted-foreground mb-4 text-sm">{feature.description}</p>
+                  <div className="space-y-2 mb-4">
                     {feature.benefits.slice(0, 3).map((benefit, idx) => (
                       <div key={idx} className="flex items-start gap-2">
                         <Check className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
@@ -293,6 +336,15 @@ const ContaDigital = () => {
                       </div>
                     ))}
                   </div>
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="w-full mt-2 group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                    onClick={() => handleFeatureClick(feature)}
+                  >
+                    Saber mais
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
                 </CardHeader>
               </Card>
             ))}
@@ -366,6 +418,11 @@ const ContaDigital = () => {
       <ContactFormModal 
         isOpen={isContactModalOpen} 
         onClose={() => setIsContactModalOpen(false)} 
+      />
+      <FeatureDetailModal 
+        isOpen={isFeatureModalOpen} 
+        onClose={() => setIsFeatureModalOpen(false)} 
+        feature={selectedFeature}
       />
     </div>
   );
