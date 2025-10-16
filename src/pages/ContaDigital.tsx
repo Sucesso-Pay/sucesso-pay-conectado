@@ -158,8 +158,7 @@ const ContaDigital = () => {
               Conheça as Funcionalidades em Ação
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Veja como é fácil gerenciar todas as operações financeiras do seu negócio 
-              com as telas reais da Conta Digital Sucesso Pay
+              Veja como é fácil operar e gerar eficiência financeira com a Conta Digital Sucesso Pay
             </p>
           </div>
 
