@@ -92,7 +92,7 @@ export const Navbar = () => {
                         Sou um estabelecimento<br/>comercial
                       </div>
                       <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
-                        Soluções completas para seu estabelecimento
+                        Soluções financeiras para sua empresa
                       </p>
                     </Link>
                   </DropdownMenuItem>
@@ -102,7 +102,7 @@ export const Navbar = () => {
                         Sou um prestador<br/>de serviços
                       </div>
                       <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
-                        Ferramentas ideais para profissionais autônomos
+                        Ferramentas para profissionais autônomos
                       </p>
                     </Link>
                   </DropdownMenuItem>
