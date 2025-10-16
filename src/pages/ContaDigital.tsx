@@ -114,16 +114,16 @@ const ContaDigital = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-primary/10 via-background to-primary/5">
+      <section className="pt-32 pb-0 bg-gradient-to-br from-primary/10 via-background to-primary/5 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="relative order-2 lg:order-1">
-                <div className="relative z-10">
+            <div className="grid lg:grid-cols-2 gap-12 items-end pb-20">
+              <div className="relative order-2 lg:order-1 flex items-end">
+                <div className="relative z-10 w-full">
                   <img 
                     src={contaDigitalHero} 
                     alt="Conta Digital Sucesso Pay na palma da mão"
-                    className="w-full max-w-sm mx-auto drop-shadow-2xl"
+                    className="w-full max-w-md mx-auto drop-shadow-2xl"
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-3xl blur-3xl -z-10"></div>
