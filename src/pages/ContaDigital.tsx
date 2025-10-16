@@ -151,9 +151,9 @@ const ContaDigital = () => {
       </section>
 
       {/* Features Showcase Section */}
-      <section className="py-12 bg-background">
+      <section className="py-8 bg-background">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Conheça as Funcionalidades em Ação
             </h2>
@@ -164,7 +164,7 @@ const ContaDigital = () => {
           </div>
 
           {/* Transações */}
-          <div className="mb-16">
+          <div className="mb-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
               <div className="order-2 lg:order-1">
                 <div className="flex items-center gap-3 mb-6">
@@ -197,7 +197,7 @@ const ContaDigital = () => {
           </div>
 
           {/* Agenda de Recebíveis */}
-          <div className="mb-16 bg-card/50 rounded-3xl p-8 lg:p-12">
+          <div className="mb-8 bg-card/50 rounded-3xl p-8 lg:p-12">
             <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
               <div>
                 <img 
@@ -230,7 +230,7 @@ const ContaDigital = () => {
           </div>
 
           {/* Pagamentos */}
-          <div className="mb-16">
+          <div className="mb-0">
             <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
               <div className="order-2 lg:order-1">
                 <div className="flex items-center gap-3 mb-6">
@@ -266,9 +266,9 @@ const ContaDigital = () => {
       </section>
 
       {/* Additional Features Grid */}
-      <section className="py-12 bg-card/30">
+      <section className="py-8 bg-card/30">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Funcionalidades Exclusivas
             </h2>
@@ -302,7 +302,7 @@ const ContaDigital = () => {
       </section>
 
       {/* Antecipação */}
-      <section className="py-12 bg-background">
+      <section className="py-8 bg-background">
         <div className="container mx-auto px-4">
           <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-8 lg:p-12">
             <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
@@ -339,7 +339,7 @@ const ContaDigital = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-background">
+      <section className="py-12 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
