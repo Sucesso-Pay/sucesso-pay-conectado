@@ -8,7 +8,7 @@ export const Footer = () => {
 
   return (
     <footer className="bg-primary">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-2 md:px-3 py-12">
         <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 gap-6 md:gap-4 lg:gap-8">
           {/* Logo Sucesso Pay */}
           <div className="col-span-1 md:col-span-1 lg:col-span-2 flex items-start">
