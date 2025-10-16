@@ -103,7 +103,7 @@ export const Footer = () => {
 
         {/* Tablet: Logo à esquerda, texto à direita */}
         <div className="hidden md:flex lg:hidden border-t border-white/20 mt-8 pt-8 justify-between items-center">
-          <img src={logoFooter} alt="Sucesso Pay" className="h-20" />
+          <img src={logoFooter} alt="Sucesso Pay" className="h-16" />
           <div className="text-right text-sm text-white/80">
             <p>© {new Date().getFullYear()} Sucesso Pay. Todos os direitos reservados.</p>
             <p className="mt-2">Conta Digital Autorizada pelo Banco Central</p>
