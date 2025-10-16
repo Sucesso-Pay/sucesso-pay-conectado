@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <footer className="bg-primary">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo Sucesso Pay */}
           <div className="col-span-1 md:col-span-2 flex items-start">
             <img src={logoFooter} alt="Sucesso Pay" className="h-20 md:h-24" />
@@ -76,13 +76,13 @@ export const Footer = () => {
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span>0800 123 4567</span>
               </li>
-              <li>
+              <li className="flex items-start gap-2 text-white/80 text-sm">
+                <Headphones className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <button
                   onClick={openAssistant}
-                  className="flex items-start gap-2 text-white/80 hover:text-white transition-colors text-sm group"
+                  className="text-white/80 hover:text-white transition-colors underline text-left"
                 >
-                  <Headphones className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                  <span className="underline">Suporte Técnico</span>
+                  Suporte Técnico
                 </button>
               </li>
               <li className="flex items-start gap-2 text-white/80 text-sm">
