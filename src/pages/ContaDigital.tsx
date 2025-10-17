@@ -25,6 +25,10 @@ import contaDigitalAntecipacao from "@/assets/conta-digital-antecipacao.png";
 import contaDigitalPagamentos from "@/assets/conta-digital-pagamentos.png";
 import contaDigitalAgenda from "@/assets/conta-digital-agenda.png";
 import contaDigitalTransacoes from "@/assets/conta-digital-transacoes.png";
+import contaDigitalSplit from "@/assets/conta-digital-split.jpg";
+import contaDigitalBoletos from "@/assets/conta-digital-boletos.jpg";
+import contaDigitalBeneficiarios from "@/assets/conta-digital-beneficiarios.jpg";
+import contaDigitalAcumulo from "@/assets/conta-digital-acumulo.jpg";
 import FeatureDetailModal from "@/components/FeatureDetailModal";
 
 const ContaDigital = () => {
@@ -90,46 +94,49 @@ const ContaDigital = () => {
       icon: Split,
       title: "Split de Recebíveis",
       description: "Divida automaticamente seus recebimentos com fornecedores e parceiros. Configure splits personalizados e automatize pagamentos.",
+      image: contaDigitalSplit,
       benefits: [
-        "Divisão automática de recebíveis",
-        "Gestão de múltiplos beneficiários",
-        "Configuração flexível de percentuais",
-        "Pagamentos automáticos para parceiros"
+        "Criação de novos splits diretamente no app",
+        "Aprovação automática dos splits criados na Conta Digital",
+        "Visualização de splits já criados com status em tempo real",
+        "Pagamento automático na data programada se houver saldo suficiente"
       ]
     },
     {
       icon: Banknote,
       title: "Pagamento de Boletos",
       description: "Pague boletos usando seus recebíveis futuros. Programe pagamentos e mantenha seu capital de giro preservado.",
+      image: contaDigitalBoletos,
       benefits: [
-        "Pagamento com recebíveis futuros",
-        "Agendamento de pagamentos",
-        "Desconto automático da agenda",
-        "Preservação do capital de giro"
+        "Escaneie o código de barras ou digite a linha digitável",
+        "Defina a data programada para pagamento",
+        "Visualize status: Processando, Concluído, Recusado ou Cancelado",
+        "Edite ou cancele boletos antes da data programada"
       ]
     },
     {
       icon: Users,
       title: "Controle de Beneficiários",
       description: "Gerencie beneficiários cadastrados para pagamento de Splits com total controle e segurança. Cadastre, edite e acompanhe o status de cada beneficiário.",
-      image: contaDigitalGestaoMenu,
+      image: contaDigitalBeneficiarios,
       benefits: [
-        "Cadastro e gestão completa de beneficiários",
-        "Edição e exclusão de cadastros com nova análise de risco",
-        "Criação direta na Conta Digital sem aprovação manual",
-        "Análise automática de dados bancários e risco",
-        "Acompanhamento de status em tempo real (Ativo, Processando, Recusado)"
+        "Visualize lista completa de beneficiários cadastrados",
+        "Crie novos beneficiários direto no app sem aprovação manual",
+        "Edite ou exclua cadastros (requer nova análise de risco)",
+        "Acompanhe status: Ativo, Processando ou Recusado",
+        "Análise automática de dados bancários e risco"
       ]
     },
     {
       icon: PiggyBank,
       title: "Acúmulo de Recebíveis",
-      description: "Acumule valores por períodos personalizados para melhor gestão do seu fluxo de caixa. Defina quando liquidar e mantenha controle total.",
+      description: "Configure quantos dias deseja acumular seus recebíveis antes da liquidação. Ideal para melhor planejamento do fluxo de caixa.",
+      image: contaDigitalAcumulo,
       benefits: [
-        "Acúmulo por períodos personalizados",
-        "Melhor planejamento financeiro",
-        "Controle de liquidações programadas",
-        "Flexibilidade na gestão de caixa"
+        "Defina intervalo de acúmulo personalizado (em dias)",
+        "ECs não antecipados: acumulam débito e Pix",
+        "ECs antecipados: acumulam crédito e débito separadamente",
+        "Alteração com efetivação imediata no sistema"
       ]
     },
   ];
