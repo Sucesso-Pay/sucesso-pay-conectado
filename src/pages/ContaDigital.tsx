@@ -351,17 +351,17 @@ const ContaDigital = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {features.slice(4).map((feature, index) => (
-              <Card key={index} className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl hover:scale-105 group bg-card/80 backdrop-blur-sm">
-                <CardHeader>
+              <Card key={index} className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl hover:scale-105 group bg-card/80 backdrop-blur-sm flex flex-col">
+                <CardHeader className="flex-1 flex flex-col">
                   <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                     <feature.icon className="h-7 w-7 text-primary" />
                   </div>
                   <CardTitle className="text-xl mb-3">{feature.title}</CardTitle>
-                  <p className="text-muted-foreground mb-4 text-sm">{feature.description}</p>
+                  <p className="text-muted-foreground mb-6 text-sm flex-1">{feature.description}</p>
                   <Button 
                     variant="outline" 
                     size="sm" 
-                    className="w-full mt-2 group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                     onClick={() => handleFeatureClick(feature)}
                     onMouseEnter={() => handleFeatureHover(feature)}
                     onMouseLeave={handleFeatureLeave}
