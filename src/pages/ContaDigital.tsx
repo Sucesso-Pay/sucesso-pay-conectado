@@ -20,6 +20,7 @@ import {
 import contaDigitalHero from "@/assets/conta-digital-hero.png";
 import contaDigitalMenu from "@/assets/conta-digital-menu.png";
 import contaDigitalGestaoMenu from "@/assets/conta-digital-gestao-menu.png";
+import contaDigitalFuncionalidades from "@/assets/conta-digital-funcionalidades.png";
 import contaDigitalAntecipacao from "@/assets/conta-digital-antecipacao.png";
 import contaDigitalPagamentos from "@/assets/conta-digital-pagamentos.png";
 import contaDigitalAgenda from "@/assets/conta-digital-agenda.png";
@@ -302,8 +303,8 @@ const ContaDigital = () => {
               <div className="order-2 lg:order-1">
                 <div className="relative z-10 w-full">
                   <img 
-                    src={contaDigitalGestaoMenu} 
-                    alt="Menu de Gestão de Recebíveis da Conta Digital"
+                    src={contaDigitalFuncionalidades} 
+                    alt="Funcionalidades Exclusivas da Conta Digital"
                     className="w-full max-w-md mx-auto drop-shadow-2xl"
                   />
                 </div>
