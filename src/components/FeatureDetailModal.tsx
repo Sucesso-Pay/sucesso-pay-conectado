@@ -19,37 +19,39 @@ const FeatureDetailModal = ({ isOpen, onClose, feature }: FeatureDetailModalProp
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto">
+      <DialogContent className="max-w-5xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="text-2xl md:text-3xl font-bold mb-4">
             {feature.title}
           </DialogTitle>
         </DialogHeader>
         
-        <div className="space-y-6">
+        <div className="grid md:grid-cols-2 gap-6 items-start">
           {feature.image && (
-            <div className="w-full rounded-xl overflow-hidden shadow-lg">
+            <div className="w-full rounded-xl overflow-hidden shadow-lg md:sticky md:top-0">
               <img 
                 src={feature.image} 
                 alt={`Tela de ${feature.title}`}
-                className="w-full h-auto"
+                className="w-full h-auto max-w-sm mx-auto"
               />
             </div>
           )}
           
-          <p className="text-lg text-muted-foreground">
-            {feature.description}
-          </p>
-          
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Como funciona:</h3>
-            <div className="space-y-3">
-              {feature.benefits.map((benefit, idx) => (
-                <div key={idx} className="flex items-start gap-3 p-3 rounded-lg bg-muted/50">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>{benefit}</span>
-                </div>
-              ))}
+          <div className="space-y-4">
+            <p className="text-base text-muted-foreground">
+              {feature.description}
+            </p>
+            
+            <div>
+              <h3 className="text-lg font-semibold mb-3">Como funciona:</h3>
+              <div className="space-y-2">
+                {feature.benefits.map((benefit, idx) => (
+                  <div key={idx} className="flex items-start gap-2 p-2 rounded-lg bg-muted/50">
+                    <Check className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-sm">{benefit}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
