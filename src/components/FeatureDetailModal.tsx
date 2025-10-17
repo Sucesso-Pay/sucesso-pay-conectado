@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 interface FeatureDetail {
   title: string;
   description: string;
-  benefits: string[];
+  benefits: (string | React.ReactNode)[];
   image?: string;
 }
 

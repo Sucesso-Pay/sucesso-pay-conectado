@@ -99,7 +99,7 @@ const ContaDigital = () => {
         "Criação e aprovação automática dos splits criados pela Conta Digital",
         "Visualização de splits já criados com status em tempo real",
         "Aprovação dos splits criados na plataforma de Gestão Financeira pelos seus funcionários",
-        "Agendamento de pagamentos de fornecedores, quitando boletos ou realizando Pix na data programada"
+        <strong key="agendamento">Agendamento de pagamentos de fornecedores, quitando boletos ou realizando Pix na data programada</strong>
       ]
     },
     {
