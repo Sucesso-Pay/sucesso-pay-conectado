@@ -7,12 +7,13 @@ import ContactFormModal from "./ContactFormModal";
 import { useVirtualAssistant } from "@/contexts/VirtualAssistantContext";
 
 const VirtualAssistantPopup = () => {
-  const { isOpen, closeAssistant, openAssistantWithSound } = useVirtualAssistant();
+  const { isOpen, shouldPlaySound, closeAssistant, openAssistantWithSound } = useVirtualAssistant();
   // Verificar se já foi mostrado nesta sessão
   const [hasShown, setHasShown] = useState(() => {
     return sessionStorage.getItem('virtualAssistantShown') === 'true';
   });
   const [isContactFormOpen, setIsContactFormOpen] = useState(false);
+  const [soundPlayed, setSoundPlayed] = useState(false); // Controlar se o som já foi tocado
 
   // Texto de apresentação - EDITE AQUI
   const welcomeMessage = "Olá! Precisa de ajuda? Estou aqui para atender você!";
@@ -20,7 +21,7 @@ const VirtualAssistantPopup = () => {
   // Número do WhatsApp de Suporte - EDITE AQUI
   const supportWhatsappNumber = "5511999999999"; // Formato: código do país + DDD + número
 
-  // Função para tocar som de notificação sincronizado com abertura
+  // Função para tocar som de notificação - apenas quando popup abrir
   const playNotificationSound = () => {
     const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
     const oscillator = audioContext.createOscillator();
@@ -54,21 +55,32 @@ const VirtualAssistantPopup = () => {
     }, 100);
   };
 
+  // Tocar som quando popup abrir com som habilitado - APENAS UMA VEZ
+  useEffect(() => {
+    if (isOpen && shouldPlaySound && !soundPlayed) {
+      playNotificationSound();
+      setSoundPlayed(true);
+    }
+    // Reset quando fechar
+    if (!isOpen) {
+      setSoundPlayed(false);
+    }
+  }, [isOpen, shouldPlaySound, soundPlayed]);
+
+  // Detectar inatividade e abandono
   useEffect(() => {
     if (hasShown) return;
 
     let inactivityTimer: NodeJS.Timeout;
-    let mouseMovementTimer: NodeJS.Timeout;
 
     // Detectar inatividade do mouse (30 segundos)
     const resetInactivityTimer = () => {
       clearTimeout(inactivityTimer);
       if (!hasShown) {
         inactivityTimer = setTimeout(() => {
-          playNotificationSound();
-          setTimeout(() => openAssistantWithSound(), 50); // Pequeno delay para sincronizar
+          openAssistantWithSound();
           setHasShown(true);
-          sessionStorage.setItem('virtualAssistantShown', 'true'); // Persistir para toda a sessão
+          sessionStorage.setItem('virtualAssistantShown', 'true');
         }, 30000); // 30 segundos
       }
     };
@@ -76,10 +88,9 @@ const VirtualAssistantPopup = () => {
     // Detectar tentativa de sair da página
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0 && !hasShown) {
-        playNotificationSound();
-        setTimeout(() => openAssistantWithSound(), 50); // Pequeno delay para sincronizar
+        openAssistantWithSound();
         setHasShown(true);
-        sessionStorage.setItem('virtualAssistantShown', 'true'); // Persistir para toda a sessão
+        sessionStorage.setItem('virtualAssistantShown', 'true');
       }
     };
 
@@ -90,7 +101,6 @@ const VirtualAssistantPopup = () => {
 
     return () => {
       clearTimeout(inactivityTimer);
-      clearTimeout(mouseMovementTimer);
       document.removeEventListener("mousemove", resetInactivityTimer);
       document.removeEventListener("mouseleave", handleMouseLeave);
     };

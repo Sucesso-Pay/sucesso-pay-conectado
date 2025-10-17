@@ -2,6 +2,7 @@ import { createContext, useContext, useState, ReactNode } from "react";
 
 interface VirtualAssistantContextType {
   isOpen: boolean;
+  shouldPlaySound: boolean;
   openAssistant: () => void;
   openAssistantWithSound: () => void;
   closeAssistant: () => void;
@@ -13,7 +14,10 @@ export const VirtualAssistantProvider = ({ children }: { children: ReactNode }) 
   const [isOpen, setIsOpen] = useState(false);
   const [shouldPlaySound, setShouldPlaySound] = useState(false);
 
-  const openAssistant = () => setIsOpen(true);
+  const openAssistant = () => {
+    setShouldPlaySound(false);
+    setIsOpen(true);
+  };
   
   const openAssistantWithSound = () => {
     setShouldPlaySound(true);
@@ -26,7 +30,7 @@ export const VirtualAssistantProvider = ({ children }: { children: ReactNode }) 
   };
 
   return (
-    <VirtualAssistantContext.Provider value={{ isOpen, openAssistant, openAssistantWithSound, closeAssistant }}>
+    <VirtualAssistantContext.Provider value={{ isOpen, shouldPlaySound, openAssistant, openAssistantWithSound, closeAssistant }}>
       {children}
     </VirtualAssistantContext.Provider>
   );
