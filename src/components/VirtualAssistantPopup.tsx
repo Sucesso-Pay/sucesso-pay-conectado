@@ -17,6 +17,40 @@ const VirtualAssistantPopup = () => {
   // Número do WhatsApp de Suporte - EDITE AQUI
   const supportWhatsappNumber = "5511999999999"; // Formato: código do país + DDD + número
 
+  // Função para tocar som de notificação
+  const playNotificationSound = () => {
+    const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+    const oscillator = audioContext.createOscillator();
+    const gainNode = audioContext.createGain();
+    
+    oscillator.connect(gainNode);
+    gainNode.connect(audioContext.destination);
+    
+    // Som tipo mensagem recebida - duas notas rápidas
+    oscillator.frequency.value = 800;
+    gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+    
+    oscillator.start(audioContext.currentTime);
+    oscillator.stop(audioContext.currentTime + 0.1);
+    
+    // Segunda nota
+    setTimeout(() => {
+      const oscillator2 = audioContext.createOscillator();
+      const gainNode2 = audioContext.createGain();
+      
+      oscillator2.connect(gainNode2);
+      gainNode2.connect(audioContext.destination);
+      
+      oscillator2.frequency.value = 1000;
+      gainNode2.gain.setValueAtTime(0.3, audioContext.currentTime);
+      gainNode2.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+      
+      oscillator2.start(audioContext.currentTime);
+      oscillator2.stop(audioContext.currentTime + 0.1);
+    }, 100);
+  };
+
   useEffect(() => {
     if (hasShown) return;
 
@@ -28,6 +62,7 @@ const VirtualAssistantPopup = () => {
       clearTimeout(inactivityTimer);
       if (!hasShown) {
         inactivityTimer = setTimeout(() => {
+          playNotificationSound(); // Tocar som antes de abrir
           openAssistant();
           setHasShown(true);
         }, 30000); // 30 segundos
@@ -37,6 +72,7 @@ const VirtualAssistantPopup = () => {
     // Detectar tentativa de sair da página
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0 && !hasShown) {
+        playNotificationSound(); // Tocar som antes de abrir
         openAssistant();
         setHasShown(true);
       }
@@ -53,7 +89,7 @@ const VirtualAssistantPopup = () => {
       document.removeEventListener("mousemove", resetInactivityTimer);
       document.removeEventListener("mouseleave", handleMouseLeave);
     };
-  }, [hasShown]);
+  }, [hasShown, openAssistant]);
 
   const handleCommercialClick = () => {
     closeAssistant();
