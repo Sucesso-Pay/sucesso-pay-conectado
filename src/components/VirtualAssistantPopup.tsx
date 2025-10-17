@@ -157,9 +157,8 @@ const VirtualAssistantPopup = () => {
                   
                   <Button
                     onClick={handleSupportClick}
-                    variant="outline"
                     size="lg"
-                    className="w-full text-base h-12"
+                    className="w-full text-base h-12 bg-primary/20 text-primary hover:bg-primary/30 border-0"
                   >
                     <Headphones className="mr-2 h-5 w-5" />
                     Já sou cliente e preciso de suporte
