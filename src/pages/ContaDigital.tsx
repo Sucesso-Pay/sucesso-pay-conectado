@@ -108,17 +108,6 @@ const ContaDigital = () => {
       ]
     },
     {
-      icon: PiggyBank,
-      title: "Acúmulo de Recebíveis",
-      description: "Acumule valores por períodos personalizados para melhor gestão do seu fluxo de caixa. Defina quando liquidar e mantenha controle total.",
-      benefits: [
-        "Acúmulo por períodos personalizados",
-        "Melhor planejamento financeiro",
-        "Controle de liquidações programadas",
-        "Flexibilidade na gestão de caixa"
-      ]
-    },
-    {
       icon: Users,
       title: "Controle de Beneficiários",
       description: "Gerencie beneficiários cadastrados para pagamento de Splits com total controle e segurança. Cadastre, edite e acompanhe o status de cada beneficiário.",
@@ -129,6 +118,17 @@ const ContaDigital = () => {
         "Criação direta na Conta Digital sem aprovação manual",
         "Análise automática de dados bancários e risco",
         "Acompanhamento de status em tempo real (Ativo, Processando, Recusado)"
+      ]
+    },
+    {
+      icon: PiggyBank,
+      title: "Acúmulo de Recebíveis",
+      description: "Acumule valores por períodos personalizados para melhor gestão do seu fluxo de caixa. Defina quando liquidar e mantenha controle total.",
+      benefits: [
+        "Acúmulo por períodos personalizados",
+        "Melhor planejamento financeiro",
+        "Controle de liquidações programadas",
+        "Flexibilidade na gestão de caixa"
       ]
     },
   ];
