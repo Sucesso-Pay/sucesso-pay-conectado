@@ -425,12 +425,8 @@ const ContaDigital = () => {
               com a Conta Digital Sucesso Pay. Tenha controle total, transparência e 
               eficiência em todas as suas operações.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <Button size="lg" className="font-semibold" onClick={() => setIsContactModalOpen(true)}>
-                Quero Abrir Minha Conta
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="font-semibold" onClick={() => setIsContactModalOpen(true)}>
                 Falar com Especialista
               </Button>
             </div>
