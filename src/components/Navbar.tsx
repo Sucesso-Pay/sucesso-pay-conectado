@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, Headphones } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -14,6 +14,7 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import logo from "@/assets/logo.png";
+import { useVirtualAssistant } from "@/contexts/VirtualAssistantContext";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ export const Navbar = () => {
   const [isSegmentosOpen, setIsSegmentosOpen] = useState(false);
   const [isSolucoesDropdownOpen, setIsSolucoesDropdownOpen] = useState(false);
   const [isSegmentosDropdownOpen, setIsSegmentosDropdownOpen] = useState(false);
+  const { openAssistant } = useVirtualAssistant();
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -31,7 +33,7 @@ export const Navbar = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-4">
             <div 
               className="relative"
               onMouseEnter={() => setIsSolucoesDropdownOpen(true)}
@@ -129,6 +131,14 @@ export const Navbar = () => {
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
+
+            <Button
+              onClick={openAssistant}
+              className="bg-primary/20 text-primary hover:bg-primary/30 font-bold text-lg px-6 border-0"
+            >
+              <Headphones className="mr-2 h-5 w-5" />
+              Atendimento
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -211,6 +221,17 @@ export const Navbar = () => {
                   </Link>
                 </CollapsibleContent>
               </Collapsible>
+
+              <Button
+                onClick={() => {
+                  openAssistant();
+                  setIsOpen(false);
+                }}
+                className="bg-primary/20 text-primary hover:bg-primary/30 font-bold w-full justify-start px-4 border-0"
+              >
+                <Headphones className="mr-2 h-5 w-5" />
+                Atendimento
+              </Button>
             </div>
           </div>
         )}
