@@ -35,10 +35,27 @@ const ContaDigital = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   const [selectedFeature, setSelectedFeature] = useState<any>(null);
   const [isFeatureModalOpen, setIsFeatureModalOpen] = useState(false);
+  const [hoverTimeout, setHoverTimeout] = useState<NodeJS.Timeout | null>(null);
 
   const handleFeatureClick = (feature: any) => {
     setSelectedFeature(feature);
     setIsFeatureModalOpen(true);
+  };
+
+  const handleFeatureHover = (feature: any) => {
+    if (hoverTimeout) clearTimeout(hoverTimeout);
+    const timeout = setTimeout(() => {
+      setSelectedFeature(feature);
+      setIsFeatureModalOpen(true);
+    }, 600);
+    setHoverTimeout(timeout);
+  };
+
+  const handleFeatureLeave = () => {
+    if (hoverTimeout) {
+      clearTimeout(hoverTimeout);
+      setHoverTimeout(null);
+    }
   };
 
   const features = [
@@ -346,7 +363,8 @@ const ContaDigital = () => {
                     size="sm" 
                     className="w-full mt-2 group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                     onClick={() => handleFeatureClick(feature)}
-                    onMouseEnter={() => handleFeatureClick(feature)}
+                    onMouseEnter={() => handleFeatureHover(feature)}
+                    onMouseLeave={handleFeatureLeave}
                   >
                     Saber mais
                     <ArrowRight className="ml-2 h-4 w-4" />

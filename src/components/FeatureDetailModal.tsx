@@ -19,7 +19,7 @@ const FeatureDetailModal = ({ isOpen, onClose, feature }: FeatureDetailModalProp
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-5xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-5xl max-h-[90vh] overflow-y-auto animate-in zoom-in-95 duration-300">
         <DialogHeader>
           <DialogTitle className="text-2xl md:text-3xl font-bold mb-4">
             {feature.title}
