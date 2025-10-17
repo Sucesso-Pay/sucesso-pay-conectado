@@ -341,19 +341,12 @@ const ContaDigital = () => {
                   </div>
                   <CardTitle className="text-xl mb-3">{feature.title}</CardTitle>
                   <p className="text-muted-foreground mb-4 text-sm">{feature.description}</p>
-                  <div className="space-y-2 mb-4">
-                    {feature.benefits.slice(0, 3).map((benefit, idx) => (
-                      <div key={idx} className="flex items-start gap-2">
-                        <Check className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                        <span className="text-sm text-muted-foreground">{benefit}</span>
-                      </div>
-                    ))}
-                  </div>
                   <Button 
                     variant="outline" 
                     size="sm" 
                     className="w-full mt-2 group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                     onClick={() => handleFeatureClick(feature)}
+                    onMouseEnter={() => handleFeatureClick(feature)}
                   >
                     Saber mais
                     <ArrowRight className="ml-2 h-4 w-4" />
