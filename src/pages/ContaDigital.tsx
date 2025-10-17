@@ -122,7 +122,7 @@ const ContaDigital = () => {
       benefits: [
         "Visualize lista completa de beneficiários cadastrados",
         "Crie novos beneficiários direto no app sem aprovação manual",
-        "Edite ou exclua cadastros (requer nova análise de risco)",
+        "Aprove, Edite ou exclua cadastros",
         "Acompanhe status: Ativo, Processando ou Recusado",
         "Análise automática de dados bancários e risco"
       ]
