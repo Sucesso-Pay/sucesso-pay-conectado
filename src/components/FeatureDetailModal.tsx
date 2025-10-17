@@ -26,13 +26,13 @@ const FeatureDetailModal = ({ isOpen, onClose, feature }: FeatureDetailModalProp
           </DialogTitle>
         </DialogHeader>
         
-        <div className="grid md:grid-cols-[280px,1fr] gap-3 items-start pr-8">
+        <div className="grid md:grid-cols-[320px,1fr] gap-4 items-start pr-8">
           {feature.image && (
             <div className="w-full md:sticky md:top-0">
               <img 
                 src={feature.image} 
                 alt={`Tela de ${feature.title}`}
-                className="w-full h-auto max-w-[280px] mx-auto drop-shadow-2xl"
+                className="w-full h-auto max-w-[320px] mx-auto drop-shadow-2xl"
               />
             </div>
           )}
