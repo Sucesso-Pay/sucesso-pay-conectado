@@ -8,7 +8,10 @@ import { useVirtualAssistant } from "@/contexts/VirtualAssistantContext";
 
 const VirtualAssistantPopup = () => {
   const { isOpen, closeAssistant, openAssistantWithSound } = useVirtualAssistant();
-  const [hasShown, setHasShown] = useState(false);
+  // Verificar se já foi mostrado nesta sessão
+  const [hasShown, setHasShown] = useState(() => {
+    return sessionStorage.getItem('virtualAssistantShown') === 'true';
+  });
   const [isContactFormOpen, setIsContactFormOpen] = useState(false);
 
   // Texto de apresentação - EDITE AQUI
@@ -65,6 +68,7 @@ const VirtualAssistantPopup = () => {
           playNotificationSound();
           setTimeout(() => openAssistantWithSound(), 50); // Pequeno delay para sincronizar
           setHasShown(true);
+          sessionStorage.setItem('virtualAssistantShown', 'true'); // Persistir para toda a sessão
         }, 30000); // 30 segundos
       }
     };
@@ -75,6 +79,7 @@ const VirtualAssistantPopup = () => {
         playNotificationSound();
         setTimeout(() => openAssistantWithSound(), 50); // Pequeno delay para sincronizar
         setHasShown(true);
+        sessionStorage.setItem('virtualAssistantShown', 'true'); // Persistir para toda a sessão
       }
     };
 
