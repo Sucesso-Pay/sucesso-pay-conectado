@@ -10,6 +10,7 @@ import ContaDigital from "./pages/ContaDigital";
 import Maquininhas from "./pages/Maquininhas";
 import EstabelecimentoComercial from "./pages/EstabelecimentoComercial";
 import PrestadorServicos from "./pages/PrestadorServicos";
+import ProcessImages from "./pages/ProcessImages";
 import NotFound from "./pages/NotFound";
 import VirtualAssistantPopup from "./components/VirtualAssistantPopup";
 import { VirtualAssistantProvider } from "./contexts/VirtualAssistantContext";
@@ -32,6 +33,7 @@ const App = () => (
           <Route path="/maquininhas" element={<Maquininhas />} />
           <Route path="/estabelecimento-comercial" element={<EstabelecimentoComercial />} />
           <Route path="/prestador-servicos" element={<PrestadorServicos />} />
+          <Route path="/process-images" element={<ProcessImages />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

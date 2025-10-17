@@ -28,11 +28,11 @@ const FeatureDetailModal = ({ isOpen, onClose, feature }: FeatureDetailModalProp
         
         <div className="grid md:grid-cols-2 gap-6 items-start">
           {feature.image && (
-            <div className="w-full rounded-xl overflow-hidden shadow-lg md:sticky md:top-0">
+            <div className="w-full md:sticky md:top-0">
               <img 
                 src={feature.image} 
                 alt={`Tela de ${feature.title}`}
-                className="w-full h-auto max-w-sm mx-auto"
+                className="w-full h-auto max-w-[280px] mx-auto drop-shadow-2xl"
               />
             </div>
           )}
