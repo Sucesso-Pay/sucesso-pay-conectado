@@ -93,7 +93,7 @@ const ContaDigital = () => {
     {
       icon: Split,
       title: "Split de Recebíveis",
-      description: "Divida automaticamente seus recebimentos com fornecedores e parceiros. Configure splits personalizados e automatize pagamentos.",
+      description: "Divida seus recebíveis com fornecedores e parceiros. Configure splits personalizados após as vendas ou automatize percentuais de royalties ou comissões.",
       image: contaDigitalSplit,
       benefits: [
         "Criação de novos splits diretamente no app",
