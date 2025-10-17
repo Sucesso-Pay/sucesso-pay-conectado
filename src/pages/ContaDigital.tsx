@@ -96,7 +96,7 @@ const ContaDigital = () => {
       description: "Divida seus recebíveis com fornecedores e parceiros. Realize splits personalizados após as vendas ou automatize percentuais de royalties ou comissões, que ocorrerão durante a venda",
       image: contaDigitalSplit,
       benefits: [
-        "Criação e aprovação automática dos splits criados na Conta Digital",
+        "Criação e aprovação automática dos splits criados pela Conta Digital",
         "Aprovação dos splits criados na plataforma de Gestão Financeira pelos seus funcionários",
         "Visualização de splits já criados com status em tempo real",
         "Pagamento automático na data programada se houver saldo suficiente"
