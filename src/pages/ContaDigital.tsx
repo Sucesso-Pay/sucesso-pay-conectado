@@ -297,25 +297,30 @@ const ContaDigital = () => {
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4">
-              <Smartphone className="h-4 w-4" />
-              <span className="text-sm font-semibold">Gestão Avançada</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Funcionalidades Exclusivas
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Ferramentas poderosas para maximizar a eficiência financeira do seu negócio
-            </p>
-            
-            {/* Hero Image */}
-            <div className="max-w-md mx-auto mb-12">
-              <img 
-                src={contaDigitalGestaoMenu} 
-                alt="Menu de Gestão de Recebíveis da Conta Digital"
-                className="w-full drop-shadow-2xl"
-              />
+          <div className="max-w-6xl mx-auto mb-16">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1">
+                <div className="relative z-10 w-full">
+                  <img 
+                    src={contaDigitalGestaoMenu} 
+                    alt="Menu de Gestão de Recebíveis da Conta Digital"
+                    className="w-full max-w-md mx-auto drop-shadow-2xl"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-3xl blur-3xl -z-10"></div>
+              </div>
+              <div className="order-1 lg:order-2">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4">
+                  <Smartphone className="h-4 w-4" />
+                  <span className="text-sm font-semibold">Gestão Avançada</span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                  Funcionalidades Exclusivas
+                </h2>
+                <p className="text-xl text-muted-foreground">
+                  Ferramentas poderosas para maximizar a eficiência financeira do seu negócio
+                </p>
+              </div>
             </div>
           </div>
 
