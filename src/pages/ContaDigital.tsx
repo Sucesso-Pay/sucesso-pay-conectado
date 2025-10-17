@@ -328,7 +328,7 @@ const ContaDigital = () => {
                 <div className="relative z-10 w-full">
                   <img 
                     src={contaDigitalFuncionalidades} 
-                    alt="Funcionalidades Exclusivas da Conta Digital"
+                    alt="Funcionalidades de Sucesso da Conta Digital"
                     className="w-full max-w-md mx-auto drop-shadow-2xl"
                   />
                 </div>
@@ -340,7 +340,7 @@ const ContaDigital = () => {
                   <span className="text-sm font-semibold">Gestão Avançada</span>
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                  Funcionalidades Exclusivas
+                  Funcionalidades de Sucesso
                 </h2>
                 <p className="text-xl text-muted-foreground">
                   Ferramentas poderosas para maximizar a eficiência financeira do seu negócio
