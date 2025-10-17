@@ -97,6 +97,7 @@ const ContaDigital = () => {
       image: contaDigitalSplit,
       benefits: [
         "Criação e aprovação automática dos splits criados na Conta Digital",
+        "Aprovação dos splits criados na plataforma de Gestão Financeira pelos seus funcionários",
         "Visualização de splits já criados com status em tempo real",
         "Pagamento automático na data programada se houver saldo suficiente"
       ]
