@@ -7,7 +7,7 @@ import ContactFormModal from "./ContactFormModal";
 import { useVirtualAssistant } from "@/contexts/VirtualAssistantContext";
 
 const VirtualAssistantPopup = () => {
-  const { isOpen, closeAssistant, openAssistant } = useVirtualAssistant();
+  const { isOpen, closeAssistant, openAssistantWithSound } = useVirtualAssistant();
   const [hasShown, setHasShown] = useState(false);
   const [isContactFormOpen, setIsContactFormOpen] = useState(false);
 
@@ -17,7 +17,7 @@ const VirtualAssistantPopup = () => {
   // Número do WhatsApp de Suporte - EDITE AQUI
   const supportWhatsappNumber = "5511999999999"; // Formato: código do país + DDD + número
 
-  // Função para tocar som de notificação
+  // Função para tocar som de notificação sincronizado com abertura
   const playNotificationSound = () => {
     const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
     const oscillator = audioContext.createOscillator();
@@ -62,8 +62,8 @@ const VirtualAssistantPopup = () => {
       clearTimeout(inactivityTimer);
       if (!hasShown) {
         inactivityTimer = setTimeout(() => {
-          playNotificationSound(); // Tocar som antes de abrir
-          openAssistant();
+          playNotificationSound();
+          setTimeout(() => openAssistantWithSound(), 50); // Pequeno delay para sincronizar
           setHasShown(true);
         }, 30000); // 30 segundos
       }
@@ -72,8 +72,8 @@ const VirtualAssistantPopup = () => {
     // Detectar tentativa de sair da página
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0 && !hasShown) {
-        playNotificationSound(); // Tocar som antes de abrir
-        openAssistant();
+        playNotificationSound();
+        setTimeout(() => openAssistantWithSound(), 50); // Pequeno delay para sincronizar
         setHasShown(true);
       }
     };
@@ -89,7 +89,7 @@ const VirtualAssistantPopup = () => {
       document.removeEventListener("mousemove", resetInactivityTimer);
       document.removeEventListener("mouseleave", handleMouseLeave);
     };
-  }, [hasShown, openAssistant]);
+  }, [hasShown, openAssistantWithSound]);
 
   const handleCommercialClick = () => {
     closeAssistant();
