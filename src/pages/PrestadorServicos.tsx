@@ -124,7 +124,7 @@ const PrestadorServicos = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Ofereça parcelamento</h3>
                       <p className="text-muted-foreground">
-                        Facilite o acesso dos pacientes aos tratamentos com parcelamento flexível.
+                        Facilite o acesso dos pacientes aos tratamentos com parcelamento flexível e entrada com Pix ou Boleto.
                       </p>
                     </div>
                   </div>
