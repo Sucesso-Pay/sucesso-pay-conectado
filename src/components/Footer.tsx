@@ -8,7 +8,7 @@ export const Footer = () => {
 
   return (
     <footer className="bg-primary">
-      <div className="container mx-auto px-2 md:px-3 py-12">
+      <div className="container py-12">
         {/* Grid de conteúdo - Mobile e Desktop */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-4 lg:gap-8">
           {/* Logo - Apenas Mobile e Desktop */}

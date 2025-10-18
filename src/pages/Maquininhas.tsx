@@ -21,7 +21,7 @@ const Maquininhas = () => {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
-        <div className="container mx-auto px-4 relative">
+        <div className="container relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
@@ -49,7 +49,7 @@ const Maquininhas = () => {
 
       {/* Características Principais */}
       <section className="py-20 bg-secondary/30">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Características Principais</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -93,7 +93,7 @@ const Maquininhas = () => {
 
       {/* Formas de Pagamento */}
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Aceite Todas as Formas de Pagamento</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -143,7 +143,7 @@ const Maquininhas = () => {
 
       {/* Benefícios */}
       <section className="py-20 bg-gradient-to-br from-primary to-primary/80">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="text-center text-white mb-12">
             <h2 className="text-4xl font-bold mb-4">Por Que Escolher Nossas Maquininhas?</h2>
           </div>
@@ -181,7 +181,7 @@ const Maquininhas = () => {
 
       {/* Diferenciais */}
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <h2 className="text-4xl font-bold mb-8 text-center">Diferenciais das Nossas Maquininhas</h2>
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="flex items-start gap-4">
@@ -235,7 +235,7 @@ const Maquininhas = () => {
 
       {/* CTA Final */}
       <section className="py-20 bg-background">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container text-center">
           <h2 className="text-4xl font-bold mb-4">
             Pronto para Modernizar Seu Negócio?
           </h2>

@@ -30,7 +30,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
-        <div className="container mx-auto px-4 relative">
+        <div className="container relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
@@ -78,7 +78,7 @@ const Home = () => {
           }}
         />
         
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container relative z-10">
           <div className="text-center text-white mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Gestão Financeira Inteligente</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto font-bold">
@@ -129,7 +129,7 @@ const Home = () => {
 
       {/* Formas de Cobrança */}
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Várias Formas de Receber</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -188,7 +188,7 @@ const Home = () => {
 
       {/* Produtos */}
       <section className="py-20 bg-secondary/30">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
             <div className="order-2 md:order-1">
               <img src={posImage} alt="Maquininha Sucesso Pay" className="w-full max-w-md mx-auto" />
@@ -281,7 +281,7 @@ const Home = () => {
           }}
         />
         
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container relative z-10">
           <div className="text-center mb-12">
             <Card className="max-w-4xl mx-auto">
               <CardContent className="pt-6 pb-6">
@@ -335,7 +335,7 @@ const Home = () => {
 
       {/* Diferenciais */}
       <section className="py-20 bg-secondary/30">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Por Que Escolher a Sucesso Pay?</h2>
           </div>
@@ -373,7 +373,7 @@ const Home = () => {
 
       {/* CTA Final */}
       <section className="py-20 bg-background">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container text-center">
           <h2 className="text-4xl font-bold mb-4">
             Pronto para um novo salto de sucesso?
           </h2>

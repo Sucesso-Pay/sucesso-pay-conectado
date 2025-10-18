@@ -12,7 +12,7 @@ const WhiteLabel = () => {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
-        <div className="container mx-auto px-4 relative">
+        <div className="container relative">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
               Soluções{" "}
@@ -31,7 +31,7 @@ const WhiteLabel = () => {
 
       {/* Diferenciais White Label */}
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Tecnologia Exclusiva com Sua Marca</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -110,7 +110,7 @@ const WhiteLabel = () => {
 
       {/* Funcionalidades */}
       <section className="py-20 bg-gradient-to-br from-primary to-primary/80">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="text-center text-white mb-12">
             <h2 className="text-4xl font-bold mb-4">Plataforma Completa e Personalizável</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
@@ -184,7 +184,7 @@ const WhiteLabel = () => {
 
       {/* Casos de Uso */}
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Perfeito Para</h2>
           </div>
@@ -231,7 +231,7 @@ const WhiteLabel = () => {
 
       {/* Modelo de Negócio */}
       <section className="py-20 bg-secondary/30">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-12 text-center">Como Funciona</h2>
             
@@ -294,7 +294,7 @@ const WhiteLabel = () => {
 
       {/* CTA Final */}
       <section className="py-20 bg-background">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container text-center">
           <h2 className="text-4xl font-bold mb-4">
             Pronto para Ter Sua Própria Marca?
           </h2>
