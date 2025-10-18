@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import ContactFormModal from "@/components/ContactFormModal";
 import { useState } from "react";
 import { 
   Receipt, 
@@ -32,6 +33,7 @@ import contaDigitalMultiempresas from "@/assets/conta-digital-multiempresas.png"
 import FeatureDetailModal from "@/components/FeatureDetailModal";
 
 const ContaDigital = () => {
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   const [selectedFeature, setSelectedFeature] = useState<any>(null);
   const [isFeatureModalOpen, setIsFeatureModalOpen] = useState(false);
   const [hoverTimeout, setHoverTimeout] = useState<NodeJS.Timeout | null>(null);
@@ -501,11 +503,20 @@ const ContaDigital = () => {
               com a Conta Digital Sucesso Pay. Tenha controle total, transparência e 
               eficiência em todas as suas operações.
             </p>
+            <div className="flex justify-center">
+              <Button size="lg" className="font-semibold" onClick={() => setIsContactModalOpen(true)}>
+                Falar com Especialista
+              </Button>
+            </div>
           </div>
         </div>
       </section>
 
       <Footer />
+      <ContactFormModal 
+        isOpen={isContactModalOpen} 
+        onClose={() => setIsContactModalOpen(false)} 
+      />
       <FeatureDetailModal
         isOpen={isFeatureModalOpen} 
         onClose={() => setIsFeatureModalOpen(false)} 
