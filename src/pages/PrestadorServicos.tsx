@@ -248,7 +248,7 @@ const PrestadorServicos = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Ofereça facilidades</h3>
                       <p className="text-muted-foreground">
-                        Cliente pode parcelar a reforma inteira, aumentando suas chances de fechar negócio.
+                        Cliente pode parcelar a reforma inteira em 21 vezes, aumentando suas chances de fechar negócio.
                       </p>
                     </div>
                   </div>
