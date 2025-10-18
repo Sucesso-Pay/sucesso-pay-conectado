@@ -2,7 +2,6 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import ContactFormModal from "@/components/ContactFormModal";
 import { useState } from "react";
 import { 
   Receipt, 
@@ -33,7 +32,6 @@ import contaDigitalMultiempresas from "@/assets/conta-digital-multiempresas.png"
 import FeatureDetailModal from "@/components/FeatureDetailModal";
 
 const ContaDigital = () => {
-  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   const [selectedFeature, setSelectedFeature] = useState<any>(null);
   const [isFeatureModalOpen, setIsFeatureModalOpen] = useState(false);
   const [hoverTimeout, setHoverTimeout] = useState<NodeJS.Timeout | null>(null);
@@ -190,10 +188,6 @@ const ContaDigital = () => {
                   Gerencie transações, recebíveis, pagamentos e muito mais. 
                   Tudo em tempo real, direto do seu smartphone, com a segurança e praticidade que seu negócio merece.
                 </p>
-                <Button size="lg" className="font-semibold" onClick={() => setIsContactModalOpen(true)}>
-                  Quero Começar Agora
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
               </div>
             </div>
           </div>
@@ -279,15 +273,6 @@ const ContaDigital = () => {
                       </ul>
                     </div>
                   </div>
-
-                  <Button 
-                    size="lg" 
-                    className="w-full sm:w-auto group"
-                    onClick={() => setIsContactModalOpen(true)}
-                  >
-                    Quero Essa Solução
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Button>
                 </div>
 
                 <div className="relative">
@@ -516,21 +501,12 @@ const ContaDigital = () => {
               com a Conta Digital Sucesso Pay. Tenha controle total, transparência e 
               eficiência em todas as suas operações.
             </p>
-            <div className="flex justify-center">
-              <Button size="lg" className="font-semibold" onClick={() => setIsContactModalOpen(true)}>
-                Falar com Especialista
-              </Button>
-            </div>
           </div>
         </div>
       </section>
 
       <Footer />
-      <ContactFormModal 
-        isOpen={isContactModalOpen} 
-        onClose={() => setIsContactModalOpen(false)} 
-      />
-      <FeatureDetailModal 
+      <FeatureDetailModal
         isOpen={isFeatureModalOpen} 
         onClose={() => setIsFeatureModalOpen(false)} 
         feature={selectedFeature}

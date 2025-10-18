@@ -3,7 +3,6 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { X, MessageCircle, Headphones } from "lucide-react";
 import virtualAssistant from "@/assets/virtual-assistant.png";
-import ContactFormModal from "./ContactFormModal";
 import { useVirtualAssistant } from "@/contexts/VirtualAssistantContext";
 
 const VirtualAssistantPopup = () => {
@@ -12,7 +11,6 @@ const VirtualAssistantPopup = () => {
   const [hasShown, setHasShown] = useState(() => {
     return sessionStorage.getItem('virtualAssistantShown') === 'true';
   });
-  const [isContactFormOpen, setIsContactFormOpen] = useState(false);
   const [soundPlayed, setSoundPlayed] = useState(false); // Controlar se o som já foi tocado
 
   // Texto de apresentação - EDITE AQUI
@@ -107,8 +105,9 @@ const VirtualAssistantPopup = () => {
   }, [hasShown, openAssistantWithSound]);
 
   const handleCommercialClick = () => {
+    const message = encodeURIComponent("Olá! Tenho interesse em soluções comerciais da Sucesso Pay.");
+    window.open(`https://wa.me/${supportWhatsappNumber}?text=${message}`, "_blank");
     closeAssistant();
-    setIsContactFormOpen(true);
   };
 
   const handleSupportClick = () => {
@@ -184,12 +183,6 @@ const VirtualAssistantPopup = () => {
           </div>
         </DialogContent>
       </Dialog>
-
-      {/* Formulário de Contato */}
-      <ContactFormModal 
-        isOpen={isContactFormOpen} 
-        onClose={() => setIsContactFormOpen(false)} 
-      />
     </>
   );
 };
