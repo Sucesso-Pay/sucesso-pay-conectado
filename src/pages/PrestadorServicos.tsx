@@ -97,8 +97,8 @@ const PrestadorServicos = () => {
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Para médicos, dentistas, fisioterapeutas e esteticistas que prestam serviços 
-                  em clínicas e consultórios.
+                  Para médicos, dentistas, fisioterapeutas, anestesistas e esteticistas que prestam serviços 
+                  em hospitais, clínicas e consultórios.
                 </p>
                 <div className="space-y-4">
                   <div className="flex gap-3">
