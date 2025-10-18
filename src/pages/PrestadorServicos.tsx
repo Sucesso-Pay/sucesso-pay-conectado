@@ -187,7 +187,7 @@ const PrestadorServicos = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Parcele serviços caros</h3>
                       <p className="text-muted-foreground">
-                        Manutenções inesperadas ficam mais acessíveis com parcelamento no cartão.
+                        Manutenções inesperadas ficam mais acessíveis com parcelamento da entrada no link de pagamento em 21 vezes.
                       </p>
                     </div>
                   </div>
