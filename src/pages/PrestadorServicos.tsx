@@ -115,7 +115,7 @@ const PrestadorServicos = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Split customizado</h3>
                       <p className="text-muted-foreground">
-                        Configure percentuais de divisão ou divida recebíveis após a venda, evitando bitributação.
+                        Automatize percentuais de repasse ou divida recebíveis após a venda, evitando bitributação.
                       </p>
                     </div>
                   </div>
