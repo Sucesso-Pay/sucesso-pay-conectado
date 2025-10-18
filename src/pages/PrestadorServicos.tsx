@@ -230,7 +230,7 @@ const PrestadorServicos = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Faltou cimento?</h3>
                       <p className="text-muted-foreground">
-                        Seu cliente já deixa uma reserva com você para não atrasar a obra quando faltar algo. Você compra o cimento com recebíveis e sem bitributação.
+                        Seu cliente já deixa uma reserva em cartão com você para não atrasar a obra. Você compra o cimento com recebíveis e sem bitributação.
                       </p>
                     </div>
                   </div>
