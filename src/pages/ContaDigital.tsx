@@ -26,7 +26,7 @@ import contaDigitalPagamentos from "@/assets/conta-digital-pagamentos.png";
 import contaDigitalAgenda from "@/assets/conta-digital-agenda.png";
 import contaDigitalTransacoes from "@/assets/conta-digital-transacoes.png";
 import contaDigitalSplit from "@/assets/conta-digital-split-new.png";
-import contaDigitalBoletos from "@/assets/conta-digital-boletos.jpg";
+import contaDigitalBoletos from "@/assets/conta-digital-boletos-new.png";
 import contaDigitalBeneficiarios from "@/assets/conta-digital-beneficiarios.jpg";
 import contaDigitalAcumulo from "@/assets/conta-digital-acumulo.jpg";
 import contaDigitalMultiempresas from "@/assets/conta-digital-multiempresas.png";
