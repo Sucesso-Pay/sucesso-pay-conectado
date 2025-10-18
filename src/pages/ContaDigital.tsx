@@ -164,7 +164,7 @@ const ContaDigital = () => {
       
       {/* Hero Section */}
       <section className="pt-32 pb-0 bg-gradient-to-br from-primary/10 via-background to-primary/5 overflow-hidden">
-        <div className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-40">
           <div className="max-w-5xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-end pb-20">
               <div className="relative order-2 lg:order-1 flex items-end">
@@ -201,7 +201,7 @@ const ContaDigital = () => {
 
       {/* Features Showcase Section */}
       <section className="pt-16 pb-8 bg-background">
-        <div className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-40">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Conheça as Funcionalidades em Ação
@@ -321,7 +321,7 @@ const ContaDigital = () => {
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
         </div>
         
-        <div className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16 relative z-10">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-40 relative z-10">
           <div className="max-w-6xl mx-auto mb-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
@@ -378,7 +378,7 @@ const ContaDigital = () => {
 
       {/* Antecipação */}
       <section className="py-8 bg-background">
-        <div className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-40">
           <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-8 lg:p-12">
             <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
               <div>
@@ -415,7 +415,7 @@ const ContaDigital = () => {
 
       {/* CTA Section */}
       <section className="py-12 bg-background">
-        <div className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-40">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Transforme a Gestão Financeira do Seu Negócio
