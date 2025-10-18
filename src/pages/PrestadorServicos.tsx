@@ -25,7 +25,7 @@ const PrestadorServicos = () => {
     {
       icon: DollarSign,
       title: "Receba o Valor Total",
-      description: "Você recebe 100% do valor da transação e depois repassa automaticamente a parte do estabelecimento."
+      description: "Você recebe 100% do valor da transação e depois repassa a parte do estabelecimento conforme configurado no split."
     },
     {
       icon: Shield,
@@ -113,9 +113,9 @@ const PrestadorServicos = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Split automático</h3>
+                      <h3 className="font-semibold mb-1">Split customizado</h3>
                       <p className="text-muted-foreground">
-                        A divisão com a clínica acontece automaticamente, evitando bitributação.
+                        Configure percentuais de divisão ou divida recebíveis após a venda, evitando bitributação.
                       </p>
                     </div>
                   </div>
@@ -187,7 +187,7 @@ const PrestadorServicos = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Gestão simplificada</h3>
                       <p className="text-muted-foreground">
-                        Divida automaticamente entre profissionais, oficina e fornecedores de peças.
+                        Divida entre profissionais, oficina e fornecedores com split customizado.
                       </p>
                     </div>
                   </div>
@@ -219,9 +219,9 @@ const PrestadorServicos = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Receba na hora da compra</h3>
+                      <h3 className="font-semibold mb-1">Receba sua parte</h3>
                       <p className="text-muted-foreground">
-                        Quando o cliente compra material, você já recebe sua parte automaticamente.
+                        Configure o split para receber sua parte quando o cliente comprar o material.
                       </p>
                     </div>
                   </div>
@@ -230,7 +230,7 @@ const PrestadorServicos = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Split transparente</h3>
                       <p className="text-muted-foreground">
-                        Loja recebe pelo material, você recebe pela mão de obra - tudo automático.
+                        Loja recebe pelo material, você recebe pela mão de obra - divisão customizada.
                       </p>
                     </div>
                   </div>
@@ -290,9 +290,9 @@ const PrestadorServicos = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Divisão automática</h3>
+                      <h3 className="font-semibold mb-1">Divisão configurável</h3>
                       <p className="text-muted-foreground">
-                        Em pacotes de serviços, cada profissional recebe sua parte automaticamente.
+                        Em pacotes de serviços, configure percentuais para cada profissional receber sua parte.
                       </p>
                     </div>
                   </div>
@@ -335,7 +335,7 @@ const PrestadorServicos = () => {
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
                     Em petshops e clínicas veterinárias, receba diretamente pelos seus serviços 
-                    com divisão automática.
+                    com split customizado.
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
@@ -357,8 +357,8 @@ const PrestadorServicos = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Trabalhe com lojas de móveis e receba sua comissão automaticamente quando 
-                    o cliente comprar.
+                    Trabalhe com lojas de móveis e receba sua comissão quando 
+                    o cliente comprar, através de split de pagamento.
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
@@ -386,7 +386,7 @@ const PrestadorServicos = () => {
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Pagamento automático por passeio</span>
+                      <span>Divisão configurável por passeio</span>
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
