@@ -29,6 +29,7 @@ import contaDigitalSplit from "@/assets/conta-digital-split-new.png";
 import contaDigitalBoletos from "@/assets/conta-digital-boletos.jpg";
 import contaDigitalBeneficiarios from "@/assets/conta-digital-beneficiarios.jpg";
 import contaDigitalAcumulo from "@/assets/conta-digital-acumulo.jpg";
+import contaDigitalMultiempresas from "@/assets/conta-digital-multiempresas.png";
 import FeatureDetailModal from "@/components/FeatureDetailModal";
 
 const ContaDigital = () => {
@@ -209,6 +210,96 @@ const ContaDigital = () => {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Veja como é fácil operar e gerar eficiência financeira com a Conta Digital Sucesso Pay
             </p>
+          </div>
+
+          {/* Multiempresas e Multiusuários */}
+          <div className="mb-16 relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-primary/5 to-background rounded-3xl blur-3xl"></div>
+            <div className="relative bg-gradient-to-br from-primary/5 to-background rounded-3xl p-8 lg:p-12 border border-primary/10">
+              <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+                <div>
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-6">
+                    <Users className="h-5 w-5 text-primary" />
+                    <span className="text-sm font-semibold text-primary">Gestão Inteligente</span>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-6">
+                    Controle Total com <span className="text-primary">Multiempresas</span> e <span className="text-primary">Multiusuários</span>
+                  </h3>
+                  
+                  <div className="space-y-6 mb-8">
+                    <div className="bg-card/50 rounded-xl p-6 border border-primary/10">
+                      <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
+                        <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
+                          <Smartphone className="h-4 w-4 text-primary" />
+                        </div>
+                        Multiempresas
+                      </h4>
+                      <p className="text-muted-foreground mb-4">
+                        Você é sócio de várias empresas? Gerencie todas elas através de um único usuário na Conta Digital.
+                      </p>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">Acesso centralizado a todas as suas empresas</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">Alterne entre empresas com apenas um toque</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">Visão consolidada do fluxo financeiro de cada negócio</span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="bg-card/50 rounded-xl p-6 border border-primary/10">
+                      <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
+                        <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
+                          <Users className="h-4 w-4 text-primary" />
+                        </div>
+                        Multiusuários
+                      </h4>
+                      <p className="text-muted-foreground mb-4">
+                        Delegue acessos aos seus gerentes financeiros e prepostos para administrar o fluxo financeiro da empresa.
+                      </p>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">Defina permissões específicas para cada usuário</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">Aumente a eficiência operacional da sua equipe</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">Mantenha o controle com histórico de ações</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <Button 
+                    size="lg" 
+                    className="w-full sm:w-auto group"
+                    onClick={() => setIsContactModalOpen(true)}
+                  >
+                    Quero Essa Solução
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Button>
+                </div>
+
+                <div className="relative">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-full blur-3xl"></div>
+                  <img 
+                    src={contaDigitalMultiempresas} 
+                    alt="Interface de Multiempresas mostrando múltiplas contas"
+                    className="relative w-full max-w-lg mx-auto drop-shadow-2xl"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Transações */}
