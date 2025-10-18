@@ -184,7 +184,7 @@ const ContaDigital = () => {
                   <span className="text-sm font-semibold">Gestão Financeira Completa</span>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-                  Controle Total das Suas Finanças na Palma da Mão
+                  Controle total das suas finanças na palma da mão
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8">
                   Gerencie transações, recebíveis, pagamentos e muito mais. 
@@ -205,7 +205,7 @@ const ContaDigital = () => {
         <div className="container">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Conheça as Funcionalidades em Ação
+              Conheça as funcionalidades em ação
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Veja como é fácil operar e gerar eficiência financeira com a Conta Digital Sucesso Pay
@@ -223,7 +223,7 @@ const ContaDigital = () => {
                     <span className="text-sm font-semibold text-primary">Acesso Inteligente</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl font-bold mb-6">
-                    Controle Total com <span className="text-primary">Multiempresas</span> e <span className="text-primary">Multiusuários</span>
+                    Controle total com <span className="text-primary">Multiempresas</span> e <span className="text-primary">Multiusuários</span>
                   </h3>
                   
                   <div className="space-y-6 mb-8">
@@ -509,7 +509,7 @@ const ContaDigital = () => {
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Transforme a Gestão Financeira do Seu Negócio
+              Transforme a gestão financeira do seu negócio
             </h2>
             <p className="text-xl text-muted-foreground mb-10">
               Junte-se a centenas de empresas que já otimizaram sua gestão financeira 

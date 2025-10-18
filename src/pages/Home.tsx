@@ -80,7 +80,7 @@ const Home = () => {
         
         <div className="container relative z-10">
           <div className="text-center text-white mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Gestão Financeira Inteligente</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Gestão financeira inteligente</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto font-bold">
               Ferramentas para o seu financeiro e contábil aumentarem seus ganhos instantaneamente
             </p>
@@ -131,7 +131,7 @@ const Home = () => {
       <section className="py-20">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Várias Formas de Receber</h2>
+            <h2 className="text-4xl font-bold mb-4">Várias formas de receber</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Ofereça múltiplas opções de pagamento aos seus clientes
             </p>
@@ -194,7 +194,7 @@ const Home = () => {
               <img src={posImage} alt="Maquininha Sucesso Pay" className="w-full max-w-md mx-auto" />
             </div>
             <div className="order-1 md:order-2 space-y-6">
-              <h2 className="text-4xl font-bold">Maquininhas de Última Geração</h2>
+              <h2 className="text-4xl font-bold">Maquininhas de última geração</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
@@ -226,7 +226,7 @@ const Home = () => {
 
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold">Conta Digital Completa</h2>
+              <h2 className="text-4xl font-bold">Conta digital completa</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
@@ -285,7 +285,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <Card className="max-w-4xl mx-auto">
               <CardContent className="pt-6 pb-6">
-                <h2 className="text-4xl font-bold mb-4">Perfeito para Seu Segmento</h2>
+                <h2 className="text-4xl font-bold mb-4">Perfeito para seu segmento</h2>
                 <p className="text-xl text-muted-foreground">
                   Soluções pensadas especialmente para as necessidades do seu negócio
                 </p>
@@ -337,7 +337,7 @@ const Home = () => {
       <section className="py-20 bg-secondary/30">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Por Que Escolher a Sucesso Pay?</h2>
+            <h2 className="text-4xl font-bold mb-4">Por que escolher a Sucesso Pay?</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="text-center space-y-4">
