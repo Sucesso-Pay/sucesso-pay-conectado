@@ -220,7 +220,7 @@ const ContaDigital = () => {
                 <div>
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-6">
                     <Users className="h-5 w-5 text-primary" />
-                    <span className="text-sm font-semibold text-primary">Gestão Inteligente</span>
+                    <span className="text-sm font-semibold text-primary">Acesso Inteligente</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl font-bold mb-6">
                     Controle Total com <span className="text-primary">Multiempresas</span> e <span className="text-primary">Multiusuários</span>
