@@ -274,7 +274,7 @@ const ContaDigital = () => {
                         </li>
                         <li className="flex items-start gap-2">
                           <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                          <span className="text-sm text-muted-foreground">Mantenha o controle com histórico de ações</span>
+                          <span className="text-sm text-muted-foreground">Biometria de acesso para controle de vários prepostos</span>
                         </li>
                       </ul>
                     </div>
