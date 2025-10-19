@@ -35,7 +35,7 @@ const PrestadorServicos = () => {
     {
       icon: Clock,
       title: "Pagamento Flexível",
-      description: "Seu cliente pode parcelar no cartão, facilitando vendas de maior valor."
+      description: "Seu cliente pode parcelar no cartão ou no link em até 21x, pagar um boleto, QRCode ou assinatura."
     },
     {
       icon: TrendingUp,
