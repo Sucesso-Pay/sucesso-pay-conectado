@@ -131,7 +131,7 @@ const PrestadorServicos = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Aluga consultório ou clínica?</h3>
                       <p className="text-muted-foreground">
-                        Atenda seus próprios pacientes e faça o split do valor do aluguel diretamente com o proprietário.
+                        Atenda seus próprios pacientes e faça o split do valor do aluguel diretamente para o proprietário.
                       </p>
                     </div>
                   </div>
