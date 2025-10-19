@@ -91,7 +91,7 @@ const Maquininhas = () => {
                 <Shield className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Segurança Máxima</h3>
                 <p className="text-muted-foreground">
-                  Certificação PCI e criptografia de ponta a ponta em todas as transações
+                  Certificação internacional PCI e criptografia de ponta a ponta em todas as transações
                 </p>
               </CardContent>
             </Card>
