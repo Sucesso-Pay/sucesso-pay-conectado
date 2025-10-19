@@ -82,8 +82,7 @@ const Maquininhas = () => {
                 <TrendingUp className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Taxa Zero Disponível</h3>
                 <p className="text-muted-foreground">
-                  Opção de recebimento sem taxas para melhorar sua margem. 
-                  Mais lucro em cada transação.
+                  Opção de recebimento com taxas ao cliente para melhorar sua margem em altos parcelamentos.
                 </p>
               </CardContent>
             </Card>
