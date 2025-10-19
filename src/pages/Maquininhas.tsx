@@ -220,7 +220,7 @@ const Maquininhas = () => {
                 <TrendingUp className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Eficiência Financeira</h3>
                 <p className="text-muted-foreground">
-                  Os valores transacionados poderão ser usados para pagar os produtos descritos na proposta comercial de energia solar.
+                  Os valores transacionados poderão ser usados para realizar Splits e pagar fornecedores com recebíveis.
                 </p>
               </CardContent>
             </Card>
