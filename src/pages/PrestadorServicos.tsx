@@ -373,7 +373,7 @@ const PrestadorServicos = () => {
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Split transparente entre loja e profissional</span>
+                      <span>Split transparente entre empresa e profissional</span>
                     </li>
                   </ul>
                 </CardContent>
