@@ -364,8 +364,7 @@ const PrestadorServicos = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Trabalhe com lojas de móveis e receba sua comissão quando 
-                    o cliente comprar, através de split de pagamento.
+                    Trabalhe com lojas de móveis e construtoras, com divisão inteligente dos projetos.
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
