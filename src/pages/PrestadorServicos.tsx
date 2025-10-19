@@ -360,28 +360,6 @@ const PrestadorServicos = () => {
               <Card className="border-2">
                 <CardHeader>
                   <Users className="h-10 w-10 text-primary mb-4" />
-                  <CardTitle>Designers e Arquitetos</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4">
-                    Trabalhe com lojas de móveis e construtoras, com divisão inteligente dos projetos.
-                  </p>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Receba comissões sem burocracia</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Split transparente entre empresa e profissional</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="border-2">
-                <CardHeader>
-                  <Users className="h-10 w-10 text-primary mb-4" />
                   <CardTitle>Vendedores e Consultores</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -396,6 +374,28 @@ const PrestadorServicos = () => {
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                       <span>Cliente parcela consultorias e projetos em até 21x</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="border-2">
+                <CardHeader>
+                  <Users className="h-10 w-10 text-primary mb-4" />
+                  <CardTitle>Designers e Arquitetos</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                    Trabalhe com lojas de móveis e construtoras, com divisão inteligente dos projetos.
+                  </p>
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Receba comissões sem burocracia</span>
+                    </li>
+                    <li className="flex gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Split transparente entre empresa e profissional</span>
                     </li>
                   </ul>
                 </CardContent>
