@@ -178,56 +178,52 @@ const Maquininhas = () => {
         </div>
       </section>
 
-      {/* Diferenciais */}
+      {/* Benefícios PIX na Maquininha */}
       <section className="py-20">
         <div className="container">
-          <h2 className="text-4xl font-bold mb-8 text-center">Diferenciais das Nossas Maquininhas</h2>
-          <div className="max-w-3xl mx-auto space-y-6">
-            <div className="flex items-start gap-4">
-              <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold mb-1">Touch Screen Intuitivo</h3>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4">Benefícios de usar PIX na Maquininha</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              A venda em PIX também está habilitada na maquininha. Usar o PIX na maquininha te dá vários benefícios:
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <Shield className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Segurança</h3>
                 <p className="text-muted-foreground">
-                  Interface moderna e fácil de usar, sem complicações
+                  O recibo para o seu cliente sai na hora e você terá a certeza de que o PIX cairá na conta correta, evitando golpes.
                 </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold mb-1">Bateria de Longa Duração</h3>
+              </CardContent>
+            </Card>
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <CheckCircle className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Flexibilidade</h3>
                 <p className="text-muted-foreground">
-                  Funcione o dia todo sem preocupações
+                  Qualquer funcionário pode fazer a venda sem precisar ter acesso à conta principal da empresa.
                 </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold mb-1">Impressora de Comprovante Integrada</h3>
+              </CardContent>
+            </Card>
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <Smartphone className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Facilidade na Conciliação</h3>
                 <p className="text-muted-foreground">
-                  Bobina térmica para comprovantes rápidos e nítidos
+                  As vendas constarão no Portal, no relatório da maquininha, e os valores caído junto com das vendas em cartão.
                 </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold mb-1">Conectividade Múltipla</h3>
+              </CardContent>
+            </Card>
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <TrendingUp className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Eficiência Financeira</h3>
                 <p className="text-muted-foreground">
-                  Wi-Fi, 4G e Bluetooth para garantir sempre a melhor conexão
+                  Os valores transacionados poderão ser usados para pagar os produtos descritos na proposta comercial de energia solar.
                 </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold mb-1">Gestão Integrada</h3>
-                <p className="text-muted-foreground">
-                  Sincronização automática com conta digital e portal de gestão
-                </p>
-              </div>
-            </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
