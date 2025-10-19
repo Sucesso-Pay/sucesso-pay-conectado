@@ -382,21 +382,25 @@ const PrestadorServicos = () => {
               <Card className="border-2">
                 <CardHeader>
                   <Users className="h-10 w-10 text-primary mb-4" />
-                  <CardTitle>Guias Turísticos</CardTitle>
+                  <CardTitle>Vendedores e Consultores</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Receba diretamente pelas suas excursões enquanto a agência recebe pela 
-                    parte dela do pacote.
+                    Receba por projetos e consultorias com divisão inteligente entre parceiros, 
+                    distribuidores e fornecedores.
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Divisão configurável por passeio</span>
+                      <span>Split automático entre consultores e parceiros</span>
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Cliente pode parcelar o pacote completo</span>
+                      <span>Repasse direto para distribuidores e indústrias</span>
+                    </li>
+                    <li className="flex gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Cliente parcela consultorias e projetos em até 21x</span>
                     </li>
                   </ul>
                 </CardContent>
