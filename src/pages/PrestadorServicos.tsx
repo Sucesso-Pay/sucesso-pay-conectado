@@ -386,8 +386,7 @@ const PrestadorServicos = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Receba por projetos e consultorias com divisão inteligente entre parceiros, 
-                    distribuidores e fornecedores.
+                    Receba por vendas e consultorias com divisão entre fábricas, distribuidores e contratantes.
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
