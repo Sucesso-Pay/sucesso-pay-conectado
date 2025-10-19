@@ -341,8 +341,8 @@ const PrestadorServicos = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Receba comissões e honorários com split automático entre parceiros, 
-                    correspondentes e escritórios.
+                    Receba comissões e honorários com split entre parceiros, 
+                    imobiliárias e escritórios.
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
