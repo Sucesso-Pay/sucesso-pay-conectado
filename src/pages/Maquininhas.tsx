@@ -56,7 +56,7 @@ const Maquininhas = () => {
               Tecnologia de ponta para facilitar suas vendas
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <Card>
               <CardContent className="pt-6">
                 <Wifi className="h-12 w-12 text-primary mb-4" />
@@ -83,6 +83,15 @@ const Maquininhas = () => {
                 <h3 className="text-xl font-semibold mb-2">Taxa Zero Disponível</h3>
                 <p className="text-muted-foreground">
                   Opção de recebimento com taxas ao cliente para melhorar sua margem em altos parcelamentos.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="pt-6">
+                <Shield className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-2">Segurança Máxima</h3>
+                <p className="text-muted-foreground">
+                  Certificação PCI e criptografia de ponta a ponta em todas as transações
                 </p>
               </CardContent>
             </Card>
@@ -136,44 +145,6 @@ const Maquininhas = () => {
                 </p>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Benefícios */}
-      <section className="py-20 bg-gradient-to-br from-primary to-primary/80">
-        <div className="container">
-          <div className="text-center text-white mb-12">
-            <h2 className="text-4xl font-bold mb-4">Por Que Escolher Nossas Maquininhas?</h2>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="text-center text-white space-y-4">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/10">
-                <Shield className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold">Segurança Máxima</h3>
-              <p className="opacity-90">
-                Certificação PCI e criptografia de ponta a ponta em todas as transações
-              </p>
-            </div>
-            <div className="text-center text-white space-y-4">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/10">
-                <Zap className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold">Recebimento Rápido</h3>
-              <p className="opacity-90">
-                Receba em 1 dia útil ou antecipe seus recebíveis quando precisar
-              </p>
-            </div>
-            <div className="text-center text-white space-y-4">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/10">
-                <TrendingUp className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold">Aumente suas Vendas</h3>
-              <p className="opacity-90">
-                Parcelamento em até 21x e múltiplas formas de pagamento aumentam conversão
-              </p>
-            </div>
           </div>
         </div>
       </section>
