@@ -70,7 +70,7 @@ const Maquininhas = () => {
             <Card>
               <CardContent className="pt-6">
                 <Smartphone className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Pagamento por Aproximação</h3>
+                <h3 className="text-xl font-semibold mb-2">Receba por Aproximação</h3>
                 <p className="text-muted-foreground">
                   Aceite pagamento com cartões, celulares e relógios. Tecnologia NFC 
                   para transações mais rápidas e seguras.
