@@ -211,7 +211,7 @@ const Maquininhas = () => {
                 <Smartphone className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Facilidade na Conciliação</h3>
                 <p className="text-muted-foreground">
-                  As vendas constarão no Portal, no relatório da maquininha, e os valores caído junto com das vendas em cartão.
+                  As vendas constarão no Portal, no relatório da maquininha, e os valores cairão junto das vendas em débito.
                 </p>
               </CardContent>
             </Card>
