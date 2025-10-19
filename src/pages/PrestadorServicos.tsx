@@ -281,8 +281,8 @@ const PrestadorServicos = () => {
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Para cabeleireiros, manicures, depiladoras e tosadores de Pets, que trabalham 
-                  em salões e espaços compartilhados.
+                  Para cabeleireiros, manicures, depiladoras, personals e tosadores de Pets, que trabalham 
+                  em salões, espaços compartilhados ou a domicílio.
                 </p>
                 <div className="space-y-4">
                   <div className="flex gap-3">
