@@ -337,21 +337,21 @@ const PrestadorServicos = () => {
               <Card className="border-2">
                 <CardHeader>
                   <Users className="h-10 w-10 text-primary mb-4" />
-                  <CardTitle>Veterinários e Tosadores</CardTitle>
+                  <CardTitle>Corretores e Advogados</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Em petshops e clínicas veterinárias, receba diretamente pelos seus serviços 
-                    com split customizado.
+                    Receba comissões e honorários com split automático entre parceiros, 
+                    correspondentes e escritórios.
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Pagamento direto para cada profissional</span>
+                      <span>Divisão automática de comissões e honorários</span>
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Facilite parcelamento de procedimentos veterinários</span>
+                      <span>Cliente parcela enquanto você recebe sem bitributação</span>
                     </li>
                   </ul>
                 </CardContent>
