@@ -22,7 +22,6 @@ import {
   DollarSign,
 } from "lucide-react";
 import linkPagamentoImg from "@/assets/link-pagamento-interface.jpg";
-import gestaoDashboardImg from "@/assets/gestao-financeira-dashboard.jpg";
 
 const GestaoFinanceira = () => {
   const { openAssistant } = useVirtualAssistant();
@@ -47,27 +46,6 @@ const GestaoFinanceira = () => {
             <Button size="lg" variant="outline" asChild>
               <Link to="/conta-digital">Conhecer Conta Digital</Link>
             </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Dashboard Preview */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Visão Completa do Seu Negócio
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Acompanhe saldo, transações, progressão de vendas e gerencie seus recebíveis em tempo real
-            </p>
-          </div>
-          <div className="rounded-lg overflow-hidden shadow-2xl border">
-            <img
-              src={gestaoDashboardImg}
-              alt="Dashboard do Portal de Gestão Financeira Sucesso Pay"
-              className="w-full h-auto"
-            />
           </div>
         </div>
       </section>
