@@ -395,10 +395,6 @@ const PrestadorServicos = () => {
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Repasse direto para distribuidores e indústrias</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                       <span>Cliente parcela consultorias e projetos em até 21x</span>
                     </li>
                   </ul>
