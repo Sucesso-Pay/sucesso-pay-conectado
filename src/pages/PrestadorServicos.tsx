@@ -39,8 +39,8 @@ const PrestadorServicos = () => {
     },
     {
       icon: TrendingUp,
-      title: "Aumente seu Faturamento",
-      description: "Com a maquininha na mão, você controla a venda e pode oferecer parcelamento."
+      title: "Split Inteligente",
+      description: "Você pode dividir os recebíveis de uma venda automaticamente, pagar boletos ou realizar Pix com recebíveis."
     }
   ];
 
