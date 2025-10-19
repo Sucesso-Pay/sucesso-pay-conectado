@@ -288,9 +288,9 @@ const PrestadorServicos = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Autonomia financeira</h3>
+                      <h3 className="font-semibold mb-1">Serviços na residência</h3>
                       <p className="text-muted-foreground">
-                        Receba diretamente sua parte do serviço, sem esperar o salão fazer o repasse.
+                        Cobre na casa do cliente ou na entrega do Pet, sem precisar ir pegar a maquininha do estabelecimento correspondente.
                       </p>
                     </div>
                   </div>
