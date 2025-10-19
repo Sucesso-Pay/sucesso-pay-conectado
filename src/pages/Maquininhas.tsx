@@ -184,7 +184,7 @@ const Maquininhas = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Benefícios de usar PIX na Maquininha</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A venda em PIX também está habilitada na maquininha. Usar o PIX na maquininha te dá vários benefícios:
+              Oriente seus colaboradores a usar o Pix na maquininha e tenha vários benefícios:
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
