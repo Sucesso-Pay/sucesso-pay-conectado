@@ -56,9 +56,7 @@ const PrestadorServicos = () => {
               Invertemos a lógica do mercado para você ter mais Sucesso!
             </h1>
             <p className="text-xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Chega de ser coadjuvante! Na Sucesso Pay você recebe o valor total do negócio e 
-              depois repassa a parte do seu contratante! Seu cliente paga na hora conveniente, 
-              e seu contratante recebe sem bitributação.
+              Na Sucesso Pay você recebe o valor total do negócio e depois repassa a parte do seu contratante! Seu cliente paga na hora conveniente, e seu contratante recebe sem bitributação.
             </p>
             <Button size="lg" onClick={() => setIsContactModalOpen(true)} className="font-semibold">
               Quero Inverter a Lógica
