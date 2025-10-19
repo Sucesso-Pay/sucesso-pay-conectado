@@ -46,12 +46,12 @@ export const Navbar = () => {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-[500px] p-4 bg-background z-50">
                   <DropdownMenuItem asChild className="cursor-pointer mb-2">
-                    <Link to="/" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors group">
+                    <Link to="/gestao-financeira" className="grid grid-cols-[110px_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors group">
                       <div className="text-sm font-semibold leading-relaxed text-left">
                         Gestão<br/>Financeira
                       </div>
                       <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
-                        Soluções para eficiência financeira
+                        Portal completo com recebíveis e links de pagamento
                       </p>
                     </Link>
                   </DropdownMenuItem>
@@ -162,7 +162,7 @@ export const Navbar = () => {
                 </CollapsibleTrigger>
                 <CollapsibleContent className="flex flex-col gap-2 mt-2">
                   <Link
-                    to="/"
+                    to="/gestao-financeira"
                     className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
                     onClick={() => setIsOpen(false)}
                   >

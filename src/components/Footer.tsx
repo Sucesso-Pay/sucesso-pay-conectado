@@ -21,7 +21,7 @@ export const Footer = () => {
             <h3 className="font-semibold mb-4 text-white">Soluções</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-white/80 hover:text-white transition-colors text-sm">
+                <Link to="/gestao-financeira" className="text-white/80 hover:text-white transition-colors text-sm">
                   Gestão Financeira
                 </Link>
               </li>

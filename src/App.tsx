@@ -10,6 +10,7 @@ import ContaDigital from "./pages/ContaDigital";
 import Maquininhas from "./pages/Maquininhas";
 import EstabelecimentoComercial from "./pages/EstabelecimentoComercial";
 import PrestadorServicos from "./pages/PrestadorServicos";
+import GestaoFinanceira from "./pages/GestaoFinanceira";
 import ProcessImages from "./pages/ProcessImages";
 import NotFound from "./pages/NotFound";
 import VirtualAssistantPopup from "./components/VirtualAssistantPopup";
@@ -31,6 +32,7 @@ const App = () => (
           <Route path="/whitelabel" element={<WhiteLabel />} />
           <Route path="/conta-digital" element={<ContaDigital />} />
           <Route path="/maquininhas" element={<Maquininhas />} />
+          <Route path="/gestao-financeira" element={<GestaoFinanceira />} />
           <Route path="/estabelecimento-comercial" element={<EstabelecimentoComercial />} />
           <Route path="/prestador-servicos" element={<PrestadorServicos />} />
           <Route path="/process-images" element={<ProcessImages />} />
