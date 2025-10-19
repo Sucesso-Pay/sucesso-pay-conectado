@@ -306,9 +306,9 @@ const PrestadorServicos = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Economia fiscal</h3>
+                      <h3 className="font-semibold mb-1">Fidelize Clientes</h3>
                       <p className="text-muted-foreground">
-                        Elimine a bitributação e mantenha sua gestão financeira em dia.
+                        Cobre uma assinatura mensal dos seus clientes para serviços periódicos.
                       </p>
                     </div>
                   </div>
