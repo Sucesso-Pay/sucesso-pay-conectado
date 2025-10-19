@@ -347,7 +347,7 @@ const PrestadorServicos = () => {
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Divisão automática de comissões e honorários</span>
+                      <span>Cobre taxas durante processos com link de pagamento</span>
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
