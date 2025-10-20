@@ -192,10 +192,9 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Evite bitributação - pague impostos apenas sobre sua margem</h3>
+                      <h3 className="font-semibold mb-1">Tem um restaurante arrendado ou vendas de souvenires no seu Hotel?</h3>
                       <p className="text-muted-foreground">
-                        Com o split, você paga impostos apenas sobre sua comissão ou margem de lucro, 
-                        não sobre o valor total que será repassado aos fornecedores.
+                        Nosso split também funciona para pessoas jurídicas. Seu cliente tem conveniência em pagar uma única vez, no checkout, e você repassa os valores para a lojinha e restaurante.
                       </p>
                     </div>
                   </div>
