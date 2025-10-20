@@ -70,10 +70,10 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Split entre clínica e profissionais</h3>
+                      <h3 className="font-semibold mb-1">Cobre por assinatura</h3>
                       <p className="text-muted-foreground">
-                        Divida os recebimentos entre a clínica e os profissionais autônomos 
-                        (médicos, dentistas, veterinários, esteticistas, tosadores, adestradores).
+                        Fidelize clientes cobrando mensalidades para procedimentos estéticos, 
+                        atendimentos e tosa periódica de PETs, manutenção de aparelhos, entre outros.
                       </p>
                     </div>
                   </div>
