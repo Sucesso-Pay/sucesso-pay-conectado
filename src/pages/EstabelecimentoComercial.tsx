@@ -60,9 +60,9 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Split automático entre clínica e profissionais</h3>
+                      <h3 className="font-semibold mb-1">Split entre clínica e profissionais</h3>
                       <p className="text-muted-foreground">
-                        Divida os recebimentos automaticamente entre a clínica e os profissionais autônomos 
+                        Divida os recebimentos entre a clínica e os profissionais autônomos 
                         (médicos, dentistas, veterinários, esteticistas, tosadores, adestradores).
                       </p>
                     </div>
@@ -128,7 +128,7 @@ const EstabelecimentoComercial = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Divida com designers, arquitetos e instaladores</h3>
                       <p className="text-muted-foreground">
-                        Configure o split para dividir automaticamente com designers de interiores, arquitetos, 
+                        Configure o split para dividir com designers de interiores, arquitetos, 
                         montadores, instaladores e entregadores parceiros.
                       </p>
                     </div>
@@ -148,7 +148,7 @@ const EstabelecimentoComercial = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Elimine a complexidade de múltiplos pagamentos</h3>
                       <p className="text-muted-foreground">
-                        Receba uma única vez e o sistema divide automaticamente entre todos os envolvidos 
+                        Receba uma única vez e o sistema divide entre todos os envolvidos 
                         no projeto, simplificando a gestão financeira.
                       </p>
                     </div>
@@ -184,7 +184,7 @@ const EstabelecimentoComercial = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Divida com guias, transportes e parceiros</h3>
                       <p className="text-muted-foreground">
-                        Configure o split para dividir automaticamente os pagamentos com guias turísticos, 
+                        Configure o split para dividir os pagamentos com guias turísticos, 
                         empresas de transporte, transfers e demais parceiros do roteiro.
                       </p>
                     </div>
@@ -265,7 +265,7 @@ const EstabelecimentoComercial = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Split entre oficina, mecânicos e fornecedores</h3>
                       <p className="text-muted-foreground">
-                        Divida automaticamente os pagamentos entre a oficina, os mecânicos, eletricistas 
+                        Divida os pagamentos entre a oficina, os mecânicos, eletricistas 
                         e fornecedores de peças e autopeças.
                       </p>
                     </div>
@@ -316,7 +316,7 @@ const EstabelecimentoComercial = () => {
                 <CardHeader>
                   <div className="flex items-start justify-between mb-4">
                     <Car className="h-10 w-10 text-primary" />
-                    <Badge variant="secondary">Split Automático</Badge>
+                    <Badge variant="secondary">Split de Pagamentos</Badge>
                   </div>
                   <CardTitle>Revenda de Carros</CardTitle>
                 </CardHeader>
@@ -328,7 +328,7 @@ const EstabelecimentoComercial = () => {
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Divida automaticamente com proprietários dos carros consignados</span>
+                      <span>Divida com proprietários dos carros consignados</span>
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
@@ -358,7 +358,7 @@ const EstabelecimentoComercial = () => {
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Split automático após cada venda</span>
+                      <span>Split após cada venda</span>
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
