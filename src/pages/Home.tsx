@@ -304,11 +304,13 @@ const Home = () => {
             </Card>
             <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.1s' }}>
               <CardContent className="pt-6">
-                <h3 className="font-semibold mb-2">Petshops e Veterinárias</h3>
+                <h3 className="font-semibold mb-2">Móveis, Decoração e Materiais de Construção</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Parcelamento facilitado para procedimentos de alto valor. Gestão simplificada.
+                  Parcelamento em até 21x para vendas de alto valor. Receba à vista e ofereça mais flexibilidade aos seus clientes.
                 </p>
-                <Button variant="link" className="p-0">Saiba mais →</Button>
+                <Button variant="link" className="p-0" asChild>
+                  <a href="/estabelecimento-comercial">Saiba mais →</a>
+                </Button>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.2s' }}>
