@@ -60,6 +60,16 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
+                      <h3 className="font-semibold mb-1">Evite bitributação nos repasses</h3>
+                      <p className="text-muted-foreground">
+                        Com o split configurado, cada profissional recebe diretamente sua parte, 
+                        eliminando a dupla tributação nos repasses.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                    <div>
                       <h3 className="font-semibold mb-1">Split entre clínica e profissionais</h3>
                       <p className="text-muted-foreground">
                         Divida os recebimentos entre a clínica e os profissionais autônomos 
@@ -74,16 +84,6 @@ const EstabelecimentoComercial = () => {
                       <p className="text-muted-foreground">
                         Ofereça aos seus clientes a possibilidade de parcelar tratamentos e procedimentos 
                         em até 21 vezes, facilitando o acesso aos serviços.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Evite bitributação nos repasses</h3>
-                      <p className="text-muted-foreground">
-                        Com o split configurado, cada profissional recebe diretamente sua parte, 
-                        eliminando a dupla tributação nos repasses.
                       </p>
                     </div>
                   </div>
