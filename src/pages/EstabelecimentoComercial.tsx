@@ -126,10 +126,10 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Divida com designers, arquitetos e instaladores</h3>
+                      <h3 className="font-semibold mb-1">Cobre um sinal ou parte do projeto com boletos</h3>
                       <p className="text-muted-foreground">
-                        Configure o split para dividir com designers de interiores, arquitetos, 
-                        montadores, instaladores e entregadores parceiros.
+                        Os boletos gerados também geram recebíveis em D+1 (no dia seguinte ao pagamento), 
+                        que podem ser divididos.
                       </p>
                     </div>
                   </div>
