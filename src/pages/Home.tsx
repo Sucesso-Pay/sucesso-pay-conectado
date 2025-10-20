@@ -326,7 +326,7 @@ const Home = () => {
               <CardContent className="pt-6">
                 <h3 className="font-semibold mb-2">Profissionais da Construção</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Receba por projeto com parcelamento facilitado. Split automático para materiais e mão de obra.
+                  Receba por projeto com parcelamento facilitado. Split para materiais, instalações, montagens...
                 </p>
                 <Button variant="link" className="p-0" asChild>
                   <a href="/prestador-servicos">Saiba mais →</a>
