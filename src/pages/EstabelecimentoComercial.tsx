@@ -238,11 +238,6 @@ const EstabelecimentoComercial = () => {
                     Centros Automotivos e Oficinas
                   </h2>
                 </div>
-                <p className="text-lg text-muted-foreground mb-6">
-                  A utilização do Split de Recebíveis permite dividir os pagamentos com mecânicos, eletricistas, 
-                  fornecedores de peças e outros profissionais.
-                </p>
-                
                 {/* Alerta de Bitributação */}
                 <div className="bg-destructive/10 border-l-4 border-destructive rounded-lg p-4 mb-6">
                   <div className="flex gap-3">
