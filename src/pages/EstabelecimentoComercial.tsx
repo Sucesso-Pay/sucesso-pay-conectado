@@ -70,20 +70,20 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Cobre por assinatura</h3>
+                      <h3 className="font-semibold mb-1">Link de Pagamento em até 21x</h3>
                       <p className="text-muted-foreground">
-                        Fidelize clientes cobrando mensalidades para procedimentos estéticos, 
-                        atendimentos e tosa periódica de PETs, manutenção de aparelhos, entre outros.
+                        Parcele tratamentos e procedimentos por link em até 21 vezes, 
+                        facilitando cobranças de entradas e sinais.
                       </p>
                     </div>
                   </div>
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Link de Pagamento em até 21x</h3>
+                      <h3 className="font-semibold mb-1">Cobre por assinatura</h3>
                       <p className="text-muted-foreground">
-                        Parcele tratamentos e procedimentos por link em até 21 vezes, 
-                        facilitando cobranças de entradas e sinais.
+                        Fidelize clientes cobrando mensalidades para procedimentos estéticos, 
+                        atendimentos e tosa periódica de PETs, manutenção de aparelhos, entre outros.
                       </p>
                     </div>
                   </div>
