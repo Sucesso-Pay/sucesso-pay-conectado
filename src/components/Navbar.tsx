@@ -91,7 +91,7 @@ export const Navbar = () => {
                   <DropdownMenuItem asChild className="cursor-pointer mb-2">
                     <Link to="/estabelecimento-comercial" className="grid grid-cols-[auto_1fr] gap-3 p-4 rounded-md hover:bg-accent transition-colors group">
                       <div className="text-sm font-semibold leading-relaxed text-left">
-                        Sou um estabelecimento<br/>comercial
+                        Sou uma empresa<br/>ou comércio
                       </div>
                       <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-white transition-colors text-right">
                         Soluções financeiras para sua empresa
@@ -196,7 +196,7 @@ export const Navbar = () => {
                     className="text-foreground hover:text-primary transition-colors font-medium py-2 pl-4"
                     onClick={() => setIsOpen(false)}
                   >
-                    Sou um estabelecimento comercial
+                    Sou uma empresa ou comércio
                   </Link>
                   <Link
                     to="/prestador-servicos"
