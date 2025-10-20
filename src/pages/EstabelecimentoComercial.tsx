@@ -194,7 +194,7 @@ const EstabelecimentoComercial = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Tem um restaurante arrendado ou vendas de souvenires no seu Hotel?</h3>
                       <p className="text-muted-foreground">
-                        Nosso split também funciona para pessoas jurídicas. Seu cliente tem conveniência em pagar uma única vez, no checkout, e você repassa os valores para a lojinha e restaurante.
+                        Nosso split também funciona para PJ. Seu cliente tem a conveniência de pagar uma única vez, no checkout, e você repassa os valores para a lojinha ou restaurante.
                       </p>
                     </div>
                   </div>
