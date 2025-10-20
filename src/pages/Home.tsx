@@ -297,7 +297,7 @@ const Home = () => {
               <CardContent className="pt-6">
                 <h3 className="font-semibold mb-2">Clínicas e Saúde</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Split ideal para dividir pagamentos entre profissionais. Economia tributária de até 40%.
+                  Split ideal para dividir pagamentos entre clínica e profissionais. Cada um recebe a sua parte, gerando economias significativas.
                 </p>
                 <Button variant="link" className="p-0">Saiba mais →</Button>
               </CardContent>
