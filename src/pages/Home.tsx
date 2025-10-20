@@ -299,7 +299,9 @@ const Home = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Split ideal para dividir pagamentos entre clínica e profissionais. Cada um recebe a sua parte, gerando economias significativas.
                 </p>
-                <Button variant="link" className="p-0">Saiba mais →</Button>
+                <Button variant="link" className="p-0" asChild>
+                  <a href="/estabelecimento-comercial">Saiba mais →</a>
+                </Button>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.1s' }}>
