@@ -182,10 +182,10 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Divida com guias, transportes e parceiros</h3>
+                      <h3 className="font-semibold mb-1">Cobre a reserva com boleto ou link</h3>
                       <p className="text-muted-foreground">
-                        Configure o split para dividir os pagamentos com guias turísticos, 
-                        empresas de transporte, transfers e demais parceiros do roteiro.
+                        Além da maquininha para o dia a dia, reserve a estadia de clientes enviando boletos, 
+                        e reserve passeios de última hora enviando links de pagamento.
                       </p>
                     </div>
                   </div>
