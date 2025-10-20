@@ -128,8 +128,8 @@ const EstabelecimentoComercial = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Cobre um sinal ou parte do projeto com boletos</h3>
                       <p className="text-muted-foreground">
-                        Os boletos gerados também geram recebíveis em D+1 (no dia seguinte ao pagamento), 
-                        que podem ser divididos.
+                        Os boletos gerados na Plataforma Sucesso Pay geram recebíveis em D+1 (no dia seguinte ao pagamento), 
+                        que podem ser divididos para eficiência financeira.
                       </p>
                     </div>
                   </div>
