@@ -326,9 +326,9 @@ const Home = () => {
             </Card>
             <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <CardContent className="pt-6">
-                <h3 className="font-semibold mb-2">Profissionais da Construção</h3>
+                <h3 className="font-semibold mb-2">Profissionais da Beleza</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Receba por projeto com parcelamento facilitado. Split para materiais, instalações, montagens...
+                  Split de recebíveis entre profissionais e salão. Parcelamento facilitado para serviços e produtos de alto valor.
                 </p>
                 <Button variant="link" className="p-0" asChild>
                   <a href="/prestador-servicos">Saiba mais →</a>
