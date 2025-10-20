@@ -328,7 +328,7 @@ const Home = () => {
               <CardContent className="pt-6">
                 <h3 className="font-semibold mb-2">Profissionais da Beleza</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Split de recebíveis entre cabelereiras, barbeiros, manicures, personals, biomédicos, esteticistas e seus contratantes ou parceiros...
+                  Split de recebíveis entre cabelereiras, barbeiros, manicures, personais, biomédicos, esteticistas e seus contratantes ou parceiros...
                 </p>
                 <Button variant="link" className="p-0" asChild>
                   <a href="/prestador-servicos">Saiba mais →</a>
