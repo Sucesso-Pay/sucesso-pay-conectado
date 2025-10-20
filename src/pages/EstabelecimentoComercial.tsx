@@ -33,8 +33,7 @@ const EstabelecimentoComercial = () => {
               Soluções para Empresas e Comércios
             </h1>
             <p className="text-xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Plataforma completa com Split de Recebíveis para gerenciar seu estabelecimento com eficiência, 
-              dividir pagamentos automaticamente com parceiros e eliminar a bitributação.
+              Plataforma completa para gerenciar seu estabelecimento com eficiência operacional e financeira.
             </p>
             <Button size="lg" onClick={() => setIsContactModalOpen(true)} className="font-semibold">
               Falar com Especialista
