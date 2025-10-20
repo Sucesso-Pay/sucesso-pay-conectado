@@ -276,7 +276,7 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Cliente parcela manutenções em até 21x</h3>
+                      <h3 className="font-semibold mb-1">Quebra inesperada do carro?</h3>
                       <p className="text-muted-foreground">
                         Manutenções inesperadas ficam mais acessíveis quando o cliente pode parcelar 
                         o pagamento em até 21 vezes.
