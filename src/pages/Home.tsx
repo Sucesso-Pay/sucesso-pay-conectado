@@ -315,7 +315,7 @@ const Home = () => {
               <CardContent className="pt-6">
                 <h3 className="font-semibold mb-2">Mecânicos e Profissionais Automotivos</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Split de recebíveis para peças e serviços. Elimine bitributação e economize até 40%.
+                  Split de recebíveis para peças e serviços. Elimine bitributação e economize até 60%.
                 </p>
                 <Button variant="link" className="p-0" asChild>
                   <a href="/prestador-servicos">Saiba mais →</a>
