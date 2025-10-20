@@ -313,20 +313,24 @@ const Home = () => {
             </Card>
             <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <CardContent className="pt-6">
-                <h3 className="font-semibold mb-2">Restaurantes</h3>
+                <h3 className="font-semibold mb-2">Mecânicos e Profissionais Automotivos</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Recebimento rápido e múltiplas formas de pagamento. Controle de caixa eficiente.
+                  Split de recebíveis para peças e serviços. Elimine bitributação e economize até 40%.
                 </p>
-                <Button variant="link" className="p-0">Saiba mais →</Button>
+                <Button variant="link" className="p-0" asChild>
+                  <a href="/prestador-servicos">Saiba mais →</a>
+                </Button>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <CardContent className="pt-6">
-                <h3 className="font-semibold mb-2">Varejo</h3>
+                <h3 className="font-semibold mb-2">Profissionais da Construção</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Aumente vendas com parcelamento em até 21x. Gestão financeira integrada.
+                  Receba por projeto com parcelamento facilitado. Split automático para materiais e mão de obra.
                 </p>
-                <Button variant="link" className="p-0">Saiba mais →</Button>
+                <Button variant="link" className="p-0" asChild>
+                  <a href="/prestador-servicos">Saiba mais →</a>
+                </Button>
               </CardContent>
             </Card>
           </div>
