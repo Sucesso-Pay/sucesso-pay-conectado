@@ -269,7 +269,7 @@ const EstabelecimentoComercial = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Elimine a bitributação sobre as peças</h3>
                       <p className="text-muted-foreground">
-                        Com o split, você tributa apenas sobre a mão de obra que realmente é sua receita.
+                        Com o split, você pode tributar apenas sobre os serviços, que realmente são sua receita.
                       </p>
                     </div>
                   </div>
