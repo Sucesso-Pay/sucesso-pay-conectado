@@ -260,7 +260,7 @@ const EstabelecimentoComercial = () => {
                       <h3 className="font-semibold mb-1">Split entre oficina, mecânicos e fornecedores</h3>
                       <p className="text-muted-foreground">
                         Divida os pagamentos entre a oficina, os mecânicos, eletricistas 
-                        e fornecedores de peças e autopeças.
+                        e autopeças.
                       </p>
                     </div>
                   </div>
