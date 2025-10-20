@@ -185,7 +185,7 @@ const EstabelecimentoComercial = () => {
                       <h3 className="font-semibold mb-1">Cobre a reserva com boleto ou link</h3>
                       <p className="text-muted-foreground">
                         Além da maquininha para o dia a dia, reserve a estadia de clientes enviando boletos, 
-                        e reserve passeios de última hora enviando links de pagamento.
+                        e passeios de última hora enviando links.
                       </p>
                     </div>
                   </div>
