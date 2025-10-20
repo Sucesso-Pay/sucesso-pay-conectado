@@ -278,8 +278,7 @@ const EstabelecimentoComercial = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Quebra inesperada do carro?</h3>
                       <p className="text-muted-foreground">
-                        Manutenções inesperadas ficam mais acessíveis quando o cliente pode parcelar 
-                        o pagamento em até 21 vezes.
+                        Veículos sem revisão têm conserto mais acessível quando o cliente pode parcelar em até 21 vezes.
                       </p>
                     </div>
                   </div>
