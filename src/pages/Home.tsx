@@ -306,7 +306,7 @@ const Home = () => {
               <CardContent className="pt-6">
                 <h3 className="font-semibold mb-2">Móveis, Decoração e Materiais de Construção</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Parcelamento em até 21x para vendas de alto valor. Receba à vista e ofereça mais flexibilidade aos seus clientes.
+                  Divisão das lojas com designers de interiores, arquitetos, montadores, instaladores, pedreiros, eletricistas, bombeiros hidráulicos e pintores
                 </p>
                 <Button variant="link" className="p-0" asChild>
                   <a href="/estabelecimento-comercial">Saiba mais →</a>
