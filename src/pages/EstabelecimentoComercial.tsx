@@ -340,7 +340,7 @@ const EstabelecimentoComercial = () => {
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Split de comissões com personal trainers</span>
+                      <span>Cobre na maquininha, com boleto, por link, planos ou assinaturas</span>
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
