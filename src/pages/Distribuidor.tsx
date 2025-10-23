@@ -206,6 +206,23 @@ const Distribuidor = () => {
                 </div>
               </CardContent>
             </Card>
+
+            <Card>
+              <CardContent className="pt-6">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <span className="text-primary font-bold text-xl">5</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2">Seja a solução principal do seu cliente</h3>
+                    <p className="text-muted-foreground">
+                      Usamos a maquininha mais moderna do mercado! Ela será utilizada para todas as vendas do cliente, 
+                      aumentando seus ganhos significativamente. Chega de maquininha em baixo do balcão!
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
