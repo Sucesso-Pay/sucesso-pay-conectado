@@ -300,7 +300,7 @@ const EstabelecimentoComercial = () => {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="mb-4">
-                    Solução perfeita para consignação. Marcas e pessoas deixam roupas em consignação 
+                    Marcas e pessoas deixam roupas em consignação 
                     e recebem automaticamente após cada venda.
                   </CardDescription>
                   <ul className="space-y-2 text-sm">
