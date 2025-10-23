@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Sparkles, Building2, Wallet, Shield, Zap, Users, CheckCircle, Briefcase, Truck, CreditCard } from "lucide-react";
+import { Sparkles, Building2, Wallet, Shield, Zap, Users, CheckCircle, Briefcase, Truck, Smartphone } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
@@ -94,7 +94,7 @@ const WhiteLabel = () => {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <Wallet className="h-12 w-12 text-primary mb-4" />
+                <Smartphone className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Conta Digital</h3>
                 <p className="text-muted-foreground">
                   Alguns recursos: multicontas, multiusuários, portabilidade de chave pix, emissão de boletos, biometria, gestão de recebíveis.
