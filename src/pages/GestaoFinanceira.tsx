@@ -22,7 +22,6 @@ import {
   Building2,
 } from "lucide-react";
 import linkPagamentoImg from "@/assets/link-pagamento-interface.png";
-import portalImg from "@/assets/gestao-financeira-portal.png";
 
 const GestaoFinanceira = () => {
   const { openAssistant } = useVirtualAssistant();
@@ -34,13 +33,6 @@ const GestaoFinanceira = () => {
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-4 bg-gradient-to-b from-primary/5 to-background">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="max-w-2xl mx-auto mb-8">
-            <img
-              src={portalImg}
-              alt="Portal de Gestão Financeira Sucesso Pay com dashboard de TPV e Markups"
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
-          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
             Portal de Gestão Financeira
           </h1>
