@@ -301,7 +301,7 @@ const EstabelecimentoComercial = () => {
                 <CardContent>
                   <CardDescription className="mb-4">
                     Marcas e pessoas deixam roupas em consignação 
-                    e recebem automaticamente após cada venda.
+                    e recebem após cada venda.
                   </CardDescription>
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
