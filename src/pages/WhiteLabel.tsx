@@ -67,8 +67,7 @@ const WhiteLabel = () => {
                 <Wallet className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Gestão de Recebíveis</h3>
                 <p className="text-muted-foreground">
-                  Tecnologia exclusiva que permite gestão completa dos recebíveis 
-                  pelo Estabelecimento.
+                  Tecnologia exclusiva que cria diferencial na sua oferta e para sua marca.
                 </p>
               </CardContent>
             </Card>
