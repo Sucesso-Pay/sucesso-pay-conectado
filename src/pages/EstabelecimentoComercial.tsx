@@ -29,7 +29,7 @@ const EstabelecimentoComercial = () => {
         {/* Hero Section */}
         <section className="py-20 px-4 bg-gradient-to-br from-primary/5 via-background to-background">
           <div className="container mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent leading-tight py-2">
               Soluções para Empresas e Comércios
             </h1>
             <p className="text-xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
