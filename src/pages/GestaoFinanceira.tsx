@@ -280,10 +280,10 @@ const GestaoFinanceira = () => {
             <div className="flex gap-4">
               <BarChart3 className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
-                <h3 className="text-xl font-semibold mb-2">Visibilidade Total</h3>
-                <p className="text-muted-foreground">
-                  Acompanhe em tempo real a progressão do seu TPV, analise tendências e tome decisões baseadas em dados.
-                </p>
+              <h3 className="text-xl font-semibold mb-2">Visibilidade Total</h3>
+              <p className="text-muted-foreground">
+                Acompanhe em tempo real a progressão das suas vendas e cobranças, analise tendências e tome decisões baseadas em dados.
+              </p>
               </div>
             </div>
           </div>
