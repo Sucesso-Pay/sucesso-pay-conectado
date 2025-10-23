@@ -58,11 +58,11 @@ const GestaoFinanceira = () => {
             <p className="text-lg text-muted-foreground mb-8">
               Tudo que você precisa para uma gestão financeira eficiente
             </p>
-            <div className="max-w-4xl mx-auto mb-12">
+            <div className="max-w-3xl mx-auto mb-12">
               <img
                 src={portalImg}
                 alt="Portal de Gestão Financeira Sucesso Pay com dashboard de TPV e Markups"
-                className="w-full h-auto rounded-lg"
+                className="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
           </div>
