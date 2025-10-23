@@ -55,7 +55,7 @@ const WhiteLabel = () => {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <Building2 className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Seu Próprio Negócio</h3>
+                <h3 className="text-xl font-semibold mb-3">Integrada no seu Negócio</h3>
                 <p className="text-muted-foreground">
                   Integre rapidamente as funções financeiras, de pagamentos e de cobranças nos seus sistemas.
                 </p>
