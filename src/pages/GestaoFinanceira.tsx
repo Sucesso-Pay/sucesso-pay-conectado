@@ -175,16 +175,6 @@ const GestaoFinanceira = () => {
                     </p>
                   </div>
                 </div>
-
-                <div className="flex gap-4">
-                  <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="font-semibold mb-1">Validação de Boletos</h3>
-                    <p className="text-muted-foreground">
-                      Aceite boletos validados automaticamente no sistema
-                    </p>
-                  </div>
-                </div>
               </div>
 
               <Button size="lg" onClick={openAssistant}>
