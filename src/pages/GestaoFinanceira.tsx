@@ -105,7 +105,7 @@ const GestaoFinanceira = () => {
                 <BarChart3 className="h-12 w-12 text-primary mb-4" />
                 <CardTitle>Relatórios e Analytics</CardTitle>
                 <CardDescription>
-                  Acompanhe a progressão do TPV, analise tendências de vendas e exporte relatórios detalhados para facilitar sua gestão financeira.
+                  Acompanhe a progressão das vendas das maquininhas, pagamentos de boletos e links, compensação de Splits, extratos de movimentação e muito mais para facilitar sua gestão financeira.
                 </CardDescription>
               </CardHeader>
             </Card>
