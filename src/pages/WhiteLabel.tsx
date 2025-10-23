@@ -77,7 +77,7 @@ const WhiteLabel = () => {
                 <Briefcase className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Gestão de Carteira</h3>
                 <p className="text-muted-foreground">
-                  Controle completo da sua carteira de clientes com ferramentas avançadas de gestão e monitoramento.
+                  Análise de credenciamento (KYC), perfil para distribuidores, dashboard transacional.
                 </p>
               </CardContent>
             </Card>
