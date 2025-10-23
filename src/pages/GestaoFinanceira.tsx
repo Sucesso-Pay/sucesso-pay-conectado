@@ -260,10 +260,10 @@ const GestaoFinanceira = () => {
             <div className="flex gap-4">
               <FileText className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
-                <h3 className="text-xl font-semibold mb-2">Redução de Bitributação</h3>
-                <p className="text-muted-foreground">
-                  Melhore seu planejamento tributário evitando fenômenos negativos como a bitributação através da gestão inteligente de recebíveis.
-                </p>
+              <h3 className="text-xl font-semibold mb-2">Funções de Banco Integradas</h3>
+              <p className="text-muted-foreground">
+                Realize Pix, pague boletos e gerencie seus pagamentos diretamente do portal, com todas as funcionalidades bancárias integradas em um só lugar.
+              </p>
               </div>
             </div>
 
