@@ -14,6 +14,7 @@ import GestaoFinanceira from "./pages/GestaoFinanceira";
 import ProcessImages from "./pages/ProcessImages";
 import NotFound from "./pages/NotFound";
 import VirtualAssistantPopup from "./components/VirtualAssistantPopup";
+import ScrollToTop from "./components/ScrollToTop";
 import { VirtualAssistantProvider } from "./contexts/VirtualAssistantContext";
 
 const queryClient = new QueryClient();
@@ -26,7 +27,8 @@ const App = () => (
         <Sonner />
         <VirtualAssistantPopup />
         <BrowserRouter>
-        <Routes>
+          <ScrollToTop />
+          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/distribuidor" element={<Distribuidor />} />
           <Route path="/whitelabel" element={<WhiteLabel />} />
