@@ -19,7 +19,7 @@ import {
   PiggyBank,
   BarChart3,
   FileText,
-  DollarSign,
+  Building2,
 } from "lucide-react";
 import linkPagamentoImg from "@/assets/link-pagamento-interface.png";
 
@@ -92,10 +92,10 @@ const GestaoFinanceira = () => {
 
             <Card className="hover:shadow-lg transition-all">
               <CardHeader>
-                <DollarSign className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Antecipação de Valores</CardTitle>
+                <Building2 className="h-12 w-12 text-primary mb-4" />
+                <CardTitle>Multiempresas</CardTitle>
                 <CardDescription>
-                  Antecipe seus recebíveis com taxas competitivas. Tenha acesso rápido ao capital que precisa para investir no crescimento do seu negócio.
+                  Tenha um acesso máster para gerir várias empresas com o mesmo login. Acesso rápido aos seus negócios e funções financeiras em um único lugar.
                 </CardDescription>
               </CardHeader>
             </Card>
