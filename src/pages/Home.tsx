@@ -160,7 +160,7 @@ const Home = () => {
                 <Barcode className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Boleto</h3>
                 <p className="text-sm text-muted-foreground">
-                  Emita boletos pela Conta Digital
+                  Emita boletos pelo Portal e Conta Digital
                 </p>
               </CardContent>
             </Card>
