@@ -303,7 +303,7 @@ const GestaoFinanceira = () => {
             <Button size="lg" onClick={openAssistant}>
               Falar com Especialista
             </Button>
-            <Button size="lg" variant="outline" asChild>
+            <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" asChild>
               <Link to="/conta-digital">Conhecer a Conta Digital</Link>
             </Button>
           </div>
