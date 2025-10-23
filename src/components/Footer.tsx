@@ -10,7 +10,7 @@ export const Footer = () => {
     <footer className="bg-primary">
       <div className="container py-12">
         {/* Grid de conteúdo - Mobile e Desktop */}
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-4 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-4 lg:gap-6">
           {/* Logo - Apenas Mobile e Desktop */}
           <div className="col-span-1 md:hidden lg:block lg:col-span-2 flex items-start">
             <img src={logoFooter} alt="Sucesso Pay" className="h-20 lg:h-24" />
@@ -71,7 +71,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-white/80 text-sm">
                 <Mail className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span className="break-all">contato@sucessopay.com.br</span>
+                <span className="whitespace-nowrap">contato@sucessopay.com.br</span>
               </li>
               <li className="flex items-start gap-2 text-white/80 text-sm">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
