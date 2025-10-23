@@ -341,12 +341,9 @@ const GestaoFinanceira = () => {
           <p className="text-xl mb-8 text-muted-foreground">
             Fale com nossos especialistas e descubra como o Portal de Gestão Financeira pode impulsionar seu negócio
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" onClick={openAssistant}>
               Falar com Especialista
-            </Button>
-            <Button size="lg" variant="outline" asChild>
-              <Link to="/conta-digital">Conhecer Conta Digital</Link>
             </Button>
           </div>
         </div>
