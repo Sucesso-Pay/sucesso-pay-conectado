@@ -280,7 +280,7 @@ const EstabelecimentoComercial = () => {
                   <ul className="space-y-2 text-sm">
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Divida com proprietários dos carros consignados</span>
+                      <span>Elimine bitributação na comissão</span>
                     </li>
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
