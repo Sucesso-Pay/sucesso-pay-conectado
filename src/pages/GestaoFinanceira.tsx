@@ -151,7 +151,7 @@ const GestaoFinanceira = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Taxa Zero Disponível</h3>
                     <p className="text-muted-foreground">
-                      Opção de cobrança com envio das taxas para o cliente para aumentar sua margem
+                      Opção de cobrança com envio das taxas para o cliente
                     </p>
                   </div>
                 </div>
