@@ -82,20 +82,20 @@ const GestaoFinanceira = () => {
 
             <Card className="hover:shadow-lg transition-all">
               <CardHeader>
-                <Users className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Gestão de Beneficiários</CardTitle>
+                <Building2 className="h-12 w-12 text-primary mb-4" />
+                <CardTitle>Acesso Multiempresas</CardTitle>
                 <CardDescription>
-                  Cadastre beneficiários e seus domicílios bancários. Aprove beneficiários e Splits apenas com usuário máster. Flexibilidade com segurança para o sucesso do seu negócio!
+                  Tenha um acesso máster para gerir várias empresas com o mesmo login. Acesso rápido aos seus negócios e funções financeiras em um único lugar.
                 </CardDescription>
               </CardHeader>
             </Card>
 
             <Card className="hover:shadow-lg transition-all">
               <CardHeader>
-                <Building2 className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Acesso Multiempresas</CardTitle>
+                <Users className="h-12 w-12 text-primary mb-4" />
+                <CardTitle>Gestão de Beneficiários</CardTitle>
                 <CardDescription>
-                  Tenha um acesso máster para gerir várias empresas com o mesmo login. Acesso rápido aos seus negócios e funções financeiras em um único lugar.
+                  Cadastre beneficiários e seus domicílios bancários. Aprove beneficiários e Splits apenas com usuário máster. Flexibilidade com segurança para o sucesso do seu negócio!
                 </CardDescription>
               </CardHeader>
             </Card>
