@@ -151,9 +151,6 @@ const VirtualAssistantPopup = () => {
 
               {/* Texto de apresentação */}
               <div className="text-center space-y-4">
-                <h3 className="text-lg font-semibold text-foreground">
-                  Marcelo da Sucesso
-                </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   {welcomeMessage}
                 </p>
