@@ -46,7 +46,7 @@ const WhiteLabel = () => {
                 <Sparkles className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Sua Marca em Tudo</h3>
                 <p className="text-muted-foreground">
-                  Maquininhas, aplicativo, portal de gestão e todos os materiais 
+                  Maquininhas, Conta Digital, Portal de gestão e todos os materiais 
                   completamente personalizados com sua identidade visual.
                 </p>
               </CardContent>
