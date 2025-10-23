@@ -132,7 +132,7 @@ const GestaoFinanceira = () => {
                 Link de Pagamento
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Seu negócio precisa cobrar clientes a distância? Crie links de pagamento com poucos cliques e receba com segurança total.
+                Seu negócio precisa cobrar clientes a distância? Crie links de pagamento ou assinaturas e receba com segurança e recorrência.
               </p>
 
               <div className="space-y-6 mb-8">
