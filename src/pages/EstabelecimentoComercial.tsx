@@ -286,10 +286,6 @@ const EstabelecimentoComercial = () => {
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                       <span>Cliente parcela entrada em até 21x</span>
                     </li>
-                    <li className="flex gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Elimine bitributação na comissão</span>
-                    </li>
                   </ul>
                 </CardContent>
               </Card>
@@ -316,10 +312,6 @@ const EstabelecimentoComercial = () => {
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                       <span>Gestão facilitada de múltiplos consignantes</span>
                     </li>
-                    <li className="flex gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Cliente parcela compras em até 21x</span>
-                    </li>
                   </ul>
                 </CardContent>
               </Card>
@@ -345,10 +337,6 @@ const EstabelecimentoComercial = () => {
                     <li className="flex gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                       <span>Pague ou cobre royalties da franquia com recebíveis</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Parcele planos anuais em até 21x</span>
                     </li>
                   </ul>
                 </CardContent>
