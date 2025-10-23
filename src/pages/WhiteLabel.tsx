@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Sparkles, Building2, Wallet, Shield, Zap, Users, CheckCircle } from "lucide-react";
+import { Sparkles, Building2, Wallet, Shield, Zap, Users, CheckCircle, Briefcase, Truck, CreditCard } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
@@ -68,6 +68,36 @@ const WhiteLabel = () => {
                 <h3 className="text-xl font-semibold mb-3">Gestão de Recebíveis</h3>
                 <p className="text-muted-foreground">
                   Tecnologia exclusiva que cria diferencial na sua oferta e para sua marca.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <Briefcase className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Gestão de Carteira</h3>
+                <p className="text-muted-foreground">
+                  Controle completo da sua carteira de clientes com ferramentas avançadas de gestão e monitoramento.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <Truck className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Serviço Logístico</h3>
+                <p className="text-muted-foreground">
+                  Logística integrada para entrega e distribuição de maquininhas para sua rede de clientes.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <CreditCard className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Conta Digital White Label</h3>
+                <p className="text-muted-foreground">
+                  Ofereça contas digitais completas com sua marca, incluindo PIX, TED e cartão virtual.
                 </p>
               </CardContent>
             </Card>
