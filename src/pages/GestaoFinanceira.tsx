@@ -250,10 +250,10 @@ const GestaoFinanceira = () => {
             <div className="flex gap-4">
               <PiggyBank className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
-                <h3 className="text-xl font-semibold mb-2">Otimização do Fluxo de Caixa</h3>
-                <p className="text-muted-foreground">
-                  Use seus recebíveis antes da liquidação e mantenha seu negócio sempre com capital de giro disponível.
-                </p>
+              <h3 className="text-xl font-semibold mb-2">Controle suas cobranças</h3>
+              <p className="text-muted-foreground">
+                Crie links de pagamento personalizados, gerencie recebíveis e tenha controle total sobre todas as suas cobranças em um único lugar.
+              </p>
               </div>
             </div>
 
