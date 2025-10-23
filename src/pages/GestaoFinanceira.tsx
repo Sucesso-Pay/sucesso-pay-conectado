@@ -34,6 +34,13 @@ const GestaoFinanceira = () => {
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-4 bg-gradient-to-b from-primary/5 to-background">
         <div className="max-w-7xl mx-auto text-center">
+          <div className="max-w-2xl mx-auto mb-8">
+            <img
+              src={portalImg}
+              alt="Portal de Gestão Financeira Sucesso Pay com dashboard de TPV e Markups"
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
             Portal de Gestão Financeira
           </h1>
@@ -55,16 +62,9 @@ const GestaoFinanceira = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Funcionalidades do Portal
             </h2>
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-lg text-muted-foreground">
               Tudo que você precisa para uma gestão financeira eficiente
             </p>
-            <div className="max-w-3xl mx-auto mb-12">
-              <img
-                src={portalImg}
-                alt="Portal de Gestão Financeira Sucesso Pay com dashboard de TPV e Markups"
-                className="w-full h-auto rounded-lg shadow-lg"
-              />
-            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
