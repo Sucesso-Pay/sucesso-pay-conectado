@@ -270,9 +270,9 @@ const GestaoFinanceira = () => {
             <div className="flex gap-4">
               <Split className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
-                <h3 className="text-xl font-semibold mb-2">Gestão Simplificada</h3>
+                <h3 className="text-xl font-semibold mb-2">Supervisione seus pagamentos</h3>
                 <p className="text-muted-foreground">
-                  Ideal para negócios com múltiplos profissionais. Divida automaticamente os pagamentos entre beneficiários.
+                  Seu contas a pagar agenda os pagamentos através de Split, Pix ou Boletos, e você aprova as operações pelo portal ou conta digital.
                 </p>
               </div>
             </div>
