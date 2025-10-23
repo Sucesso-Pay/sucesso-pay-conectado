@@ -265,31 +265,6 @@ const GestaoFinanceira = () => {
               </CardContent>
             </Card>
           </div>
-
-          <div className="bg-gradient-to-r from-primary/10 to-primary/5 rounded-lg p-8 border border-primary/20">
-            <div className="max-w-3xl mx-auto text-center">
-              <h3 className="text-2xl font-bold mb-4">
-                Por que o 3DS é Fundamental?
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                Em um cenário onde a segurança digital é cada vez mais crítica, o 3D Secure oferece a proteção necessária para que você possa vender online com tranquilidade. A tecnologia 3DS da Sucesso Pay, powered by Cappta, garante que seus links de pagamento sejam processados com o mais alto nível de segurança do mercado.
-              </p>
-              <div className="grid sm:grid-cols-3 gap-6 mt-8">
-                <div>
-                  <div className="text-3xl font-bold text-primary mb-2">-70%</div>
-                  <p className="text-sm text-muted-foreground">Redução em fraudes</p>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-primary mb-2">+15%</div>
-                  <p className="text-sm text-muted-foreground">Aumento em aprovações</p>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-primary mb-2">100%</div>
-                  <p className="text-sm text-muted-foreground">Conformidade internacional</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
