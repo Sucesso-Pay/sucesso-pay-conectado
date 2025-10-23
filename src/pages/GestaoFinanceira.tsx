@@ -9,7 +9,7 @@ import {
   Wallet,
   TrendingUp,
   Split,
-  Calendar,
+  Users,
   CreditCard,
   Shield,
   Link2,
@@ -82,10 +82,10 @@ const GestaoFinanceira = () => {
 
             <Card className="hover:shadow-lg transition-all">
               <CardHeader>
-                <Calendar className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Agenda Financeira</CardTitle>
+                <Users className="h-12 w-12 text-primary mb-4" />
+                <CardTitle>Gestão de Beneficiários</CardTitle>
                 <CardDescription>
-                  Visualize todos os seus recebíveis, débitos e créditos em uma linha do tempo clara. Planeje-se com antecedência e tome decisões informadas.
+                  Cadastre beneficiários e seus domicílios bancários. Aprove beneficiários e Splits apenas com usuário máster. Flexibilidade com segurança para o sucesso do seu negócio!
                 </CardDescription>
               </CardHeader>
             </Card>
