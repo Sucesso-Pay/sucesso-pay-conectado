@@ -268,7 +268,7 @@ const EstabelecimentoComercial = () => {
                 <CardHeader>
                   <div className="flex items-start justify-between mb-4">
                     <Car className="h-10 w-10 text-primary" />
-                    <Badge variant="secondary">Split de Pagamentos</Badge>
+                    <Badge variant="secondary">Consignação Vantajosa</Badge>
                   </div>
                   <CardTitle>Revenda de Carros</CardTitle>
                 </CardHeader>
