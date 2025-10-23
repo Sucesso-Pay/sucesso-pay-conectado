@@ -262,7 +262,7 @@ const GestaoFinanceira = () => {
               <div>
               <h3 className="text-xl font-semibold mb-2">Funções de Banco Integradas</h3>
               <p className="text-muted-foreground">
-                Realize Pix, pague boletos e gerencie seus pagamentos diretamente do portal, com todas as funcionalidades bancárias integradas em um só lugar.
+                Cadastro de Contas de Fornecedores, Emissão e Pagamento de Boletos, Envio de Pix com recebíveis.
               </p>
               </div>
             </div>
