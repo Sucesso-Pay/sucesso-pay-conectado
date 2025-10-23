@@ -97,7 +97,7 @@ const WhiteLabel = () => {
                 <CreditCard className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Conta Digital White Label</h3>
                 <p className="text-muted-foreground">
-                  Ofereça contas digitais completas com sua marca, incluindo PIX, TED e cartão virtual.
+                  Alguns recursos: multicontas, multiusuários, portabilidade de chave pix, emissão de boletos, biometria, gestão de recebíveis.
                 </p>
               </CardContent>
             </Card>
