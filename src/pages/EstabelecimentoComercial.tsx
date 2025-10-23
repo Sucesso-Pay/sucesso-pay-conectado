@@ -70,16 +70,6 @@ const EstabelecimentoComercial = () => {
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Link de Pagamento em até 21x</h3>
-                      <p className="text-muted-foreground">
-                        Parcele tratamentos e procedimentos por link em até 21 vezes, 
-                        facilitando cobranças de entradas e sinais.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
                       <h3 className="font-semibold mb-1">Cobre por assinatura</h3>
                       <p className="text-muted-foreground">
                         Fidelize clientes cobrando mensalidades para procedimentos estéticos, 
@@ -143,16 +133,6 @@ const EstabelecimentoComercial = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Elimine a complexidade de múltiplos pagamentos</h3>
-                      <p className="text-muted-foreground">
-                        Receba uma única vez e o sistema divide entre todos os envolvidos 
-                        no projeto, simplificando a gestão financeira.
-                      </p>
-                    </div>
-                  </div>
                 </div>
                 <Button size="lg" className="mt-8" onClick={() => setIsContactModalOpen(true)}>
                   Quero essa Solução
@@ -195,16 +175,6 @@ const EstabelecimentoComercial = () => {
                       <h3 className="font-semibold mb-1">Tem um restaurante arrendado ou vendas de souvenires no seu Hotel?</h3>
                       <p className="text-muted-foreground">
                         Nosso split também funciona para PJ. Seu cliente tem a conveniência de pagar uma única vez, no checkout, e você repassa os valores para a lojinha ou restaurante.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Parcele pacotes de viagem em até 21x</h3>
-                      <p className="text-muted-foreground">
-                        Facilite o acesso dos clientes a viagens dos sonhos oferecendo parcelamento 
-                        facilitado em até 21 vezes.
                       </p>
                     </div>
                   </div>
@@ -254,16 +224,6 @@ const EstabelecimentoComercial = () => {
                 </div>
 
                 <div className="space-y-4">
-                  <div className="flex gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Split entre oficina, mecânicos e fornecedores</h3>
-                      <p className="text-muted-foreground">
-                        Divida os pagamentos entre a oficina, os mecânicos, eletricistas 
-                        e autopeças.
-                      </p>
-                    </div>
-                  </div>
                   <div className="flex gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
