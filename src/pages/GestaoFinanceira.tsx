@@ -182,10 +182,10 @@ const GestaoFinanceira = () => {
               </Button>
             </div>
 
-            <div className="rounded-lg overflow-hidden shadow-2xl border">
+            <div>
               <img
                 src={linkPagamentoImg}
-                alt="Interface de criação de link de pagamento com validação de boleto"
+                alt="Interface de criação de link de pagamento"
                 className="w-full h-auto"
               />
             </div>
