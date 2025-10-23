@@ -77,7 +77,7 @@ const WhiteLabel = () => {
                 <Briefcase className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Gestão de Carteira</h3>
                 <p className="text-muted-foreground">
-                  Análise de credenciamento (KYC), perfil para distribuidores, dashboard transacional.
+                  Análise de credenciamento (KYC), perfil para distribuidores, dashboard transacional, webhook para funções no seu Sistema/APP.
                 </p>
               </CardContent>
             </Card>
