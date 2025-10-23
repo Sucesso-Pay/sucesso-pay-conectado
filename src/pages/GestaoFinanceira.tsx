@@ -230,30 +230,6 @@ const GestaoFinanceira = () => {
                 </p>
               </CardContent>
             </Card>
-
-            <Card>
-              <CardHeader>
-                <TrendingUp className="h-10 w-10 text-primary mb-4" />
-                <CardTitle>Aumento na Aprovação</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Transações autenticadas via 3DS têm maiores taxas de aprovação pelos bancos emissores, pois demonstram maior segurança e conformidade com as normas do mercado financeiro.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CheckCircle className="h-10 w-10 text-primary mb-4" />
-                <CardTitle>Padrão Internacional</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Desenvolvido pelas principais bandeiras de cartão (Visa, Mastercard, Elo), o 3DS é o padrão global de segurança para pagamentos online, garantindo conformidade e confiança.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
