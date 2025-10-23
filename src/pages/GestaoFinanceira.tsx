@@ -21,7 +21,7 @@ import {
   FileText,
   Building2,
 } from "lucide-react";
-import linkPagamentoImg from "@/assets/link-pagamento-interface.png";
+import linkPagamentoImg from "@/assets/link-pagamento-interface-new.png";
 
 const GestaoFinanceira = () => {
   const { openAssistant } = useVirtualAssistant();
