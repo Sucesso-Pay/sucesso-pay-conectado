@@ -22,6 +22,7 @@ import {
   Building2,
 } from "lucide-react";
 import linkPagamentoImg from "@/assets/link-pagamento-interface.png";
+import portalImg from "@/assets/gestao-financeira-portal.png";
 
 const GestaoFinanceira = () => {
   const { openAssistant } = useVirtualAssistant();
@@ -54,9 +55,16 @@ const GestaoFinanceira = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Funcionalidades do Portal
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground mb-8">
               Tudo que você precisa para uma gestão financeira eficiente
             </p>
+            <div className="max-w-4xl mx-auto mb-12">
+              <img
+                src={portalImg}
+                alt="Portal de Gestão Financeira Sucesso Pay com dashboard de TPV e Markups"
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
