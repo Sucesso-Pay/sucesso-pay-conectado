@@ -31,7 +31,7 @@ const GestaoFinanceira = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-primary/5 to-background">
+      <section className="pt-32 pb-12 px-4 bg-gradient-to-b from-primary/5 to-background">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
             Portal de Gestão Financeira
@@ -48,7 +48,7 @@ const GestaoFinanceira = () => {
       </section>
 
       {/* Funcionalidades Principais */}
-      <section className="py-20 px-4">
+      <section className="pt-12 pb-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
