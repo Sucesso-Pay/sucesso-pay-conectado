@@ -190,10 +190,10 @@ const Home = () => {
       <section className="py-20 bg-secondary/30">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
-            <div className="order-2 md:order-1">
+            <div className="order-1 md:order-1">
               <img src={posImage} alt="Maquininha Sucesso Pay" className="w-full max-w-md mx-auto" />
             </div>
-            <div className="order-1 md:order-2 space-y-6">
+            <div className="order-2 md:order-2 space-y-6">
               <h2 className="text-4xl font-bold">Maquininhas de última geração</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
