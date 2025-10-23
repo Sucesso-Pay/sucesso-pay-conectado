@@ -17,7 +17,7 @@ const VirtualAssistantPopup = () => {
   const welcomeMessage = "Olá! Precisa de ajuda? Estou aqui para atender você!";
   
   // Número do WhatsApp de Suporte - EDITE AQUI
-  const supportWhatsappNumber = "5511999999999"; // Formato: código do país + DDD + número
+  const supportWhatsappNumber = "5511921794262"; // Formato: código do país + DDD + número
 
   // Função para tocar som de notificação - apenas quando popup abrir
   const playNotificationSound = () => {
