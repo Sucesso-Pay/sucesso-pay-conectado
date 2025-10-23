@@ -65,7 +65,7 @@ const GestaoFinanceira = () => {
                 <TrendingUp className="h-12 w-12 text-primary mb-4" />
                 <CardTitle>Gestão de Recebíveis</CardTitle>
                 <CardDescription>
-                  Utilize os valores que tem a receber antes mesmo que sejam liquidados em sua conta. Otimize seu fluxo de caixa e melhore o planejamento tributário.
+                  Utilize os valores que tem a receber antes mesmo que sejam liquidados em sua conta. Realize Pix e pague boletos com recebíveis. Melhore seu planejamento tributário.
                 </CardDescription>
               </CardHeader>
             </Card>
