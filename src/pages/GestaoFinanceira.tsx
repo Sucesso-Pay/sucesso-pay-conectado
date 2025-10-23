@@ -252,7 +252,7 @@ const GestaoFinanceira = () => {
               <div>
               <h3 className="text-xl font-semibold mb-2">Controle suas cobranças</h3>
               <p className="text-muted-foreground">
-                Crie links de pagamento personalizados, gerencie recebíveis e tenha controle total sobre todas as suas cobranças em um único lugar.
+                Acompanhe boletos emitidos e pagos. Gerencie maquininhas, links de pagamento e assinaturas. Exporte relatórios de recebíveis e de pagamentos na conta digital.
               </p>
               </div>
             </div>
