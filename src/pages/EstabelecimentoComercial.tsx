@@ -298,7 +298,7 @@ const EstabelecimentoComercial = () => {
                 <CardHeader>
                   <div className="flex items-start justify-between mb-4">
                     <ShoppingBag className="h-10 w-10 text-primary" />
-                    <Badge variant="secondary">Consignação Fácil</Badge>
+                    <Badge variant="secondary">Comissão rápida</Badge>
                   </div>
                   <CardTitle>Brechós e Outlets</CardTitle>
                 </CardHeader>
