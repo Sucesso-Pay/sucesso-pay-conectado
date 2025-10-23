@@ -93,7 +93,7 @@ const Distribuidor = () => {
                 <Briefcase className="h-12 w-12 mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Visão Geral</h3>
                 <p className="text-sm opacity-90">
-                  Dashboard completo com progressão de TPV, markups e ticket médio
+                  Dashboard completo com a progressão de vendas da sua carteira
                 </p>
               </CardContent>
             </Card>
