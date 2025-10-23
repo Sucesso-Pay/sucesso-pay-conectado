@@ -350,19 +350,19 @@ const GestaoFinanceira = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground">
+      <section className="py-20 px-4 bg-background">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Pronto para Transformar sua Gestão Financeira?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-xl mb-8 text-muted-foreground">
             Fale com nossos especialistas e descubra como o Portal de Gestão Financeira pode impulsionar seu negócio
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" onClick={openAssistant}>
+            <Button size="lg" onClick={openAssistant}>
               Falar com Especialista
             </Button>
-            <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10" asChild>
+            <Button size="lg" variant="outline" asChild>
               <Link to="/conta-digital">Conhecer Conta Digital</Link>
             </Button>
           </div>
