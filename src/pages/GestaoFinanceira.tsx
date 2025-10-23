@@ -39,12 +39,9 @@ const GestaoFinanceira = () => {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             Controle total das suas finanças em um só lugar. Gerencie recebíveis, antecipe valores, crie links de pagamento e muito mais.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" onClick={openAssistant}>
               Falar com Especialista
-            </Button>
-            <Button size="lg" variant="outline" asChild>
-              <Link to="/conta-digital">Conhecer Conta Digital</Link>
             </Button>
           </div>
         </div>
