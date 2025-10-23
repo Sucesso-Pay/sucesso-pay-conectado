@@ -115,21 +115,21 @@ const WhiteLabel = () => {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <Zap className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Implementação Rápida</h3>
+                <Users className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Suporte Dedicado</h3>
                 <p className="text-muted-foreground">
-                  Plataforma pronta em 10 dias. Documentação simples, integrações rápidas e apoio para publicação dos APPs na Apple e no Google.
+                  Equipe especializada para suporte técnico, treinamentos e 
+                  desenvolvimento de negócios.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <Users className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Suporte Dedicado</h3>
+                <Zap className="h-12 w-12 text-primary mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Implementação Rápida</h3>
                 <p className="text-muted-foreground">
-                  Equipe especializada para suporte técnico, treinamentos e 
-                  desenvolvimento de negócios.
+                  Plataforma pronta em 10 dias. Documentação simples, integrações rápidas e apoio para publicação dos APPs na Apple e no Google.
                 </p>
               </CardContent>
             </Card>
