@@ -93,7 +93,7 @@ const GestaoFinanceira = () => {
             <Card className="hover:shadow-lg transition-all">
               <CardHeader>
                 <Building2 className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Multiempresas</CardTitle>
+                <CardTitle>Acesso Multiempresas</CardTitle>
                 <CardDescription>
                   Tenha um acesso máster para gerir várias empresas com o mesmo login. Acesso rápido aos seus negócios e funções financeiras em um único lugar.
                 </CardDescription>
