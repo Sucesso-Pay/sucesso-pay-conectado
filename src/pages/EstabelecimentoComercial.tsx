@@ -18,6 +18,7 @@ import {
 import { useState } from "react";
 import ContactFormModal from "@/components/ContactFormModal";
 import clinicaVeterinariaImg from "@/assets/clinica-veterinaria-pagamento.png";
+import lojaMoveisImg from "@/assets/loja-moveis-decoracao-pagamento.png";
 
 const EstabelecimentoComercial = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
@@ -98,10 +99,12 @@ const EstabelecimentoComercial = () => {
         <section className="py-20 px-4">
           <div className="container mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="bg-muted rounded-lg aspect-square flex items-center justify-center">
-                <p className="text-muted-foreground text-center p-8">
-                  [Imagem de loja de móveis/decoração]
-                </p>
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src={lojaMoveisImg} 
+                  alt="Vendedora em loja de móveis e decoração apresentando maquininha de pagamento" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
                 <div className="flex items-center gap-3 mb-6">
