@@ -5,7 +5,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Separator } from "@/components/ui/separator";
 import { 
   Heart, 
-  Wrench, 
   Hammer, 
   Scissors,
   TrendingUp,
@@ -149,63 +148,6 @@ const PrestadorServicos = () => {
           </div>
         </section>
 
-        {/* Mecânicos e Profissionais Automotivos */}
-        <section className="py-20 px-4">
-          <div className="container mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="bg-muted rounded-lg aspect-square flex items-center justify-center">
-                <p className="text-muted-foreground text-center p-8">
-                  [Imagem de mecânico/profissional automotivo]
-                </p>
-              </div>
-              <div>
-                <div className="flex items-center gap-3 mb-6">
-                  <Wrench className="h-12 w-12 text-primary" />
-                  <h2 className="text-3xl md:text-4xl font-bold">
-                    Mecânicos e Profissionais Automotivos
-                  </h2>
-                </div>
-                <p className="text-lg text-muted-foreground mb-6">
-                  Para mecânicos, eletricistas e funileiros que trabalham em oficinas e 
-                  centros automotivos.
-                </p>
-                <div className="space-y-4">
-                  <div className="flex gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Elimine a bitributação</h3>
-                      <p className="text-muted-foreground">
-                        Peças representam mais de 60% do serviço? Com o split, você não paga 
-                        imposto sobre o que é do fornecedor.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Parcele serviços caros</h3>
-                      <p className="text-muted-foreground">
-                        Manutenções inesperadas ficam mais acessíveis com parcelamento da entrada no link de pagamento em 21 vezes.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Gestão simplificada</h3>
-                      <p className="text-muted-foreground">
-                        Divida entre profissionais, oficina e fornecedores com split customizado.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <Button size="lg" className="mt-8" onClick={() => setIsContactModalOpen(true)}>
-                  Quero essa Solução
-                </Button>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Profissionais da Construção */}
         <section className="py-20 px-4 bg-muted/30">
