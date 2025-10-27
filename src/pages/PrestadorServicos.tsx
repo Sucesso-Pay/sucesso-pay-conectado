@@ -90,7 +90,7 @@ const PrestadorServicos = () => {
                 <div className="flex items-center gap-3 mb-6">
                   <Heart className="h-12 w-12 text-primary" />
                   <h2 className="text-3xl md:text-4xl font-bold">
-                    Profissionais da Saúde e Estética
+                    Profissionais da Saúde
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6">
