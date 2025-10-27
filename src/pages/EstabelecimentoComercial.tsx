@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import ContactFormModal from "@/components/ContactFormModal";
+import clinicaVeterinariaImg from "@/assets/clinica-veterinaria-pagamento.png";
 
 const EstabelecimentoComercial = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
@@ -82,10 +83,12 @@ const EstabelecimentoComercial = () => {
                   Quero essa Solução
                 </Button>
               </div>
-              <div className="order-1 md:order-2 bg-muted rounded-lg aspect-square flex items-center justify-center">
-                <p className="text-muted-foreground text-center p-8">
-                  [Imagem de clínica/saúde]
-                </p>
+              <div className="order-1 md:order-2 rounded-lg overflow-hidden">
+                <img 
+                  src={clinicaVeterinariaImg} 
+                  alt="Cliente realizando pagamento em clínica veterinária com maquininha de cartão" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
