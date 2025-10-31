@@ -19,6 +19,7 @@ import { useState } from "react";
 import ContactFormModal from "@/components/ContactFormModal";
 import clinicaVeterinariaImg from "@/assets/clinica-veterinaria-pagamento.png";
 import lojaMoveisImg from "@/assets/loja-moveis-decoracao-pagamento.png";
+import agenciaViagemImg from "@/assets/agencia-viagem.png";
 
 const EstabelecimentoComercial = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
@@ -189,10 +190,12 @@ const EstabelecimentoComercial = () => {
                   Quero essa Solução
                 </Button>
               </div>
-              <div className="order-1 md:order-2 bg-muted rounded-lg aspect-square flex items-center justify-center">
-                <p className="text-muted-foreground text-center p-8">
-                  [Imagem de agência/turismo]
-                </p>
+              <div className="order-1 md:order-2 rounded-lg overflow-hidden">
+                <img 
+                  src={agenciaViagemImg} 
+                  alt="Agência de viagens com profissional trabalhando em laptop e maquininha de pagamento" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
