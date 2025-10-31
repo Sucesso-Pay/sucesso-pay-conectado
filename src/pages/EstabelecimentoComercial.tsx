@@ -20,6 +20,7 @@ import ContactFormModal from "@/components/ContactFormModal";
 import clinicaVeterinariaImg from "@/assets/clinica-veterinaria-pagamento.png";
 import lojaMoveisImg from "@/assets/loja-moveis-decoracao-pagamento.png";
 import agenciaViagemImg from "@/assets/agencia-viagem.png";
+import centroAutomotivoImg from "@/assets/centro-automotivo-oficina.png";
 
 const EstabelecimentoComercial = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
@@ -205,10 +206,12 @@ const EstabelecimentoComercial = () => {
         <section className="py-20 px-4">
           <div className="container mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="bg-muted rounded-lg aspect-square flex items-center justify-center">
-                <p className="text-muted-foreground text-center p-8">
-                  [Imagem de centro automotivo/oficina]
-                </p>
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src={centroAutomotivoImg} 
+                  alt="Mecânico em centro automotivo com laptop, celular e maquininha de pagamento na mesa" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
                 <div className="flex items-center gap-3 mb-6">
